@@ -1,0 +1,145 @@
+[
+  {
+    "slug": "clownfish",
+    "path": "assets/images/clownfish.jpg",
+    "author": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Clownfisch_(Amphiprion_ocellaris).jpg",
+    "description": "Clownfish (Amphiprion ocellaris) at Aquazoo-Löbbecke-Museum Düsseldorf",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Clownfisch_%28Amphiprion_ocellaris%29.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  },
+  {
+    "slug": "blue-tang",
+    "path": "assets/images/blue-tang.jpg",
+    "author": "Tewy",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Blue_tang_(Paracanthurus_hepatus)_02.jpg",
+    "description": "Blue tang (Paracanthurus hepatus), Monterey Bay Aquarium",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/25/Blue_tang_%28Paracanthurus_hepatus%29_02.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  },
+  {
+    "slug": "whale-shark",
+    "path": "assets/images/whale-shark.jpg",
+    "author": "Arturo de Frias Marques",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Whale_Shark_AdF.jpg",
+    "description": "Whale Shark (Rhincodon typus). Face portrait of an 8-meter individual filter-feeding plankton at night. His eye is clearly visible. His upper lip shows recent scars – whale sharks steal food from fishermen nets and the fishermen hit them in the mouth to try to discourage them. Thaa Atoll, Maldives",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Whale_Shark_AdF.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  },
+  {
+    "slug": "hammerhead",
+    "path": "assets/images/hammerhead.jpg",
+    "author": "Globetrotteur17... Ici, là-bas ou ailleurs...",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Sphyrna_zygaena,_Aquarium_de_La_Rochelle.jpg",
+    "description": "Sphyrna zygaena ou Requin-marteau commun.",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Sphyrna_zygaena%2C_Aquarium_de_La_Rochelle.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  },
+  {
+    "slug": "lionfish",
+    "path": "assets/images/lionfish.jpg",
+    "author": "Jens Petersen; edición: Olegiwit y Fir0002",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "source": "https://commons.wikimedia.org/wiki/File:Pterois_volitans_Manado-e_edit.jpg",
+    "description": "Pterois volitans, also known as red or common lionfish. Picture taken at Tasik Ria, Manado, Sulawesi, Indonesia.",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Pterois_volitans_Manado-e_edit.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  },
+  {
+    "slug": "seahorse",
+    "path": "assets/images/seahorse.jpg",
+    "author": "Alberto Alcalá",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Hippocampus_ingens_256105643.jpg",
+    "description": "Giant Seahorse (Hippocampus ingens)",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/88/Hippocampus_ingens_256105643.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  },
+  {
+    "slug": "mandarinfish",
+    "path": "assets/images/mandarinfish.jpg",
+    "author": "Luc Viatour",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "source": "https://commons.wikimedia.org/wiki/File:Synchiropus_splendidus_2_Luc_Viatour.jpg",
+    "description": "Mandarinfish in aquarium-Muséum Liège (Belgium)",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Synchiropus_splendidus_2_Luc_Viatour.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  },
+  {
+    "slug": "arapaima",
+    "path": "assets/images/arapaima.jpg",
+    "author": "Citron / CC-BY-SA-3.0",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Arapaima_gigas_captivity.jpg",
+    "description": "Arapaima gigas",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/75/Arapaima_gigas_captivity.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  },
+  {
+    "slug": "piranha",
+    "path": "assets/images/piranha.jpg",
+    "author": "Gregory Moine",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Gregory_Moine_-_Red_bellied_Piranha_(by).jpg",
+    "description": "Although they have a reputation of being very aggressive, they are very sociable fish living in schools in the wild. Adult red-bellied piranhas tend to feed on worms, insects and other fish mostly at night and dawn, while juvenile feed during the day.",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Gregory_Moine_-_Red_bellied_Piranha_%28by%29.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  },
+  {
+    "slug": "betta",
+    "path": "assets/images/betta.jpg",
+    "author": "Henryk Niestrój",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Bojownik_syjamski.jpg",
+    "description": "Aquarium fish, Siamese fighting fish, also great fighting fish (Betta splendens)",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/5/54/Bojownik_syjamski.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  },
+  {
+    "slug": "discus",
+    "path": "assets/images/discus.jpg",
+    "author": "Karelj",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Symphysodon_discus_Prague_2011_1.jpg",
+    "description": "Fish Symphysodon discus, (Symphysodon discus) in Prague sea aquarium “Sea world”, Czech Republic",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Symphysodon_discus_Prague_2011_1.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  },
+  {
+    "slug": "trout",
+    "path": "assets/images/trout.jpg",
+    "author": "Jonathunder",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Trout.jpg",
+    "description": "Oncorhynchus mykiss (rainbow trout) swimming in a display tank at the Olmsted County Fair in Rochester, Minnesota, United States",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/d/db/Trout.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  },
+  {
+    "slug": "hero",
+    "path": "assets/images/hero.jpg",
+    "author": "Nata Mostova",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "source": "https://commons.wikimedia.org/wiki/File:Pink_coral_reef_underwater.jpg",
+    "description": "อุทยานแห่งชาติแหลมสน",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Pink_coral_reef_underwater.jpg",
+    "changes": "Sin modificaciones; la página puede recortar la vista con CSS."
+  }
+]

@@ -1,0 +1,3814 @@
+{
+  "phase": 2,
+  "startedAt": "2026-10-14T00:09:47.289Z",
+  "finishedAt": "2026-10-14T00:09:49.761Z",
+  "localDate": "2026-10-13",
+  "productionModified": false,
+  "speciesSampleSize": 8,
+  "records": [
+    {
+      "internalId": "clownfish",
+      "scientificName": "Amphiprion ocellaris",
+      "existingEnvironments": [
+        "marine"
+      ],
+      "matches": [
+        {
+          "source": "col",
+          "queriedName": "Amphiprion ocellaris",
+          "requestedUrl": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Amphiprion+ocellaris&kingdom=Animalia&phylum=Chordata&rank=species",
+          "fetchedAt": "2026-10-14T00:07:45.793Z",
+          "httpStatus": 200,
+          "cacheFile": "22db01f5d16bc1bd5e92119b8f163c3b8e4f58edb1dcc6c5f43e743dd07714e2.json",
+          "candidates": [
+            {
+              "externalId": "D55Y",
+              "datasetKey": "310463",
+              "name": "Amphiprion ocellaris",
+              "authority": "Cuvier, 1830",
+              "rank": "species",
+              "status": "accepted",
+              "acceptedId": "D55Y",
+              "lineage": [
+                {
+                  "id": "KTXKG",
+                  "name": "Amphiprion",
+                  "authorship": "Bloch & Schneider, 1801",
+                  "rank": "genus",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 407595,
+                  "sectorKey": 60427,
+                  "label": "Amphiprion Bloch & Schneider, 1801",
+                  "parentId": "KVMJ7",
+                  "labelHtml": "<i>Amphiprion</i> Bloch & Schneider, 1801"
+                },
+                {
+                  "id": "KVMJ7",
+                  "name": "Pomacentridae",
+                  "authorship": "Bonaparte, 1831",
+                  "rank": "family",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 6451787,
+                  "sectorKey": 60427,
+                  "label": "Pomacentridae Bonaparte, 1831",
+                  "parentId": "8V4VD",
+                  "labelHtml": "Pomacentridae Bonaparte, 1831"
+                },
+                {
+                  "id": "8V4VD",
+                  "name": "Teleostei",
+                  "rank": "class",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8987577,
+                  "sectorKey": 60427,
+                  "label": "Teleostei",
+                  "parentId": "KTWM8",
+                  "labelHtml": "Teleostei"
+                },
+                {
+                  "id": "KTWM8",
+                  "name": "Actinopteri",
+                  "rank": "superclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 164398,
+                  "sectorKey": 60427,
+                  "label": "Actinopteri",
+                  "parentId": "8VR36",
+                  "labelHtml": "Actinopteri"
+                },
+                {
+                  "id": "8VR36",
+                  "name": "Actinopterygii",
+                  "rank": "gigaclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 9188,
+                  "sectorKey": 60427,
+                  "label": "Actinopterygii",
+                  "parentId": "8VVWB",
+                  "labelHtml": "Actinopterygii"
+                },
+                {
+                  "id": "8VVWB",
+                  "name": "Osteichthyes",
+                  "rank": "parvphylum",
+                  "status": "accepted",
+                  "namesIndexId": 6433538,
+                  "label": "Osteichthyes",
+                  "parentId": "8V4V5",
+                  "labelHtml": "Osteichthyes"
+                },
+                {
+                  "id": "8V4V5",
+                  "name": "Gnathostomata",
+                  "rank": "infraphylum",
+                  "status": "accepted",
+                  "namesIndexId": 3877458,
+                  "label": "Gnathostomata",
+                  "parentId": "8V4V3",
+                  "labelHtml": "Gnathostomata"
+                },
+                {
+                  "id": "8V4V3",
+                  "name": "Vertebrata",
+                  "rank": "subphylum",
+                  "status": "accepted",
+                  "namesIndexId": 150889,
+                  "label": "Vertebrata",
+                  "parentId": "CH2",
+                  "labelHtml": "Vertebrata"
+                },
+                {
+                  "id": "CH2",
+                  "name": "Chordata",
+                  "rank": "phylum",
+                  "status": "accepted",
+                  "namesIndexId": 10276,
+                  "label": "Chordata",
+                  "parentId": "N",
+                  "labelHtml": "Chordata"
+                },
+                {
+                  "id": "N",
+                  "name": "Animalia",
+                  "rank": "kingdom",
+                  "status": "accepted",
+                  "namesIndexId": 9237,
+                  "label": "Animalia",
+                  "parentId": "CS5HF",
+                  "labelHtml": "Animalia"
+                },
+                {
+                  "id": "CS5HF",
+                  "name": "Eukaryota",
+                  "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+                  "rank": "domain",
+                  "status": "accepted",
+                  "namesIndexId": 3444548,
+                  "label": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+                  "labelHtml": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978"
+                }
+              ],
+              "matchType": "variant",
+              "family": "Pomacentridae",
+              "order": "",
+              "issues": {},
+              "sourceSector": 60427,
+              "resultMatch": true,
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        },
+        {
+          "source": "gbif",
+          "queriedName": "Amphiprion ocellaris",
+          "requestedUrl": "https://api.gbif.org/v1/species/match?name=Amphiprion+ocellaris&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+          "fetchedAt": "2026-10-14T00:07:41.778Z",
+          "httpStatus": 200,
+          "cacheFile": "3066b4ba5537d4b62a4c3f16d12508ef12a082ce88bd6f0040a7148cf1ffb245.json",
+          "candidates": [
+            {
+              "externalId": "5212106",
+              "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+              "name": "Amphiprion ocellaris",
+              "authority": "Amphiprion ocellaris Cuvier, 1830",
+              "rank": "SPECIES",
+              "status": "ACCEPTED",
+              "acceptedId": "5212106",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Animalia",
+                "Chordata",
+                "Perciformes",
+                "Pomacentridae",
+                "Amphiprion"
+              ],
+              "matchType": "EXACT",
+              "confidence": 100,
+              "family": "Pomacentridae",
+              "order": "Perciformes",
+              "alternatives": [],
+              "assessment": "needs-review",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [
+                "El linaje no confirma un pez dentro del alcance propuesto."
+              ],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "needs-review",
+          "ambiguous": false,
+          "lineageEvidence": {
+            "fetchedAt": "2026-10-14T00:07:43.779Z",
+            "url": "https://api.gbif.org/v1/species/5212106/parents",
+            "cacheFile": "7c6489a29cffb0b3df414d0e859ff2343d424fa95989373e754f3f4e335b052e.json",
+            "ok": true
+          }
+        },
+        {
+          "source": "worms",
+          "queriedName": "Amphiprion ocellaris",
+          "requestedUrl": "https://www.marinespecies.org/rest/AphiaRecordsByName/Amphiprion%20ocellaris?like=false&marine_only=false",
+          "fetchedAt": "2026-10-14T00:07:47.798Z",
+          "httpStatus": 200,
+          "cacheFile": "2c447370f178a4a72d2104990670e63ce2e7b159e02623faf4201f791199f9b7.json",
+          "candidates": [
+            {
+              "externalId": "278400",
+              "datasetKey": "WoRMS-live",
+              "name": "Amphiprion ocellaris",
+              "authority": "Cuvier, 1830",
+              "rank": "Species",
+              "status": "accepted",
+              "acceptedId": "278400",
+              "acceptedName": "Amphiprion ocellaris",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Teleostei"
+              ],
+              "matchType": "exact",
+              "family": "Pomacentridae",
+              "order": "Ovalentaria incertae sedis",
+              "isExtinct": null,
+              "environments": {
+                "marine": 1,
+                "freshwater": 0,
+                "brackish": 0
+              },
+              "citation": "Froese, R. and D. Pauly. Editors. (2026). FishBase. Amphiprion ocellaris Cuvier, 1830. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=278400 on 2026-10-14",
+              "modifiedAt": "2008-01-15T17:27:08.177Z",
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "order",
+          "values": [
+            {
+              "source": "gbif",
+              "value": "Perciformes"
+            },
+            {
+              "source": "worms",
+              "value": "Ovalentaria incertae sedis"
+            }
+          ]
+        }
+      ],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "seahorse",
+      "scientificName": "Hippocampus ingens",
+      "existingEnvironments": [
+        "marine"
+      ],
+      "matches": [
+        {
+          "source": "col",
+          "queriedName": "Hippocampus ingens",
+          "requestedUrl": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Hippocampus+ingens&kingdom=Animalia&phylum=Chordata&rank=species",
+          "fetchedAt": "2026-10-14T00:07:53.825Z",
+          "httpStatus": 200,
+          "cacheFile": "8eb26a361357c2da4591184d5514b3949d4e04543dd8bf197791abb50016847b.json",
+          "candidates": [
+            {
+              "externalId": "3LZM9",
+              "datasetKey": "310463",
+              "name": "Hippocampus ingens",
+              "authority": "Girard, 1858",
+              "rank": "species",
+              "status": "accepted",
+              "acceptedId": "3LZM9",
+              "lineage": [
+                {
+                  "id": "KVFWZ",
+                  "name": "Hippocampus",
+                  "authorship": "Rafinesque, 1810",
+                  "rank": "genus",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 4293798,
+                  "sectorKey": 60427,
+                  "label": "Hippocampus Rafinesque, 1810",
+                  "parentId": "KVK73",
+                  "labelHtml": "<i>Hippocampus</i> Rafinesque, 1810"
+                },
+                {
+                  "id": "KVK73",
+                  "name": "Nerophinae",
+                  "authorship": "Kaup, 1853",
+                  "rank": "subfamily",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 6056514,
+                  "sectorKey": 60427,
+                  "label": "Nerophinae Kaup, 1853",
+                  "parentId": "KVWGT",
+                  "labelHtml": "Nerophinae Kaup, 1853"
+                },
+                {
+                  "id": "KVWGT",
+                  "name": "Syngnathidae",
+                  "authorship": "Bonaparte, 1831",
+                  "rank": "family",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8050980,
+                  "sectorKey": 60427,
+                  "label": "Syngnathidae Bonaparte, 1831",
+                  "parentId": "46T",
+                  "labelHtml": "Syngnathidae Bonaparte, 1831"
+                },
+                {
+                  "id": "46T",
+                  "name": "Syngnathiformes",
+                  "rank": "order",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8854664,
+                  "sectorKey": 60427,
+                  "label": "Syngnathiformes",
+                  "parentId": "8V4VD",
+                  "labelHtml": "Syngnathiformes"
+                },
+                {
+                  "id": "8V4VD",
+                  "name": "Teleostei",
+                  "rank": "class",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8987577,
+                  "sectorKey": 60427,
+                  "label": "Teleostei",
+                  "parentId": "KTWM8",
+                  "labelHtml": "Teleostei"
+                },
+                {
+                  "id": "KTWM8",
+                  "name": "Actinopteri",
+                  "rank": "superclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 164398,
+                  "sectorKey": 60427,
+                  "label": "Actinopteri",
+                  "parentId": "8VR36",
+                  "labelHtml": "Actinopteri"
+                },
+                {
+                  "id": "8VR36",
+                  "name": "Actinopterygii",
+                  "rank": "gigaclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 9188,
+                  "sectorKey": 60427,
+                  "label": "Actinopterygii",
+                  "parentId": "8VVWB",
+                  "labelHtml": "Actinopterygii"
+                },
+                {
+                  "id": "8VVWB",
+                  "name": "Osteichthyes",
+                  "rank": "parvphylum",
+                  "status": "accepted",
+                  "namesIndexId": 6433538,
+                  "label": "Osteichthyes",
+                  "parentId": "8V4V5",
+                  "labelHtml": "Osteichthyes"
+                },
+                {
+                  "id": "8V4V5",
+                  "name": "Gnathostomata",
+                  "rank": "infraphylum",
+                  "status": "accepted",
+                  "namesIndexId": 3877458,
+                  "label": "Gnathostomata",
+                  "parentId": "8V4V3",
+                  "labelHtml": "Gnathostomata"
+                },
+                {
+                  "id": "8V4V3",
+                  "name": "Vertebrata",
+                  "rank": "subphylum",
+                  "status": "accepted",
+                  "namesIndexId": 150889,
+                  "label": "Vertebrata",
+                  "parentId": "CH2",
+                  "labelHtml": "Vertebrata"
+                },
+                {
+                  "id": "CH2",
+                  "name": "Chordata",
+                  "rank": "phylum",
+                  "status": "accepted",
+                  "namesIndexId": 10276,
+                  "label": "Chordata",
+                  "parentId": "N",
+                  "labelHtml": "Chordata"
+                },
+                {
+                  "id": "N",
+                  "name": "Animalia",
+                  "rank": "kingdom",
+                  "status": "accepted",
+                  "namesIndexId": 9237,
+                  "label": "Animalia",
+                  "parentId": "CS5HF",
+                  "labelHtml": "Animalia"
+                },
+                {
+                  "id": "CS5HF",
+                  "name": "Eukaryota",
+                  "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+                  "rank": "domain",
+                  "status": "accepted",
+                  "namesIndexId": 3444548,
+                  "label": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+                  "labelHtml": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978"
+                }
+              ],
+              "matchType": "variant",
+              "family": "Syngnathidae",
+              "order": "Syngnathiformes",
+              "issues": {},
+              "sourceSector": 60427,
+              "resultMatch": true,
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        },
+        {
+          "source": "gbif",
+          "queriedName": "Hippocampus ingens",
+          "requestedUrl": "https://api.gbif.org/v1/species/match?name=Hippocampus+ingens&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+          "fetchedAt": "2026-10-14T00:07:49.812Z",
+          "httpStatus": 200,
+          "cacheFile": "b7d6831710974755f364799b2cc2221ce4e7f5003adbac813667d831abbd47f5.json",
+          "candidates": [
+            {
+              "externalId": "5201050",
+              "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+              "name": "Hippocampus ingens",
+              "authority": "Hippocampus ingens Girard, 1858",
+              "rank": "SPECIES",
+              "status": "ACCEPTED",
+              "acceptedId": "5201050",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Animalia",
+                "Chordata",
+                "Syngnathiformes",
+                "Syngnathidae",
+                "Hippocampus"
+              ],
+              "matchType": "EXACT",
+              "confidence": 100,
+              "family": "Syngnathidae",
+              "order": "Syngnathiformes",
+              "alternatives": [],
+              "assessment": "needs-review",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [
+                "El linaje no confirma un pez dentro del alcance propuesto."
+              ],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "needs-review",
+          "ambiguous": false,
+          "lineageEvidence": {
+            "fetchedAt": "2026-10-14T00:07:51.815Z",
+            "url": "https://api.gbif.org/v1/species/5201050/parents",
+            "cacheFile": "5203e051444de92124c448890191c24a10c2ba5980013c26c2e4fe116112270c.json",
+            "ok": true
+          }
+        },
+        {
+          "source": "worms",
+          "queriedName": "Hippocampus ingens",
+          "requestedUrl": "https://www.marinespecies.org/rest/AphiaRecordsByName/Hippocampus%20ingens?like=false&marine_only=false",
+          "fetchedAt": "2026-10-14T00:07:55.832Z",
+          "httpStatus": 200,
+          "cacheFile": "8f1dd150aee3cbe8b84fd5595a9bfdad25620b8b538d4eaf95c05db4f5b84825.json",
+          "candidates": [
+            {
+              "externalId": "275197",
+              "datasetKey": "WoRMS-live",
+              "name": "Hippocampus ingens",
+              "authority": "Girard, 1858",
+              "rank": "Species",
+              "status": "accepted",
+              "acceptedId": "275197",
+              "acceptedName": "Hippocampus ingens",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Teleostei"
+              ],
+              "matchType": "exact",
+              "family": "Syngnathidae",
+              "order": "Syngnathiformes",
+              "isExtinct": null,
+              "environments": {
+                "marine": 1,
+                "freshwater": 0,
+                "brackish": 0
+              },
+              "citation": "Froese, R. and D. Pauly. Editors. (2026). FishBase. Hippocampus ingens Girard, 1858. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=275197 on 2026-10-14",
+              "modifiedAt": "2008-01-15T17:27:08.177Z",
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        }
+      ],
+      "conflicts": [],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "engraulis-ringens",
+      "scientificName": "Engraulis ringens",
+      "existingEnvironments": [
+        "marine"
+      ],
+      "matches": [
+        {
+          "source": "col",
+          "queriedName": "Engraulis ringens",
+          "requestedUrl": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Engraulis+ringens&kingdom=Animalia&phylum=Chordata&rank=species",
+          "fetchedAt": "2026-10-14T00:04:04.559Z",
+          "httpStatus": 200,
+          "cacheFile": "acbbab53c60fbb5a57a9cbb70ec028b8a0361d85db0143eda65c4e99dfee1554.json",
+          "candidates": [
+            {
+              "externalId": "39TNG",
+              "datasetKey": "310463",
+              "name": "Engraulis ringens",
+              "authority": "Jenyns, 1842",
+              "rank": "species",
+              "status": "accepted",
+              "acceptedId": "39TNG",
+              "lineage": [
+                {
+                  "id": "KV7MQ",
+                  "name": "Engraulis",
+                  "authorship": "Cuvier, 1816",
+                  "rank": "genus",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 3149987,
+                  "sectorKey": 60427,
+                  "label": "Engraulis Cuvier, 1816",
+                  "parentId": "KV76V",
+                  "labelHtml": "<i>Engraulis</i> Cuvier, 1816"
+                },
+                {
+                  "id": "KV76V",
+                  "name": "Engraulidae",
+                  "authorship": "Gill, 1861",
+                  "rank": "family",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 3065475,
+                  "sectorKey": 60427,
+                  "label": "Engraulidae Gill, 1861",
+                  "parentId": "YR",
+                  "labelHtml": "Engraulidae Gill, 1861"
+                },
+                {
+                  "id": "YR",
+                  "name": "Clupeiformes",
+                  "rank": "order",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 2168745,
+                  "sectorKey": 60427,
+                  "label": "Clupeiformes",
+                  "parentId": "8V4VD",
+                  "labelHtml": "Clupeiformes"
+                },
+                {
+                  "id": "8V4VD",
+                  "name": "Teleostei",
+                  "rank": "class",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8987577,
+                  "sectorKey": 60427,
+                  "label": "Teleostei",
+                  "parentId": "KTWM8",
+                  "labelHtml": "Teleostei"
+                },
+                {
+                  "id": "KTWM8",
+                  "name": "Actinopteri",
+                  "rank": "superclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 164398,
+                  "sectorKey": 60427,
+                  "label": "Actinopteri",
+                  "parentId": "8VR36",
+                  "labelHtml": "Actinopteri"
+                },
+                {
+                  "id": "8VR36",
+                  "name": "Actinopterygii",
+                  "rank": "gigaclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 9188,
+                  "sectorKey": 60427,
+                  "label": "Actinopterygii",
+                  "parentId": "8VVWB",
+                  "labelHtml": "Actinopterygii"
+                },
+                {
+                  "id": "8VVWB",
+                  "name": "Osteichthyes",
+                  "rank": "parvphylum",
+                  "status": "accepted",
+                  "namesIndexId": 6433538,
+                  "label": "Osteichthyes",
+                  "parentId": "8V4V5",
+                  "labelHtml": "Osteichthyes"
+                },
+                {
+                  "id": "8V4V5",
+                  "name": "Gnathostomata",
+                  "rank": "infraphylum",
+                  "status": "accepted",
+                  "namesIndexId": 3877458,
+                  "label": "Gnathostomata",
+                  "parentId": "8V4V3",
+                  "labelHtml": "Gnathostomata"
+                },
+                {
+                  "id": "8V4V3",
+                  "name": "Vertebrata",
+                  "rank": "subphylum",
+                  "status": "accepted",
+                  "namesIndexId": 150889,
+                  "label": "Vertebrata",
+                  "parentId": "CH2",
+                  "labelHtml": "Vertebrata"
+                },
+                {
+                  "id": "CH2",
+                  "name": "Chordata",
+                  "rank": "phylum",
+                  "status": "accepted",
+                  "namesIndexId": 10276,
+                  "label": "Chordata",
+                  "parentId": "N",
+                  "labelHtml": "Chordata"
+                },
+                {
+                  "id": "N",
+                  "name": "Animalia",
+                  "rank": "kingdom",
+                  "status": "accepted",
+                  "namesIndexId": 9237,
+                  "label": "Animalia",
+                  "parentId": "CS5HF",
+                  "labelHtml": "Animalia"
+                },
+                {
+                  "id": "CS5HF",
+                  "name": "Eukaryota",
+                  "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+                  "rank": "domain",
+                  "status": "accepted",
+                  "namesIndexId": 3444548,
+                  "label": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+                  "labelHtml": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978"
+                }
+              ],
+              "matchType": "variant",
+              "family": "Engraulidae",
+              "order": "Clupeiformes",
+              "issues": {},
+              "sourceSector": 60427,
+              "resultMatch": true,
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        },
+        {
+          "source": "gbif",
+          "queriedName": "Engraulis ringens",
+          "requestedUrl": "https://api.gbif.org/v1/species/match?name=Engraulis+ringens&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+          "fetchedAt": "2026-10-14T00:04:02.554Z",
+          "httpStatus": 200,
+          "cacheFile": "c0daafe9fc21da2b37fc7bf0a590a557be5ad5c88fcd2d1d75cd77f1b417d52b.json",
+          "candidates": [
+            {
+              "externalId": "2414014",
+              "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+              "name": "Engraulis ringens",
+              "authority": "Engraulis ringens Jenyns, 1842",
+              "rank": "SPECIES",
+              "status": "ACCEPTED",
+              "acceptedId": "2414014",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Animalia",
+                "Chordata",
+                "Clupeiformes",
+                "Engraulidae",
+                "Engraulis"
+              ],
+              "matchType": "EXACT",
+              "confidence": 100,
+              "family": "Engraulidae",
+              "order": "Clupeiformes",
+              "alternatives": [],
+              "assessment": "needs-review",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [
+                "El linaje no confirma un pez dentro del alcance propuesto."
+              ],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "needs-review",
+          "ambiguous": false,
+          "lineageEvidence": {
+            "fetchedAt": "2026-10-14T00:07:57.835Z",
+            "url": "https://api.gbif.org/v1/species/2414014/parents",
+            "cacheFile": "3db6473415344dab9096b85570bcacb33382cab27823d140da6b146bf022fd98.json",
+            "ok": true
+          }
+        },
+        {
+          "source": "worms",
+          "queriedName": "Engraulis ringens",
+          "requestedUrl": "https://www.marinespecies.org/rest/AphiaRecordsByName/Engraulis%20ringens?like=false&marine_only=false",
+          "fetchedAt": "2026-10-14T00:04:06.562Z",
+          "httpStatus": 200,
+          "cacheFile": "e7e5f284d543ef31260d108d2285fb598d592732431c2483778f0c22b6621c5a.json",
+          "candidates": [
+            {
+              "externalId": "272287",
+              "datasetKey": "WoRMS-live",
+              "name": "Engraulis ringens",
+              "authority": "Jenyns, 1842",
+              "rank": "Species",
+              "status": "accepted",
+              "acceptedId": "272287",
+              "acceptedName": "Engraulis ringens",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Teleostei"
+              ],
+              "matchType": "exact",
+              "family": "Engraulidae",
+              "order": "Clupeiformes",
+              "isExtinct": null,
+              "environments": {
+                "marine": 1,
+                "freshwater": 0,
+                "brackish": 0
+              },
+              "citation": "Froese, R. and D. Pauly. Editors. (2026). FishBase. Engraulis ringens Jenyns, 1842. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=272287 on 2026-10-14",
+              "modifiedAt": "2008-01-15T17:27:08.177Z",
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        }
+      ],
+      "conflicts": [],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "gamitana",
+      "scientificName": "Colossoma macropomum",
+      "existingEnvironments": [
+        "freshwater"
+      ],
+      "matches": [
+        {
+          "source": "col",
+          "queriedName": "Colossoma macropomum",
+          "requestedUrl": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Colossoma+macropomum&kingdom=Animalia&phylum=Chordata&rank=species",
+          "fetchedAt": "2026-10-14T00:08:03.868Z",
+          "httpStatus": 200,
+          "cacheFile": "84c7ccda313241b2a9c24c09d532881612317b1ce1347db4dd1772235f28008b.json",
+          "candidates": [
+            {
+              "externalId": "X8BJ",
+              "datasetKey": "310463",
+              "name": "Colossoma macropomum",
+              "authority": "(Cuvier, 1816)",
+              "rank": "species",
+              "status": "accepted",
+              "acceptedId": "X8BJ",
+              "lineage": [
+                {
+                  "id": "KV54N",
+                  "name": "Colossoma",
+                  "authorship": "Eigenmann & Kennedy, 1903",
+                  "rank": "genus",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 10322,
+                  "sectorKey": 60427,
+                  "label": "Colossoma Eigenmann & Kennedy, 1903",
+                  "parentId": "KVS3Q",
+                  "labelHtml": "<i>Colossoma</i> Eigenmann & Kennedy, 1903"
+                },
+                {
+                  "id": "KVS3Q",
+                  "name": "Serrasalmidae",
+                  "authorship": "Bleeker, 1859",
+                  "rank": "family",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8330380,
+                  "sectorKey": 60427,
+                  "label": "Serrasalmidae Bleeker, 1859",
+                  "parentId": "X2",
+                  "labelHtml": "Serrasalmidae Bleeker, 1859"
+                },
+                {
+                  "id": "X2",
+                  "name": "Characiformes",
+                  "rank": "order",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 1892455,
+                  "sectorKey": 60427,
+                  "label": "Characiformes",
+                  "parentId": "8V4VD",
+                  "labelHtml": "Characiformes"
+                },
+                {
+                  "id": "8V4VD",
+                  "name": "Teleostei",
+                  "rank": "class",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8987577,
+                  "sectorKey": 60427,
+                  "label": "Teleostei",
+                  "parentId": "KTWM8",
+                  "labelHtml": "Teleostei"
+                },
+                {
+                  "id": "KTWM8",
+                  "name": "Actinopteri",
+                  "rank": "superclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 164398,
+                  "sectorKey": 60427,
+                  "label": "Actinopteri",
+                  "parentId": "8VR36",
+                  "labelHtml": "Actinopteri"
+                },
+                {
+                  "id": "8VR36",
+                  "name": "Actinopterygii",
+                  "rank": "gigaclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 9188,
+                  "sectorKey": 60427,
+                  "label": "Actinopterygii",
+                  "parentId": "8VVWB",
+                  "labelHtml": "Actinopterygii"
+                },
+                {
+                  "id": "8VVWB",
+                  "name": "Osteichthyes",
+                  "rank": "parvphylum",
+                  "status": "accepted",
+                  "namesIndexId": 6433538,
+                  "label": "Osteichthyes",
+                  "parentId": "8V4V5",
+                  "labelHtml": "Osteichthyes"
+                },
+                {
+                  "id": "8V4V5",
+                  "name": "Gnathostomata",
+                  "rank": "infraphylum",
+                  "status": "accepted",
+                  "namesIndexId": 3877458,
+                  "label": "Gnathostomata",
+                  "parentId": "8V4V3",
+                  "labelHtml": "Gnathostomata"
+                },
+                {
+                  "id": "8V4V3",
+                  "name": "Vertebrata",
+                  "rank": "subphylum",
+                  "status": "accepted",
+                  "namesIndexId": 150889,
+                  "label": "Vertebrata",
+                  "parentId": "CH2",
+                  "labelHtml": "Vertebrata"
+                },
+                {
+                  "id": "CH2",
+                  "name": "Chordata",
+                  "rank": "phylum",
+                  "status": "accepted",
+                  "namesIndexId": 10276,
+                  "label": "Chordata",
+                  "parentId": "N",
+                  "labelHtml": "Chordata"
+                },
+                {
+                  "id": "N",
+                  "name": "Animalia",
+                  "rank": "kingdom",
+                  "status": "accepted",
+                  "namesIndexId": 9237,
+                  "label": "Animalia",
+                  "parentId": "CS5HF",
+                  "labelHtml": "Animalia"
+                },
+                {
+                  "id": "CS5HF",
+                  "name": "Eukaryota",
+                  "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+                  "rank": "domain",
+                  "status": "accepted",
+                  "namesIndexId": 3444548,
+                  "label": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+                  "labelHtml": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978"
+                }
+              ],
+              "matchType": "variant",
+              "family": "Serrasalmidae",
+              "order": "Characiformes",
+              "issues": {},
+              "sourceSector": 60427,
+              "resultMatch": true,
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        },
+        {
+          "source": "gbif",
+          "queriedName": "Colossoma macropomum",
+          "requestedUrl": "https://api.gbif.org/v1/species/match?name=Colossoma+macropomum&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+          "fetchedAt": "2026-10-14T00:07:59.847Z",
+          "httpStatus": 200,
+          "cacheFile": "a37dbb9a17a87f011ee013cab803064974bc8cf128d3ad00e75132e71e13970b.json",
+          "candidates": [
+            {
+              "externalId": "2353152",
+              "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+              "name": "Colossoma macropomum",
+              "authority": "Colossoma macropomum (Cuvier, 1816)",
+              "rank": "SPECIES",
+              "status": "ACCEPTED",
+              "acceptedId": "2353152",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Animalia",
+                "Chordata",
+                "Characiformes",
+                "Serrasalmidae",
+                "Colossoma"
+              ],
+              "matchType": "EXACT",
+              "confidence": 100,
+              "family": "Serrasalmidae",
+              "order": "Characiformes",
+              "alternatives": [],
+              "assessment": "needs-review",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [
+                "El linaje no confirma un pez dentro del alcance propuesto."
+              ],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "needs-review",
+          "ambiguous": false,
+          "lineageEvidence": {
+            "fetchedAt": "2026-10-14T00:08:01.862Z",
+            "url": "https://api.gbif.org/v1/species/2353152/parents",
+            "cacheFile": "2ee5d3acfc6dc1dbe6b5d8a1596ff3579433767145acc58571a8f21d176669f8.json",
+            "ok": true
+          }
+        },
+        {
+          "source": "worms",
+          "queriedName": "Colossoma macropomum",
+          "requestedUrl": "https://www.marinespecies.org/rest/AphiaRecordsByName/Colossoma%20macropomum?like=false&marine_only=false",
+          "fetchedAt": "2026-10-14T00:08:05.869Z",
+          "httpStatus": 200,
+          "cacheFile": "d148d80ab2fd760e95d264aa104e0bc000963ad9b9355745cf41f8642cbadd49.json",
+          "candidates": [
+            {
+              "externalId": "1020122",
+              "datasetKey": "WoRMS-live",
+              "name": "Colossoma macropomum",
+              "authority": "(Cuvier, 1816)",
+              "rank": "Species",
+              "status": "accepted",
+              "acceptedId": "1020122",
+              "acceptedName": "Colossoma macropomum",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Teleostei"
+              ],
+              "matchType": "exact",
+              "family": "Serrasalmidae",
+              "order": "Characiformes",
+              "isExtinct": null,
+              "environments": {
+                "marine": 0,
+                "freshwater": 1,
+                "brackish": 0
+              },
+              "citation": "Froese, R. and D. Pauly. Editors. (2026). FishBase. Colossoma macropomum (Cuvier, 1816). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=1020122 on 2026-10-14",
+              "modifiedAt": "2017-07-18T06:48:51.643Z",
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        }
+      ],
+      "conflicts": [],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "paco",
+      "scientificName": "Piaractus brachypomus",
+      "existingEnvironments": [
+        "freshwater"
+      ],
+      "matches": [
+        {
+          "source": "col",
+          "queriedName": "Piaractus brachypomus",
+          "requestedUrl": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Piaractus+brachypomus&kingdom=Animalia&phylum=Chordata&rank=species",
+          "fetchedAt": "2026-10-14T00:08:11.896Z",
+          "httpStatus": 200,
+          "cacheFile": "ea9aaf19a7cfe482ac6da8c6f403834bd8c4d4c638d177fec40d2ad9c7d32c4a.json",
+          "candidates": [
+            {
+              "externalId": "4HPKY",
+              "datasetKey": "310463",
+              "name": "Piaractus brachypomus",
+              "authority": "(Cuvier, 1818)",
+              "rank": "species",
+              "status": "accepted",
+              "acceptedId": "4HPKY",
+              "lineage": [
+                {
+                  "id": "KVQ7G",
+                  "name": "Piaractus",
+                  "authorship": "Eigenmann, 1903",
+                  "rank": "genus",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 7061496,
+                  "sectorKey": 60427,
+                  "label": "Piaractus Eigenmann, 1903",
+                  "parentId": "KVS3Q",
+                  "labelHtml": "<i>Piaractus</i> Eigenmann, 1903"
+                },
+                {
+                  "id": "KVS3Q",
+                  "name": "Serrasalmidae",
+                  "authorship": "Bleeker, 1859",
+                  "rank": "family",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8330380,
+                  "sectorKey": 60427,
+                  "label": "Serrasalmidae Bleeker, 1859",
+                  "parentId": "X2",
+                  "labelHtml": "Serrasalmidae Bleeker, 1859"
+                },
+                {
+                  "id": "X2",
+                  "name": "Characiformes",
+                  "rank": "order",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 1892455,
+                  "sectorKey": 60427,
+                  "label": "Characiformes",
+                  "parentId": "8V4VD",
+                  "labelHtml": "Characiformes"
+                },
+                {
+                  "id": "8V4VD",
+                  "name": "Teleostei",
+                  "rank": "class",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8987577,
+                  "sectorKey": 60427,
+                  "label": "Teleostei",
+                  "parentId": "KTWM8",
+                  "labelHtml": "Teleostei"
+                },
+                {
+                  "id": "KTWM8",
+                  "name": "Actinopteri",
+                  "rank": "superclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 164398,
+                  "sectorKey": 60427,
+                  "label": "Actinopteri",
+                  "parentId": "8VR36",
+                  "labelHtml": "Actinopteri"
+                },
+                {
+                  "id": "8VR36",
+                  "name": "Actinopterygii",
+                  "rank": "gigaclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 9188,
+                  "sectorKey": 60427,
+                  "label": "Actinopterygii",
+                  "parentId": "8VVWB",
+                  "labelHtml": "Actinopterygii"
+                },
+                {
+                  "id": "8VVWB",
+                  "name": "Osteichthyes",
+                  "rank": "parvphylum",
+                  "status": "accepted",
+                  "namesIndexId": 6433538,
+                  "label": "Osteichthyes",
+                  "parentId": "8V4V5",
+                  "labelHtml": "Osteichthyes"
+                },
+                {
+                  "id": "8V4V5",
+                  "name": "Gnathostomata",
+                  "rank": "infraphylum",
+                  "status": "accepted",
+                  "namesIndexId": 3877458,
+                  "label": "Gnathostomata",
+                  "parentId": "8V4V3",
+                  "labelHtml": "Gnathostomata"
+                },
+                {
+                  "id": "8V4V3",
+                  "name": "Vertebrata",
+                  "rank": "subphylum",
+                  "status": "accepted",
+                  "namesIndexId": 150889,
+                  "label": "Vertebrata",
+                  "parentId": "CH2",
+                  "labelHtml": "Vertebrata"
+                },
+                {
+                  "id": "CH2",
+                  "name": "Chordata",
+                  "rank": "phylum",
+                  "status": "accepted",
+                  "namesIndexId": 10276,
+                  "label": "Chordata",
+                  "parentId": "N",
+                  "labelHtml": "Chordata"
+                },
+                {
+                  "id": "N",
+                  "name": "Animalia",
+                  "rank": "kingdom",
+                  "status": "accepted",
+                  "namesIndexId": 9237,
+                  "label": "Animalia",
+                  "parentId": "CS5HF",
+                  "labelHtml": "Animalia"
+                },
+                {
+                  "id": "CS5HF",
+                  "name": "Eukaryota",
+                  "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+                  "rank": "domain",
+                  "status": "accepted",
+                  "namesIndexId": 3444548,
+                  "label": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+                  "labelHtml": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978"
+                }
+              ],
+              "matchType": "variant",
+              "family": "Serrasalmidae",
+              "order": "Characiformes",
+              "issues": {},
+              "sourceSector": 60427,
+              "resultMatch": true,
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        },
+        {
+          "source": "gbif",
+          "queriedName": "Piaractus brachypomus",
+          "requestedUrl": "https://api.gbif.org/v1/species/match?name=Piaractus+brachypomus&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+          "fetchedAt": "2026-10-14T00:08:07.883Z",
+          "httpStatus": 200,
+          "cacheFile": "8445966573939b219d36ac83954b4e0705481de4cf922c104065ab266dd22508.json",
+          "candidates": [
+            {
+              "externalId": "2353225",
+              "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+              "name": "Piaractus brachypomus",
+              "authority": "Piaractus brachypomus (Cuvier, 1818)",
+              "rank": "SPECIES",
+              "status": "ACCEPTED",
+              "acceptedId": "2353225",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Animalia",
+                "Chordata",
+                "Characiformes",
+                "Serrasalmidae",
+                "Piaractus"
+              ],
+              "matchType": "EXACT",
+              "confidence": 100,
+              "family": "Serrasalmidae",
+              "order": "Characiformes",
+              "alternatives": [],
+              "assessment": "needs-review",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [
+                "El linaje no confirma un pez dentro del alcance propuesto."
+              ],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "needs-review",
+          "ambiguous": false,
+          "lineageEvidence": {
+            "fetchedAt": "2026-10-14T00:08:09.895Z",
+            "url": "https://api.gbif.org/v1/species/2353225/parents",
+            "cacheFile": "2333be414800df898e25c247e90760ceff5bd9f5637b3e18948e1a4f87ac3b35.json",
+            "ok": true
+          }
+        },
+        {
+          "source": "worms",
+          "queriedName": "Piaractus brachypomus",
+          "requestedUrl": "https://www.marinespecies.org/rest/AphiaRecordsByName/Piaractus%20brachypomus?like=false&marine_only=false",
+          "fetchedAt": "2026-10-14T00:08:13.900Z",
+          "httpStatus": 200,
+          "cacheFile": "0dd5ce492652fb5c33ac7572b7c55aecc32081a14c858897a1de41e4a66f385d.json",
+          "candidates": [
+            {
+              "externalId": "1022721",
+              "datasetKey": "WoRMS-live",
+              "name": "Piaractus brachypomus",
+              "authority": "(Cuvier, 1818)",
+              "rank": "Species",
+              "status": "accepted",
+              "acceptedId": "1022721",
+              "acceptedName": "Piaractus brachypomus",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Teleostei"
+              ],
+              "matchType": "exact",
+              "family": "Serrasalmidae",
+              "order": "Characiformes",
+              "isExtinct": null,
+              "environments": {
+                "marine": 0,
+                "freshwater": 1,
+                "brackish": 0
+              },
+              "citation": "Froese, R. and D. Pauly. Editors. (2026). FishBase. Piaractus brachypomus (Cuvier, 1818). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=1022721 on 2026-10-14",
+              "modifiedAt": "2017-07-20T07:00:16.353Z",
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        }
+      ],
+      "conflicts": [],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "betta",
+      "scientificName": "Betta splendens",
+      "existingEnvironments": [
+        "freshwater"
+      ],
+      "matches": [
+        {
+          "source": "col",
+          "queriedName": "Betta splendens",
+          "requestedUrl": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Betta+splendens&kingdom=Animalia&phylum=Chordata&rank=species",
+          "fetchedAt": "2026-10-14T00:08:19.921Z",
+          "httpStatus": 200,
+          "cacheFile": "d207035525d207396d254350ced25b65559467972faffe7975a232d64c40f715.json",
+          "candidates": [
+            {
+              "externalId": "LP2V",
+              "datasetKey": "310463",
+              "name": "Betta splendens",
+              "authority": "Regan, 1910",
+              "rank": "species",
+              "status": "accepted",
+              "acceptedId": "LP2V",
+              "lineage": [
+                {
+                  "id": "KTZXV",
+                  "name": "Betta",
+                  "authorship": "Bleeker, 1850",
+                  "rank": "genus",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 1126729,
+                  "sectorKey": 60427,
+                  "label": "Betta Bleeker, 1850",
+                  "parentId": "KVHTJ",
+                  "labelHtml": "<i>Betta</i> Bleeker, 1850"
+                },
+                {
+                  "id": "KVHTJ",
+                  "name": "Macropodusinae",
+                  "authorship": "Hoedeman, 1948",
+                  "rank": "subfamily",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 5248363,
+                  "sectorKey": 60427,
+                  "label": "Macropodusinae Hoedeman, 1948",
+                  "parentId": "KVKJQ",
+                  "labelHtml": "Macropodusinae Hoedeman, 1948"
+                },
+                {
+                  "id": "KVKJQ",
+                  "name": "Osphronemidae",
+                  "authorship": "van der Hoeven, 1832",
+                  "rank": "family",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 6195273,
+                  "sectorKey": 60427,
+                  "label": "Osphronemidae van der Hoeven, 1832",
+                  "parentId": "KTXY8",
+                  "labelHtml": "Osphronemidae van der Hoeven, 1832"
+                },
+                {
+                  "id": "KTXY8",
+                  "name": "Anabantiformes",
+                  "rank": "order",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 445209,
+                  "sectorKey": 60427,
+                  "label": "Anabantiformes",
+                  "parentId": "8V4VD",
+                  "labelHtml": "Anabantiformes"
+                },
+                {
+                  "id": "8V4VD",
+                  "name": "Teleostei",
+                  "rank": "class",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8987577,
+                  "sectorKey": 60427,
+                  "label": "Teleostei",
+                  "parentId": "KTWM8",
+                  "labelHtml": "Teleostei"
+                },
+                {
+                  "id": "KTWM8",
+                  "name": "Actinopteri",
+                  "rank": "superclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 164398,
+                  "sectorKey": 60427,
+                  "label": "Actinopteri",
+                  "parentId": "8VR36",
+                  "labelHtml": "Actinopteri"
+                },
+                {
+                  "id": "8VR36",
+                  "name": "Actinopterygii",
+                  "rank": "gigaclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 9188,
+                  "sectorKey": 60427,
+                  "label": "Actinopterygii",
+                  "parentId": "8VVWB",
+                  "labelHtml": "Actinopterygii"
+                },
+                {
+                  "id": "8VVWB",
+                  "name": "Osteichthyes",
+                  "rank": "parvphylum",
+                  "status": "accepted",
+                  "namesIndexId": 6433538,
+                  "label": "Osteichthyes",
+                  "parentId": "8V4V5",
+                  "labelHtml": "Osteichthyes"
+                },
+                {
+                  "id": "8V4V5",
+                  "name": "Gnathostomata",
+                  "rank": "infraphylum",
+                  "status": "accepted",
+                  "namesIndexId": 3877458,
+                  "label": "Gnathostomata",
+                  "parentId": "8V4V3",
+                  "labelHtml": "Gnathostomata"
+                },
+                {
+                  "id": "8V4V3",
+                  "name": "Vertebrata",
+                  "rank": "subphylum",
+                  "status": "accepted",
+                  "namesIndexId": 150889,
+                  "label": "Vertebrata",
+                  "parentId": "CH2",
+                  "labelHtml": "Vertebrata"
+                },
+                {
+                  "id": "CH2",
+                  "name": "Chordata",
+                  "rank": "phylum",
+                  "status": "accepted",
+                  "namesIndexId": 10276,
+                  "label": "Chordata",
+                  "parentId": "N",
+                  "labelHtml": "Chordata"
+                },
+                {
+                  "id": "N",
+                  "name": "Animalia",
+                  "rank": "kingdom",
+                  "status": "accepted",
+                  "namesIndexId": 9237,
+                  "label": "Animalia",
+                  "parentId": "CS5HF",
+                  "labelHtml": "Animalia"
+                },
+                {
+                  "id": "CS5HF",
+                  "name": "Eukaryota",
+                  "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+                  "rank": "domain",
+                  "status": "accepted",
+                  "namesIndexId": 3444548,
+                  "label": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+                  "labelHtml": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978"
+                }
+              ],
+              "matchType": "variant",
+              "family": "Osphronemidae",
+              "order": "Anabantiformes",
+              "issues": {},
+              "sourceSector": 60427,
+              "resultMatch": true,
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        },
+        {
+          "source": "gbif",
+          "queriedName": "Betta splendens",
+          "requestedUrl": "https://api.gbif.org/v1/species/match?name=Betta+splendens&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+          "fetchedAt": "2026-10-14T00:08:15.912Z",
+          "httpStatus": 200,
+          "cacheFile": "5890a3911a91c6daad1b1191ae60e7b3f2534fe178139841b262bf7a5b330c16.json",
+          "candidates": [
+            {
+              "externalId": "2393998",
+              "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+              "name": "Betta splendens",
+              "authority": "Betta splendens Regan, 1910",
+              "rank": "SPECIES",
+              "status": "ACCEPTED",
+              "acceptedId": "2393998",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Animalia",
+                "Chordata",
+                "Perciformes",
+                "Osphronemidae",
+                "Betta"
+              ],
+              "matchType": "EXACT",
+              "confidence": 100,
+              "family": "Osphronemidae",
+              "order": "Perciformes",
+              "alternatives": [],
+              "assessment": "needs-review",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [
+                "El linaje no confirma un pez dentro del alcance propuesto."
+              ],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "needs-review",
+          "ambiguous": false,
+          "lineageEvidence": {
+            "fetchedAt": "2026-10-14T00:08:17.916Z",
+            "url": "https://api.gbif.org/v1/species/2393998/parents",
+            "cacheFile": "41bf0d1cc20796e2cc5cbc75d12640daf19ad51fc0ac130468679f12eb473be7.json",
+            "ok": true
+          }
+        },
+        {
+          "source": "worms",
+          "queriedName": "Betta splendens",
+          "requestedUrl": "https://www.marinespecies.org/rest/AphiaRecordsByName/Betta%20splendens?like=false&marine_only=false",
+          "fetchedAt": "2026-10-14T00:08:21.929Z",
+          "httpStatus": 200,
+          "cacheFile": "ba7ba0e963738489268901a8fe68bcd86c71639d7b33e526bf2a1b07cc1e3876.json",
+          "candidates": [
+            {
+              "externalId": "862539",
+              "datasetKey": "WoRMS-live",
+              "name": "Betta splendens",
+              "authority": "Regan, 1910",
+              "rank": "Species",
+              "status": "accepted",
+              "acceptedId": "862539",
+              "acceptedName": "Betta splendens",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Teleostei"
+              ],
+              "matchType": "exact",
+              "family": "Osphronemidae",
+              "order": "Anabantiformes",
+              "isExtinct": null,
+              "environments": {
+                "marine": 0,
+                "freshwater": 1,
+                "brackish": 0
+              },
+              "citation": "Froese, R. and D. Pauly. Editors. (2026). FishBase. Betta splendens Regan, 1910. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=862539 on 2026-10-14",
+              "modifiedAt": "2015-10-20T07:10:13.863Z",
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "order",
+          "values": [
+            {
+              "source": "col",
+              "value": "Anabantiformes"
+            },
+            {
+              "source": "gbif",
+              "value": "Perciformes"
+            },
+            {
+              "source": "worms",
+              "value": "Anabantiformes"
+            }
+          ]
+        }
+      ],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "salmon-del-atlantico",
+      "scientificName": "Salmo salar",
+      "existingEnvironments": [
+        "freshwater",
+        "brackish",
+        "marine"
+      ],
+      "matches": [
+        {
+          "source": "col",
+          "queriedName": "Salmo salar",
+          "requestedUrl": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Salmo+salar&kingdom=Animalia&phylum=Chordata&rank=species",
+          "fetchedAt": "2026-10-14T00:08:27.940Z",
+          "httpStatus": 200,
+          "cacheFile": "171397df2cffc990bc93e93ea92b91794d5f4eac058d7e072a74fc6a48000fdc.json",
+          "candidates": [
+            {
+              "externalId": "6XCXT",
+              "datasetKey": "310463",
+              "name": "Salmo salar",
+              "authority": "Linnaeus, 1758",
+              "rank": "species",
+              "status": "accepted",
+              "acceptedId": "6XCXT",
+              "lineage": [
+                {
+                  "id": "KVRR8",
+                  "name": "Salmo",
+                  "authorship": "Linnaeus, 1758",
+                  "rank": "genus",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8080499,
+                  "sectorKey": 60427,
+                  "label": "Salmo Linnaeus, 1758",
+                  "parentId": "KVRVP",
+                  "labelHtml": "<i>Salmo</i> Linnaeus, 1758"
+                },
+                {
+                  "id": "KVRVP",
+                  "name": "Salmoninae",
+                  "authorship": "Jarocki or Schinz, 1822",
+                  "rank": "subfamily",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8087496,
+                  "sectorKey": 60427,
+                  "label": "Salmoninae Jarocki or Schinz, 1822",
+                  "parentId": "KVRVN",
+                  "labelHtml": "Salmoninae Jarocki or Schinz, 1822"
+                },
+                {
+                  "id": "KVRVN",
+                  "name": "Salmonidae",
+                  "authorship": "Jarocki or Schinz, 1822",
+                  "rank": "family",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 18093,
+                  "sectorKey": 60427,
+                  "label": "Salmonidae Jarocki or Schinz, 1822",
+                  "parentId": "3ZR",
+                  "labelHtml": "Salmonidae Jarocki or Schinz, 1822"
+                },
+                {
+                  "id": "3ZR",
+                  "name": "Salmoniformes",
+                  "rank": "order",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 18094,
+                  "sectorKey": 60427,
+                  "label": "Salmoniformes",
+                  "parentId": "8V4VD",
+                  "labelHtml": "Salmoniformes"
+                },
+                {
+                  "id": "8V4VD",
+                  "name": "Teleostei",
+                  "rank": "class",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8987577,
+                  "sectorKey": 60427,
+                  "label": "Teleostei",
+                  "parentId": "KTWM8",
+                  "labelHtml": "Teleostei"
+                },
+                {
+                  "id": "KTWM8",
+                  "name": "Actinopteri",
+                  "rank": "superclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 164398,
+                  "sectorKey": 60427,
+                  "label": "Actinopteri",
+                  "parentId": "8VR36",
+                  "labelHtml": "Actinopteri"
+                },
+                {
+                  "id": "8VR36",
+                  "name": "Actinopterygii",
+                  "rank": "gigaclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 9188,
+                  "sectorKey": 60427,
+                  "label": "Actinopterygii",
+                  "parentId": "8VVWB",
+                  "labelHtml": "Actinopterygii"
+                },
+                {
+                  "id": "8VVWB",
+                  "name": "Osteichthyes",
+                  "rank": "parvphylum",
+                  "status": "accepted",
+                  "namesIndexId": 6433538,
+                  "label": "Osteichthyes",
+                  "parentId": "8V4V5",
+                  "labelHtml": "Osteichthyes"
+                },
+                {
+                  "id": "8V4V5",
+                  "name": "Gnathostomata",
+                  "rank": "infraphylum",
+                  "status": "accepted",
+                  "namesIndexId": 3877458,
+                  "label": "Gnathostomata",
+                  "parentId": "8V4V3",
+                  "labelHtml": "Gnathostomata"
+                },
+                {
+                  "id": "8V4V3",
+                  "name": "Vertebrata",
+                  "rank": "subphylum",
+                  "status": "accepted",
+                  "namesIndexId": 150889,
+                  "label": "Vertebrata",
+                  "parentId": "CH2",
+                  "labelHtml": "Vertebrata"
+                },
+                {
+                  "id": "CH2",
+                  "name": "Chordata",
+                  "rank": "phylum",
+                  "status": "accepted",
+                  "namesIndexId": 10276,
+                  "label": "Chordata",
+                  "parentId": "N",
+                  "labelHtml": "Chordata"
+                },
+                {
+                  "id": "N",
+                  "name": "Animalia",
+                  "rank": "kingdom",
+                  "status": "accepted",
+                  "namesIndexId": 9237,
+                  "label": "Animalia",
+                  "parentId": "CS5HF",
+                  "labelHtml": "Animalia"
+                },
+                {
+                  "id": "CS5HF",
+                  "name": "Eukaryota",
+                  "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+                  "rank": "domain",
+                  "status": "accepted",
+                  "namesIndexId": 3444548,
+                  "label": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+                  "labelHtml": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978"
+                }
+              ],
+              "matchType": "variant",
+              "family": "Salmonidae",
+              "order": "Salmoniformes",
+              "issues": {},
+              "sourceSector": 60427,
+              "resultMatch": true,
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        },
+        {
+          "source": "gbif",
+          "queriedName": "Salmo salar",
+          "requestedUrl": "https://api.gbif.org/v1/species/match?name=Salmo+salar&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+          "fetchedAt": "2026-10-14T00:08:23.930Z",
+          "httpStatus": 200,
+          "cacheFile": "8643cbe04e9d2bcca2a042ae7f1882c558a1a4bbd942f21146f68d766bed7758.json",
+          "candidates": [
+            {
+              "externalId": "7595433",
+              "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+              "name": "Salmo salar",
+              "authority": "Salmo salar Linnaeus, 1758",
+              "rank": "SPECIES",
+              "status": "ACCEPTED",
+              "acceptedId": "7595433",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Animalia",
+                "Chordata",
+                "Salmoniformes",
+                "Salmonidae",
+                "Salmo"
+              ],
+              "matchType": "EXACT",
+              "confidence": 100,
+              "family": "Salmonidae",
+              "order": "Salmoniformes",
+              "alternatives": [],
+              "assessment": "needs-review",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [
+                "El linaje no confirma un pez dentro del alcance propuesto."
+              ],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "needs-review",
+          "ambiguous": false,
+          "lineageEvidence": {
+            "fetchedAt": "2026-10-14T00:08:25.936Z",
+            "url": "https://api.gbif.org/v1/species/7595433/parents",
+            "cacheFile": "4a2f8db23298df47a02edae0e1584b41e7c77719f5e4906ad1cc8309f2c96941.json",
+            "ok": true
+          }
+        },
+        {
+          "source": "worms",
+          "queriedName": "Salmo salar",
+          "requestedUrl": "https://www.marinespecies.org/rest/AphiaRecordsByName/Salmo%20salar?like=false&marine_only=false",
+          "fetchedAt": "2026-10-14T00:08:29.947Z",
+          "httpStatus": 200,
+          "cacheFile": "af348e0c68bfa11cac23c1a73b9e03c3d4f162df70fd2369a40cea485f4b985f.json",
+          "candidates": [
+            {
+              "externalId": "127186",
+              "datasetKey": "WoRMS-live",
+              "name": "Salmo salar",
+              "authority": "Linnaeus, 1758",
+              "rank": "Species",
+              "status": "accepted",
+              "acceptedId": "127186",
+              "acceptedName": "Salmo salar",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Teleostei"
+              ],
+              "matchType": "exact",
+              "family": "Salmonidae",
+              "order": "Salmoniformes",
+              "isExtinct": null,
+              "environments": {
+                "marine": 1,
+                "freshwater": 1,
+                "brackish": 1
+              },
+              "citation": "Froese, R. and D. Pauly. Editors. (2026). FishBase. Salmo salar Linnaeus, 1758. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=127186 on 2026-10-14",
+              "modifiedAt": "2017-07-20T07:00:16.353Z",
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        }
+      ],
+      "conflicts": [],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "trout",
+      "scientificName": "Oncorhynchus mykiss",
+      "existingEnvironments": [
+        "freshwater",
+        "marine",
+        "brackish"
+      ],
+      "matches": [
+        {
+          "source": "col",
+          "queriedName": "Oncorhynchus mykiss",
+          "requestedUrl": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Oncorhynchus+mykiss&kingdom=Animalia&phylum=Chordata&rank=species",
+          "fetchedAt": "2026-10-14T00:08:35.962Z",
+          "httpStatus": 200,
+          "cacheFile": "287d4c978eeb2ee9b3cac9c2a14d0622471914d4641e3b3b7eec23f10975ef7e.json",
+          "candidates": [
+            {
+              "externalId": "49JFF",
+              "datasetKey": "310463",
+              "name": "Oncorhynchus mykiss",
+              "authority": "(Walbaum, 1792)",
+              "rank": "species",
+              "status": "accepted",
+              "acceptedId": "49JFF",
+              "lineage": [
+                {
+                  "id": "KV2ZQ",
+                  "name": "Oncorhynchus",
+                  "authorship": "Suckley, 1861",
+                  "rank": "genus",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 1664316,
+                  "sectorKey": 60427,
+                  "label": "Oncorhynchus Suckley, 1861",
+                  "parentId": "KVRVP",
+                  "labelHtml": "<i>Oncorhynchus</i> Suckley, 1861"
+                },
+                {
+                  "id": "KVRVP",
+                  "name": "Salmoninae",
+                  "authorship": "Jarocki or Schinz, 1822",
+                  "rank": "subfamily",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8087496,
+                  "sectorKey": 60427,
+                  "label": "Salmoninae Jarocki or Schinz, 1822",
+                  "parentId": "KVRVN",
+                  "labelHtml": "Salmoninae Jarocki or Schinz, 1822"
+                },
+                {
+                  "id": "KVRVN",
+                  "name": "Salmonidae",
+                  "authorship": "Jarocki or Schinz, 1822",
+                  "rank": "family",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 18093,
+                  "sectorKey": 60427,
+                  "label": "Salmonidae Jarocki or Schinz, 1822",
+                  "parentId": "3ZR",
+                  "labelHtml": "Salmonidae Jarocki or Schinz, 1822"
+                },
+                {
+                  "id": "3ZR",
+                  "name": "Salmoniformes",
+                  "rank": "order",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 18094,
+                  "sectorKey": 60427,
+                  "label": "Salmoniformes",
+                  "parentId": "8V4VD",
+                  "labelHtml": "Salmoniformes"
+                },
+                {
+                  "id": "8V4VD",
+                  "name": "Teleostei",
+                  "rank": "class",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 8987577,
+                  "sectorKey": 60427,
+                  "label": "Teleostei",
+                  "parentId": "KTWM8",
+                  "labelHtml": "Teleostei"
+                },
+                {
+                  "id": "KTWM8",
+                  "name": "Actinopteri",
+                  "rank": "superclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 164398,
+                  "sectorKey": 60427,
+                  "label": "Actinopteri",
+                  "parentId": "8VR36",
+                  "labelHtml": "Actinopteri"
+                },
+                {
+                  "id": "8VR36",
+                  "name": "Actinopterygii",
+                  "rank": "gigaclass",
+                  "code": "zoological",
+                  "status": "accepted",
+                  "namesIndexId": 9188,
+                  "sectorKey": 60427,
+                  "label": "Actinopterygii",
+                  "parentId": "8VVWB",
+                  "labelHtml": "Actinopterygii"
+                },
+                {
+                  "id": "8VVWB",
+                  "name": "Osteichthyes",
+                  "rank": "parvphylum",
+                  "status": "accepted",
+                  "namesIndexId": 6433538,
+                  "label": "Osteichthyes",
+                  "parentId": "8V4V5",
+                  "labelHtml": "Osteichthyes"
+                },
+                {
+                  "id": "8V4V5",
+                  "name": "Gnathostomata",
+                  "rank": "infraphylum",
+                  "status": "accepted",
+                  "namesIndexId": 3877458,
+                  "label": "Gnathostomata",
+                  "parentId": "8V4V3",
+                  "labelHtml": "Gnathostomata"
+                },
+                {
+                  "id": "8V4V3",
+                  "name": "Vertebrata",
+                  "rank": "subphylum",
+                  "status": "accepted",
+                  "namesIndexId": 150889,
+                  "label": "Vertebrata",
+                  "parentId": "CH2",
+                  "labelHtml": "Vertebrata"
+                },
+                {
+                  "id": "CH2",
+                  "name": "Chordata",
+                  "rank": "phylum",
+                  "status": "accepted",
+                  "namesIndexId": 10276,
+                  "label": "Chordata",
+                  "parentId": "N",
+                  "labelHtml": "Chordata"
+                },
+                {
+                  "id": "N",
+                  "name": "Animalia",
+                  "rank": "kingdom",
+                  "status": "accepted",
+                  "namesIndexId": 9237,
+                  "label": "Animalia",
+                  "parentId": "CS5HF",
+                  "labelHtml": "Animalia"
+                },
+                {
+                  "id": "CS5HF",
+                  "name": "Eukaryota",
+                  "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+                  "rank": "domain",
+                  "status": "accepted",
+                  "namesIndexId": 3444548,
+                  "label": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+                  "labelHtml": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978"
+                }
+              ],
+              "matchType": "variant",
+              "family": "Salmonidae",
+              "order": "Salmoniformes",
+              "issues": {},
+              "sourceSector": 60427,
+              "resultMatch": true,
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        },
+        {
+          "source": "gbif",
+          "queriedName": "Oncorhynchus mykiss",
+          "requestedUrl": "https://api.gbif.org/v1/species/match?name=Oncorhynchus+mykiss&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+          "fetchedAt": "2026-10-14T00:08:31.953Z",
+          "httpStatus": 200,
+          "cacheFile": "1a6def37adff12821176db2a82971dc8ec9ff59e60be506c36d5e966a8c2ca50.json",
+          "candidates": [
+            {
+              "externalId": "5204019",
+              "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+              "name": "Oncorhynchus mykiss",
+              "authority": "Oncorhynchus mykiss (Walbaum, 1792)",
+              "rank": "SPECIES",
+              "status": "ACCEPTED",
+              "acceptedId": "5204019",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Animalia",
+                "Chordata",
+                "Salmoniformes",
+                "Salmonidae",
+                "Oncorhynchus"
+              ],
+              "matchType": "EXACT",
+              "confidence": 100,
+              "family": "Salmonidae",
+              "order": "Salmoniformes",
+              "alternatives": [],
+              "assessment": "needs-review",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [
+                "El linaje no confirma un pez dentro del alcance propuesto."
+              ],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "needs-review",
+          "ambiguous": false,
+          "lineageEvidence": {
+            "fetchedAt": "2026-10-14T00:08:33.959Z",
+            "url": "https://api.gbif.org/v1/species/5204019/parents",
+            "cacheFile": "f55fcd314355c25405082201141dfe77879471e79aac235d4bbe54838067c2be.json",
+            "ok": true
+          }
+        },
+        {
+          "source": "worms",
+          "queriedName": "Oncorhynchus mykiss",
+          "requestedUrl": "https://www.marinespecies.org/rest/AphiaRecordsByName/Oncorhynchus%20mykiss?like=false&marine_only=false",
+          "fetchedAt": "2026-10-14T00:08:37.967Z",
+          "httpStatus": 200,
+          "cacheFile": "7097fd84758da55bdbb10035d1e3d79557f21816e87ab841a52848a7d85c70aa.json",
+          "candidates": [
+            {
+              "externalId": "127185",
+              "datasetKey": "WoRMS-live",
+              "name": "Oncorhynchus mykiss",
+              "authority": "(Walbaum, 1792)",
+              "rank": "Species",
+              "status": "accepted",
+              "acceptedId": "127185",
+              "acceptedName": "Oncorhynchus mykiss",
+              "lineage": [
+                "Animalia",
+                "Chordata",
+                "Teleostei"
+              ],
+              "matchType": "exact",
+              "family": "Salmonidae",
+              "order": "Salmoniformes",
+              "isExtinct": null,
+              "environments": {
+                "marine": 1,
+                "freshwater": 1,
+                "brackish": 1
+              },
+              "citation": "Froese, R. and D. Pauly. Editors. (2026). FishBase. Oncorhynchus mykiss (Walbaum, 1792). Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=127185 on 2026-10-14",
+              "modifiedAt": "2008-01-15T17:27:08.177Z",
+              "assessment": "exact-accepted-candidate",
+              "exactName": true,
+              "reviewRequired": true,
+              "reasons": [],
+              "importApproved": false
+            }
+          ],
+          "importApproved": false,
+          "status": "exact-accepted-candidate",
+          "ambiguous": false
+        }
+      ],
+      "conflicts": [],
+      "reviewRequired": true,
+      "importApproved": false
+    }
+  ],
+  "vernacularSample": [
+    {
+      "internalId": "clownfish",
+      "source": "gbif",
+      "externalId": "5212106",
+      "spanishNames": [
+        {
+          "taxonKey": 5212106,
+          "vernacularName": "Falso pez percula",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299496128
+        },
+        {
+          "taxonKey": 5212106,
+          "vernacularName": "Pez Payaso común",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299496128
+        },
+        {
+          "taxonKey": 5212106,
+          "vernacularName": "Pez payaso negro",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299496128
+        }
+      ],
+      "totalReturned": 79,
+      "moreResults": false,
+      "fetchedAt": "2026-10-14T00:08:39.981Z",
+      "url": "https://api.gbif.org/v1/species/5212106/vernacularNames?limit=100",
+      "cacheFile": "37fb35b3af5be0ce7db70d4e72d93980c34c1ab12f84f08847fdc65b172c8b16.json",
+      "ok": true,
+      "error": null
+    },
+    {
+      "internalId": "clownfish",
+      "source": "worms",
+      "externalId": "278400",
+      "spanishNames": [],
+      "totalReturned": 1,
+      "fetchedAt": "2026-10-14T00:08:41.994Z",
+      "url": "https://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/278400",
+      "cacheFile": "511747c7b2e86f5b8844613f87ddcec303a8bd1fb73cba3ec975c065186e1df8.json",
+      "ok": true,
+      "error": null
+    },
+    {
+      "internalId": "engraulis-ringens",
+      "source": "gbif",
+      "externalId": "2414014",
+      "spanishNames": [
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Anchoa",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299480458
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Anchoa bocona",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299480458
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Anchoa lobera",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299480458
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Anchoveta peruana",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299480458
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Atunera",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299480458
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Chicora",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299480458
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Chicoria",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299480458
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Manchuma",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299480458
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Manchumilla",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299480458
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Peladilla",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299480458
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Sardina bocona",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299480458
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Anchoa",
+          "language": "spa",
+          "source": "The IUCN Red List of Threatened Species",
+          "sourceTaxonKey": 176690232,
+          "preferred": false
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Anchoa bocona",
+          "language": "spa",
+          "source": "The IUCN Red List of Threatened Species",
+          "sourceTaxonKey": 176690232,
+          "preferred": false
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Anchoa lobera",
+          "language": "spa",
+          "source": "The IUCN Red List of Threatened Species",
+          "sourceTaxonKey": 176690232,
+          "preferred": false
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Anchoveta",
+          "language": "spa",
+          "source": "The IUCN Red List of Threatened Species",
+          "sourceTaxonKey": 176690232,
+          "preferred": false
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Anchoveta peruana",
+          "language": "spa",
+          "source": "The IUCN Red List of Threatened Species",
+          "sourceTaxonKey": 176690232,
+          "preferred": false
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Atunera",
+          "language": "spa",
+          "source": "The IUCN Red List of Threatened Species",
+          "sourceTaxonKey": 176690232,
+          "preferred": false
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Chicora",
+          "language": "spa",
+          "source": "The IUCN Red List of Threatened Species",
+          "sourceTaxonKey": 176690232,
+          "preferred": false
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Chicoria",
+          "language": "spa",
+          "source": "The IUCN Red List of Threatened Species",
+          "sourceTaxonKey": 176690232,
+          "preferred": false
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Manchuma",
+          "language": "spa",
+          "source": "The IUCN Red List of Threatened Species",
+          "sourceTaxonKey": 176690232,
+          "preferred": false
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Manchumilla",
+          "language": "spa",
+          "source": "The IUCN Red List of Threatened Species",
+          "sourceTaxonKey": 176690232,
+          "preferred": false
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Peladilla",
+          "language": "spa",
+          "source": "The IUCN Red List of Threatened Species",
+          "sourceTaxonKey": 176690232,
+          "preferred": false
+        },
+        {
+          "taxonKey": 2414014,
+          "vernacularName": "Sardina bocona",
+          "language": "spa",
+          "source": "The IUCN Red List of Threatened Species",
+          "sourceTaxonKey": 176690232,
+          "preferred": false
+        }
+      ],
+      "totalReturned": 55,
+      "moreResults": false,
+      "fetchedAt": "2026-10-14T00:08:43.999Z",
+      "url": "https://api.gbif.org/v1/species/2414014/vernacularNames?limit=100",
+      "cacheFile": "478328ab148d7f36b3dcf3e32d3d0cf5085d28f43c641c5b5547a0a7cfaa0f65.json",
+      "ok": true,
+      "error": null
+    },
+    {
+      "internalId": "engraulis-ringens",
+      "source": "worms",
+      "externalId": "272287",
+      "spanishNames": [],
+      "totalReturned": 2,
+      "fetchedAt": "2026-10-14T00:08:46.000Z",
+      "url": "https://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/272287",
+      "cacheFile": "1ad4e7f087d8777d8a8fdd861617f5265d5e4c541330371182805209d15a7692.json",
+      "ok": true,
+      "error": null
+    },
+    {
+      "internalId": "gamitana",
+      "source": "gbif",
+      "externalId": "2353152",
+      "spanishNames": [
+        {
+          "taxonKey": 2353152,
+          "vernacularName": "Cachama negra",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299481792
+        },
+        {
+          "taxonKey": 2353152,
+          "vernacularName": "Gamitana",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299481792
+        },
+        {
+          "taxonKey": 2353152,
+          "vernacularName": "Morocoto",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299481792
+        },
+        {
+          "taxonKey": 2353152,
+          "vernacularName": "Paco",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299481792
+        },
+        {
+          "taxonKey": 2353152,
+          "vernacularName": "Pacu",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299481792
+        },
+        {
+          "taxonKey": 2353152,
+          "vernacularName": "Pacú negro",
+          "language": "spa",
+          "source": "Catalogue of Life",
+          "sourceTaxonKey": 299481792
+        },
+        {
+          "taxonKey": 2353152,
+          "vernacularName": "Cachama negra",
+          "language": "spa",
+          "country": "EC",
+          "source": "Lista Roja Nacional de peces de agua dulce de Ecuador",
+          "sourceTaxonKey": 209686466,
+          "preferred": false,
+          "plural": false
+        }
+      ],
+      "totalReturned": 39,
+      "moreResults": false,
+      "fetchedAt": "2026-10-14T00:08:48.014Z",
+      "url": "https://api.gbif.org/v1/species/2353152/vernacularNames?limit=100",
+      "cacheFile": "46cfe2192f183ae55b13b301e4e8c34f1ce13cc4d75e2d2f9fbfa278ae0a6dc6.json",
+      "ok": true,
+      "error": null
+    },
+    {
+      "internalId": "gamitana",
+      "source": "worms",
+      "externalId": "1020122",
+      "spanishNames": [],
+      "totalReturned": 0,
+      "fetchedAt": "2026-10-14T00:08:50.015Z",
+      "url": "https://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/1020122",
+      "cacheFile": "73f42b8b27513e48432e0da2c2215fdd5574b5e9e546788abf8b7ce6ea1ddcf4.json",
+      "ok": true,
+      "error": null
+    }
+  ],
+  "photoResults": [
+    {
+      "internalId": "gamitana",
+      "scientificName": "Colossoma macropomum",
+      "ok": true,
+      "error": null,
+      "candidates": [
+        {
+          "internalId": "gamitana",
+          "scientificName": "Colossoma macropomum",
+          "source": "Wikimedia Commons",
+          "externalId": "1864567",
+          "pageTitle": "File:Piaractus sp, Zoo Leipzig 01.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Piaractus_sp,_Zoo_Leipzig_01.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Piaractus_sp%2C_Zoo_Leipzig_01.jpg",
+          "fileSha1": "b450494640a7d3a6a408d0504ad0dfab0855bf90",
+          "author": "Tino Strauss",
+          "authorHtml": "<a href=\"//commons.wikimedia.org/wiki/User:TinoStrauss\" title=\"User:TinoStrauss\">Tino Strauss</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseCode": "cc-by-sa-3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "Piaractus sp, Zoo Leipzig 01 — Tino Strauss, CC BY-SA 3.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Piaractus_sp,_Zoo_Leipzig_01.jpg); http://creativecommons.org/licenses/by-sa/3.0/. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Piaractus sp., Zoo Leipzig",
+            "descriptionHtml": "<i>Piaractus</i> sp., Zoo Leipzig",
+            "categories": "Piaractus|GFDL|CC-BY-SA-2.5,2.0,1.0|License migration redundant|Self-published work",
+            "credit": "Own work",
+            "metadataDate": "2026-05-18 14:31:29",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:04:08.575Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Colossoma+macropomum%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "8f4342bd6f864622cf6cd6014837a138b79dbf28873883b7e36cffb5e1aacadc.json",
+          "status": "discarded",
+          "reasons": [
+            "Ni título ni descripción identifican explícitamente la especie; una búsqueda o categoría no basta.",
+            "Conflicto entre Colossoma en la descripción y Piaractus en el título o categorías."
+          ],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "gamitana",
+          "scientificName": "Colossoma macropomum",
+          "source": "Wikimedia Commons",
+          "externalId": "36213773",
+          "pageTitle": "File:Schwarzer Pacu Piaractus Tierpark Hellabrunn-1.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Schwarzer_Pacu_Piaractus_Tierpark_Hellabrunn-1.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/5/54/Schwarzer_Pacu_Piaractus_Tierpark_Hellabrunn-1.jpg",
+          "fileSha1": "1f3d316ddbd302f3991bb73d449646ecfa686541",
+          "author": "Rufus46",
+          "authorHtml": "<a href=\"//commons.wikimedia.org/wiki/User:Rufus46\" title=\"User:Rufus46\">Rufus46</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseCode": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "Schwarzer Pacu Piaractus Tierpark Hellabrunn-1 — Rufus46, CC BY-SA 3.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Schwarzer_Pacu_Piaractus_Tierpark_Hellabrunn-1.jpg); https://creativecommons.org/licenses/by-sa/3.0. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Schwarzer Pacu (Colossoma macropomum), Tierpark Hellabrunn, München",
+            "descriptionHtml": "Schwarzer Pacu (Colossoma macropomum), Tierpark Hellabrunn, München",
+            "categories": "Piaractus|Germany photographs taken on 2014-09-05|Photographs by User:Rufus46|Fish in Tierpark Hellabrunn|2014 in Tierpark Hellabrunn",
+            "credit": "Own work",
+            "metadataDate": "2014-10-17 17:05:13",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:04:08.575Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Colossoma+macropomum%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "8f4342bd6f864622cf6cd6014837a138b79dbf28873883b7e36cffb5e1aacadc.json",
+          "status": "discarded",
+          "reasons": [
+            "Conflicto entre Colossoma en la descripción y Piaractus en el título o categorías."
+          ],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "gamitana",
+          "scientificName": "Colossoma macropomum",
+          "source": "Wikimedia Commons",
+          "externalId": "131645365",
+          "pageTitle": "File:Pacu 2 - 24322711986.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Pacu_2_-_24322711986.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Pacu_2_-_24322711986.jpg",
+          "fileSha1": "44a4d5360c7524ac801c1d39212ecf716a1f4ae2",
+          "author": "daryl_mitchell",
+          "authorHtml": "daryl_mitchell",
+          "license": "CC BY-SA 2.0",
+          "licenseCode": "cc-by-sa-2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+          "attribution": "Pacu 2 - 24322711986 — daryl_mitchell, CC BY-SA 2.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Pacu_2_-_24322711986.jpg); https://creativecommons.org/licenses/by-sa/2.0. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Pacu 2 - 24322711986",
+            "descriptionHtml": "Pacu 2 - 24322711986",
+            "categories": "Piaractus|Arapaima|Shark Reef Aquarium at Mandalay Bay|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|September 2015 in Las Vegas",
+            "credit": "https://www.flickr.com/photos/daryl_mitchell/24322711986/",
+            "metadataDate": "2023-05-07 20:26:21",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:04:08.575Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Colossoma+macropomum%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "8f4342bd6f864622cf6cd6014837a138b79dbf28873883b7e36cffb5e1aacadc.json",
+          "status": "discarded",
+          "reasons": [
+            "Ni título ni descripción identifican explícitamente la especie; una búsqueda o categoría no basta.",
+            "Conflicto entre Colossoma en la descripción y Piaractus en el título o categorías."
+          ],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "gamitana",
+          "scientificName": "Colossoma macropomum",
+          "source": "Wikimedia Commons",
+          "externalId": "50655095",
+          "pageTitle": "File:Colossoma macropomum - Flickr - Dick Culbert.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Colossoma_macropomum_-_Flickr_-_Dick_Culbert.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Colossoma_macropomum_-_Flickr_-_Dick_Culbert.jpg",
+          "fileSha1": "99b3cfb25ec1ce2989021ce3e1114e4731e276d5",
+          "author": "Dick Culbert from Gibsons, B.C., Canada",
+          "authorHtml": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/92252798@N07\">Dick Culbert</a> from Gibsons, B.C., Canada",
+          "license": "CC BY 2.0",
+          "licenseCode": "cc-by-2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "attribution": "Colossoma macropomum - Flickr - Dick Culbert — Dick Culbert from Gibsons, B.C., Canada, CC BY 2.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Colossoma_macropomum_-_Flickr_-_Dick_Culbert.jpg); https://creativecommons.org/licenses/by/2.0. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Native to the Amazon and Orinoco drainages, the Tambaqui has now been more widely introduced under names such as Black Pacu. Photo from Gamboa Rainforest Resort, Panama.",
+            "descriptionHtml": "Native to the Amazon and Orinoco drainages, the Tambaqui has now been more widely introduced under names such as Black Pacu.  Photo from Gamboa Rainforest Resort, Panama.",
+            "categories": "Flickr images reviewed by FlickreviewR|Photographs by Dick Culbert|Gamboa Rainforest Resort|Files uploaded by Josve05a (Dick Culbert)|Colossoma macropomum in zoos",
+            "credit": "Colossoma macropomum",
+            "metadataDate": "2016-08-13 18:25:32",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:09:47.371Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=intitle%3A%22Colossoma+macropomum%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "8da0713a0995dc81c7edbc66b799a7f2832a3d17fa85cdaed9790ed8c85392f9.json",
+          "status": "metadata-candidate-needs-manual-review",
+          "reasons": [],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "gamitana",
+          "scientificName": "Colossoma macropomum",
+          "source": "Wikimedia Commons",
+          "externalId": "120819424",
+          "pageTitle": "File:Colossoma macropomum (Teffe, Brazil, 5 October 1865).jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Colossoma_macropomum_(Teffe,_Brazil,_5_October_1865).jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Colossoma_macropomum_%28Teffe%2C_Brazil%2C_5_October_1865%29.jpg",
+          "fileSha1": "e5b3d02f36a69236734715d03e8b0b112ba81cf8",
+          "author": "Burkhardt, Jacques",
+          "authorHtml": "<div class=\"fn value\">\n<a href=\"https://www.wikidata.org/wiki/Q53499085\" class=\"extiw\" title=\"wikidata:Q53499085\">Burkhardt, Jacques</a></div>",
+          "license": "Public domain",
+          "licenseCode": "pd",
+          "licenseUrl": "",
+          "attribution": "Colossoma macropomum (Teffe, Brazil, 5 October 1865) — Burkhardt, Jacques, Public domain, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Colossoma_macropomum_(Teffe,_Brazil,_5_October_1865).jpg); condiciones pendientes. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Taxonomic Classification: Animalia--Characidae--Colossoma macropomum (Cuvier 1816).Taxonomic Classification: Animalia",
+            "descriptionHtml": "<div class=\"description\">\nTaxonomic Classification: Animalia--Characidae--Colossoma macropomum (Cuvier 1816).Taxonomic Classification: Animalia</div>",
+            "categories": "PD US|Uploaded with pattypan|1865 in art|Artworks without Wikidata item|Artworks with known accession number|PD-US missing SDC copyright status|Jacques Burkhardt Scientific Drawings",
+            "credit": "Harvard CURIOSity Collection - Jacques Burkhardt Scientific Drawings: http://id.lib.harvard.edu/curiosity/jacques-burkhardt-scientific-drawings/33-ARC_209-411",
+            "metadataDate": "2022-07-20 19:01:42",
+            "attributionRequired": "false"
+          },
+          "fetchedAt": "2026-10-14T00:09:47.371Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=intitle%3A%22Colossoma+macropomum%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "8da0713a0995dc81c7edbc66b799a7f2832a3d17fa85cdaed9790ed8c85392f9.json",
+          "status": "discarded",
+          "reasons": [
+            "Licencia no expresada como CC BY, CC BY-SA o CC0 con condiciones verificables en este filtro conservador."
+          ],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "gamitana",
+          "scientificName": "Colossoma macropomum",
+          "source": "Wikimedia Commons",
+          "externalId": "134472781",
+          "pageTitle": "File:Piaractus in Sendai Aquarium.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Piaractus_in_Sendai_Aquarium.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/Piaractus_in_Sendai_Aquarium.jpg",
+          "fileSha1": "11bcf9e7f6630041ce438c8c3100262eb3a1a385",
+          "author": "Kinori",
+          "authorHtml": "<a href=\"//commons.wikimedia.org/wiki/User:Kinori\" title=\"User:Kinori\">Kinori</a>",
+          "license": "CC0",
+          "licenseCode": "cc0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "attribution": "Piaractus in Sendai Aquarium — Kinori, CC0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Piaractus_in_Sendai_Aquarium.jpg); http://creativecommons.org/publicdomain/zero/1.0/deed.en. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Photo taken in Sendai Umi-no-mori Aquarium. Sendai, Miyagi prefecture, Japan.",
+            "descriptionHtml": "Photo taken in Sendai Umi-no-mori Aquarium. Sendai, Miyagi prefecture, Japan.",
+            "categories": "Piaractus|Taken with Panasonic Lumix DC-G9|CC-Zero|Self-published work|F-number f/2.8|Lens focal length 45 mm",
+            "credit": "Own work",
+            "metadataDate": "2023-07-16 03:05:47",
+            "attributionRequired": "false"
+          },
+          "fetchedAt": "2026-10-14T00:09:47.371Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=intitle%3A%22Colossoma+macropomum%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "8da0713a0995dc81c7edbc66b799a7f2832a3d17fa85cdaed9790ed8c85392f9.json",
+          "status": "discarded",
+          "reasons": [
+            "Ni título ni descripción identifican explícitamente la especie; una búsqueda o categoría no basta.",
+            "Conflicto entre Colossoma en la descripción y Piaractus en el título o categorías."
+          ],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        }
+      ],
+      "searches": [
+        {
+          "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Colossoma+macropomum%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "fetchedAt": "2026-10-14T00:04:08.575Z",
+          "cacheFile": "8f4342bd6f864622cf6cd6014837a138b79dbf28873883b7e36cffb5e1aacadc.json",
+          "ok": true,
+          "error": null
+        },
+        {
+          "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=intitle%3A%22Colossoma+macropomum%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "fetchedAt": "2026-10-14T00:09:47.371Z",
+          "cacheFile": "8da0713a0995dc81c7edbc66b799a7f2832a3d17fa85cdaed9790ed8c85392f9.json",
+          "ok": true,
+          "error": null
+        }
+      ],
+      "fetchedAt": "2026-10-14T00:04:08.575Z",
+      "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Colossoma+macropomum%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+      "cacheFile": "8f4342bd6f864622cf6cd6014837a138b79dbf28873883b7e36cffb5e1aacadc.json"
+    },
+    {
+      "internalId": "paco",
+      "scientificName": "Piaractus brachypomus",
+      "ok": true,
+      "error": null,
+      "candidates": [
+        {
+          "internalId": "paco",
+          "scientificName": "Piaractus brachypomus",
+          "source": "Wikimedia Commons",
+          "externalId": "1446680",
+          "pageTitle": "File:Colossoma-brachypomus.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Colossoma-brachypomus.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Colossoma-brachypomus.jpg",
+          "fileSha1": "20903a37daea1858ac01a9f89e01712b5220806a",
+          "author": "No machine-readable author provided. Stevenj assumed (based on copyright claims).",
+          "authorHtml": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:Stevenj\" title=\"User:Stevenj\">Stevenj</a> assumed (based on copyright claims).",
+          "license": "CC BY-SA 3.0",
+          "licenseCode": "cc-by-sa-3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "Colossoma-brachypomus — No machine-readable author provided. Stevenj assumed (based on copyright claims)., CC BY-SA 3.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Colossoma-brachypomus.jpg); http://creativecommons.org/licenses/by-sa/3.0/. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Colossoma brachypomus (silver pacu). Taken at the New England Aquarium (Boston, MA), December 2006. Copyright © 2006 Steven G. Johnson and donated to Wikipedia under GFDL and CC-by-SA.",
+            "descriptionHtml": "Colossoma brachypomus (silver pacu).  Taken at the New England Aquarium (Boston, MA), December 2006.  Copyright © 2006 <a href=\"//commons.wikimedia.org/wiki/User:Stevenj\" title=\"User:Stevenj\">Steven G. Johnson</a> and donated to Wikipedia under GFDL and CC-by-SA.",
+            "categories": "GFDL|Taken with Fujifilm FinePix F440|CC-BY-SA-2.5,2.0,1.0|Files with no machine-readable source|License migration redundant|Self-published work|Colossomatinae|Assumed own work|Photographs taken on 2006-12-09|Fishes at the New England Aquarium",
+            "credit": "No machine-readable source provided. Own work assumed (based on copyright claims).",
+            "metadataDate": "2006-12-10 04:52:50",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:08:52.029Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Piaractus+brachypomus%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "bbcd09c6aec63ce23d63933e48e1c552a668f194391680dca4ef2e2fa94c0478.json",
+          "status": "discarded",
+          "reasons": [
+            "Ni título ni descripción identifican explícitamente la especie; una búsqueda o categoría no basta."
+          ],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "paco",
+          "scientificName": "Piaractus brachypomus",
+          "source": "Wikimedia Commons",
+          "externalId": "2440304",
+          "pageTitle": "File:Pacu shedd.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Pacu_shedd.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Pacu_shedd.jpg",
+          "fileSha1": "0a9f17bcc2af0085b08376a5e9350ac0dc0e956b",
+          "author": "Omnitarian",
+          "authorHtml": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Omnitarian&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Omnitarian (page does not exist)\">Omnitarian</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseCode": "cc-by-sa-3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "Pacu shedd — Omnitarian, CC BY-SA 3.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Pacu_shedd.jpg); http://creativecommons.org/licenses/by-sa/3.0/. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Large Pacu at the Shedd Aquarium, Chicago.",
+            "descriptionHtml": "Large Pacu at the Shedd Aquarium, Chicago.",
+            "categories": "Colossoma macropomum|GFDL|CC-BY-SA-2.5,2.0,1.0|License migration redundant|Self-published work|Fish at Shedd Aquarium",
+            "credit": "Own work",
+            "metadataDate": "2007-07-21 16:47:26",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:08:52.029Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Piaractus+brachypomus%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "bbcd09c6aec63ce23d63933e48e1c552a668f194391680dca4ef2e2fa94c0478.json",
+          "status": "discarded",
+          "reasons": [
+            "Ni título ni descripción identifican explícitamente la especie; una búsqueda o categoría no basta."
+          ],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "paco",
+          "scientificName": "Piaractus brachypomus",
+          "source": "Wikimedia Commons",
+          "externalId": "17709112",
+          "pageTitle": "File:Red Pacu.JPG",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Red_Pacu.JPG",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Red_Pacu.JPG",
+          "fileSha1": "fd7515d15a847df2667a60134db4fa222cfa3d85",
+          "author": "Wisky",
+          "authorHtml": "<a href=\"//commons.wikimedia.org/wiki/User:Wisky\" title=\"User:Wisky\">Wisky</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseCode": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "Red Pacu — Wisky, CC BY-SA 3.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Red_Pacu.JPG); https://creativecommons.org/licenses/by-sa/3.0. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Red Pacu",
+            "descriptionHtml": "Red Pacu",
+            "categories": "Piaractus brachypomus|Taken with Canon PowerShot S3 IS|Aquarium fish|Self-published work",
+            "credit": "Own work",
+            "metadataDate": "2011-12-17 21:28:28",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:08:52.029Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Piaractus+brachypomus%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "bbcd09c6aec63ce23d63933e48e1c552a668f194391680dca4ef2e2fa94c0478.json",
+          "status": "discarded",
+          "reasons": [
+            "Ni título ni descripción identifican explícitamente la especie; una búsqueda o categoría no basta."
+          ],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "paco",
+          "scientificName": "Piaractus brachypomus",
+          "source": "Wikimedia Commons",
+          "externalId": "26496994",
+          "pageTitle": "File:Piaractus brachypomus in Minsk Zoo 02.JPG",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Piaractus_brachypomus_in_Minsk_Zoo_02.JPG",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Piaractus_brachypomus_in_Minsk_Zoo_02.JPG",
+          "fileSha1": "5a2902209b781807129df19a28e5edeb645319d7",
+          "author": "Mahufi",
+          "authorHtml": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mahufi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mahufi (page does not exist)\">Mahufi</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseCode": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "Piaractus brachypomus in Minsk Zoo 02 — Mahufi, CC BY-SA 3.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Piaractus_brachypomus_in_Minsk_Zoo_02.JPG); https://creativecommons.org/licenses/by-sa/3.0. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Piaractus brachypomus in Minsk Zoo",
+            "descriptionHtml": "Piaractus brachypomus in Minsk Zoo",
+            "categories": "Piaractus brachypomus|Taken with Sony DSLR-A300|Self-published work|Fish in Minsk Zoo",
+            "credit": "Own work",
+            "metadataDate": "2013-06-05 11:15:52",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:09:49.385Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=intitle%3A%22Piaractus+brachypomus%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "457e971d0b2c3381baf805a5c2897eb183f4d1eefe5e79bbb6912b5595ed49d8.json",
+          "status": "metadata-candidate-needs-manual-review",
+          "reasons": [],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "paco",
+          "scientificName": "Piaractus brachypomus",
+          "source": "Wikimedia Commons",
+          "externalId": "42349200",
+          "pageTitle": "File:Piaractus brachypomus - squelette mnhn Paris.JPG",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Piaractus_brachypomus_-_squelette_mnhn_Paris.JPG",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Piaractus_brachypomus_-_squelette_mnhn_Paris.JPG",
+          "fileSha1": "c492b346a231dba3e321d04eecea3f7551ff05ef",
+          "author": "Cedricguppy - Loury Cédric",
+          "authorHtml": "<a href=\"//commons.wikimedia.org/wiki/User:Cedricguppy\" title=\"User:Cedricguppy\">Cedricguppy - Loury Cédric</a>",
+          "license": "CC BY-SA 4.0",
+          "licenseCode": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "Piaractus brachypomus - squelette mnhn Paris — Cedricguppy - Loury Cédric, CC BY-SA 4.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Piaractus_brachypomus_-_squelette_mnhn_Paris.JPG); https://creativecommons.org/licenses/by-sa/4.0. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Piaractus brachypomus - Myletes paco - squelette tête mnhn Paris",
+            "descriptionHtml": "Piaractus brachypomus - Myletes paco - squelette tête mnhn Paris",
+            "categories": "Piaractus brachypomus|Taken with Sony HDR-PJ330E|Self-published work|Characiformes teeth",
+            "credit": "Own work",
+            "metadataDate": "2015-08-14 18:14:45",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:09:49.385Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=intitle%3A%22Piaractus+brachypomus%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "457e971d0b2c3381baf805a5c2897eb183f4d1eefe5e79bbb6912b5595ed49d8.json",
+          "status": "metadata-candidate-needs-manual-review",
+          "reasons": [],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "paco",
+          "scientificName": "Piaractus brachypomus",
+          "source": "Wikimedia Commons",
+          "externalId": "176348590",
+          "pageTitle": "File:Piaractus brachypomus 208962529.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Piaractus_brachypomus_208962529.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/df/Piaractus_brachypomus_208962529.jpg",
+          "fileSha1": "9035838d7b9780acabd2842ae3f9ae1063882195",
+          "author": "w_endo",
+          "authorHtml": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/5189754\">w_endo</a>",
+          "license": "CC0",
+          "licenseCode": "cc0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "attribution": "Piaractus brachypomus 208962529 — w_endo, CC0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Piaractus_brachypomus_208962529.jpg); http://creativecommons.org/publicdomain/zero/1.0/deed.en. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Red-bellied Pacu ( Piaractus brachypomus ) in Brazil",
+            "descriptionHtml": "Red-bellied Pacu (<i>Piaractus brachypomus</i>) in Brazil",
+            "categories": "Piaractus brachypomus|CC-Zero|Media from iNaturalist|INaturalist images reviewed by iNaturalistReviewBot|Files with coordinates missing SDC location of creation|Uploaded with iNaturalist2Commons|Media from GBIF|INaturalist images missing SDC depicts",
+            "credit": "https://www.inaturalist.org/photos/208962529",
+            "metadataDate": "2025-10-08 20:46:28",
+            "attributionRequired": "false"
+          },
+          "fetchedAt": "2026-10-14T00:09:49.385Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=intitle%3A%22Piaractus+brachypomus%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "457e971d0b2c3381baf805a5c2897eb183f4d1eefe5e79bbb6912b5595ed49d8.json",
+          "status": "metadata-candidate-needs-manual-review",
+          "reasons": [],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        }
+      ],
+      "searches": [
+        {
+          "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Piaractus+brachypomus%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "fetchedAt": "2026-10-14T00:08:52.029Z",
+          "cacheFile": "bbcd09c6aec63ce23d63933e48e1c552a668f194391680dca4ef2e2fa94c0478.json",
+          "ok": true,
+          "error": null
+        },
+        {
+          "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=intitle%3A%22Piaractus+brachypomus%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "fetchedAt": "2026-10-14T00:09:49.385Z",
+          "cacheFile": "457e971d0b2c3381baf805a5c2897eb183f4d1eefe5e79bbb6912b5595ed49d8.json",
+          "ok": true,
+          "error": null
+        }
+      ],
+      "fetchedAt": "2026-10-14T00:08:52.029Z",
+      "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Piaractus+brachypomus%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+      "cacheFile": "bbcd09c6aec63ce23d63933e48e1c552a668f194391680dca4ef2e2fa94c0478.json"
+    },
+    {
+      "internalId": "pez-cebra",
+      "scientificName": "Danio rerio",
+      "ok": true,
+      "error": null,
+      "candidates": [
+        {
+          "internalId": "pez-cebra",
+          "scientificName": "Danio rerio",
+          "source": "Wikimedia Commons",
+          "externalId": "260841",
+          "pageTitle": "File:Zebrafisch.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Zebrafisch.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Zebrafisch.jpg",
+          "fileSha1": "f13427236dd7c316b94ffa066a8d4b7aa2164686",
+          "author": "Azul",
+          "authorHtml": "<a href=\"https://en.wikipedia.org/wiki/User:Azul\" class=\"extiw\" title=\"w:User:Azul\">Azul</a>",
+          "license": "Copyrighted free use",
+          "licenseCode": "",
+          "licenseUrl": "",
+          "attribution": "Zebrafisch — Azul, Copyrighted free use, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Zebrafisch.jpg); condiciones pendientes. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "A female specimen of a zebrafish ( Danio rerio ) breed with fantails",
+            "descriptionHtml": "A female specimen of a <a href=\"https://en.wikipedia.org/wiki/Zebrafish\" class=\"extiw\" title=\"en:Zebrafish\">zebrafish</a> (<i>Danio rerio</i>) breed with fantails",
+            "categories": "Danio rerio|Taken with Canon PowerShot S45|Copyrighted free use|Photographs taken on 2005-05-23|Striped fish",
+            "credit": "Own work",
+            "metadataDate": "2005-08-09 15:02:03",
+            "attributionRequired": "false"
+          },
+          "fetchedAt": "2026-10-14T00:08:54.033Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Danio+rerio%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "c74f17afea3d10cd43ea764ebfa63dcf73e80618591add07cc932b4e7c43e828.json",
+          "status": "discarded",
+          "reasons": [
+            "Licencia no expresada como CC BY, CC BY-SA o CC0 con condiciones verificables en este filtro conservador."
+          ],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "pez-cebra",
+          "scientificName": "Danio rerio",
+          "source": "Wikimedia Commons",
+          "externalId": "24103990",
+          "pageTitle": "File:Zebrafish 30hpf larvae.tif",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Zebrafish_30hpf_larvae.tif",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Zebrafish_30hpf_larvae.tif",
+          "fileSha1": "be0875d7bd856503bfa5e7a7dda166cf7974eb63",
+          "author": "Hakkinen2013",
+          "authorHtml": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Hakkinen2013&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Hakkinen2013 (page does not exist)\">Hakkinen2013</a>",
+          "license": "CC BY-SA 3.0",
+          "licenseCode": "cc-by-sa-3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "attribution": "Zebrafish 30hpf larvae — Hakkinen2013, CC BY-SA 3.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Zebrafish_30hpf_larvae.tif); https://creativecommons.org/licenses/by-sa/3.0. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Larvae of zebrafish, Danio rerio (detail). tg(Foxd3:18gfp) zebrafish larvae at 30 hpf (hours post-fertilization). Schwann cell precursors can be seen migrating down the posterior lateral line nerve. The leading Schwann cell can be seen extending processes outward.",
+            "descriptionHtml": "Larvae of zebrafish, <i>Danio rerio</i> (detail). tg(Foxd3:18gfp) zebrafish larvae at 30 hpf (hours post-fertilization). Schwann cell precursors can be seen migrating down the posterior lateral line nerve. The leading Schwann cell can be seen extending processes outward.",
+            "categories": "Danio rerio|GFDL|Fluorescence microscopy|License migration redundant|Self-published work|Uploaded with en.wp upload wizard|Schwann cells|Forkhead box protein D3",
+            "credit": "I took the picture several weeks ago",
+            "metadataDate": "2013-01-23 04:14:32",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:08:54.033Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Danio+rerio%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "c74f17afea3d10cd43ea764ebfa63dcf73e80618591add07cc932b4e7c43e828.json",
+          "status": "metadata-candidate-needs-manual-review",
+          "reasons": [],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "pez-cebra",
+          "scientificName": "Danio rerio",
+          "source": "Wikimedia Commons",
+          "externalId": "142479349",
+          "pageTitle": "File:Corte de teléncefalo de pez cebra.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Corte_de_tel%C3%A9ncefalo_de_pez_cebra.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Corte_de_tel%C3%A9ncefalo_de_pez_cebra.jpg",
+          "fileSha1": "a0b88f616317d7727f8514369eafbcf26eb2bd37",
+          "author": "Brandon Antonio Segura Torres & Priscilla Vieto Bonilla",
+          "authorHtml": "Brandon Antonio Segura Torres &amp; Priscilla Vieto Bonilla",
+          "license": "CC BY-SA 4.0",
+          "licenseCode": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "Corte de teléncefalo de pez cebra — Brandon Antonio Segura Torres & Priscilla Vieto Bonilla, CC BY-SA 4.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Corte_de_tel%C3%A9ncefalo_de_pez_cebra.jpg); https://creativecommons.org/licenses/by-sa/4.0. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Transverse section of a zebrafish telencephalon, 20 microns thick, observed under a confocal microscope with immunofluorescence staining. The green structures represent neurons stained for Nissl bodies, and the elongated cells are endothelial cells of blood vessels. The blue color indicates the presence of neuronal nuclei, representing their DNA.",
+            "descriptionHtml": "Transverse section of a zebrafish telencephalon, 20 microns thick, observed under a confocal microscope with immunofluorescence staining. The green structures represent neurons stained for Nissl bodies, and the elongated cells are endothelial cells of blood vessels. The blue color indicates the presence of neuronal nuclei, representing their DNA.",
+            "categories": "Telencephalon|Self-published work|Images from Wiki Science Competition 2023 in Argentina|Microscopy images from Wiki Science Competition 2023|Files with Spanish file names|Microscopic images of Danio rerio brain",
+            "credit": "Own work",
+            "metadataDate": "2023-12-19 22:49:12",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:08:54.033Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Danio+rerio%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "c74f17afea3d10cd43ea764ebfa63dcf73e80618591add07cc932b4e7c43e828.json",
+          "status": "discarded",
+          "reasons": [
+            "Ni título ni descripción identifican explícitamente la especie; una búsqueda o categoría no basta."
+          ],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        }
+      ],
+      "searches": [
+        {
+          "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Danio+rerio%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "fetchedAt": "2026-10-14T00:08:54.033Z",
+          "cacheFile": "c74f17afea3d10cd43ea764ebfa63dcf73e80618591add07cc932b4e7c43e828.json",
+          "ok": true,
+          "error": null
+        }
+      ],
+      "fetchedAt": "2026-10-14T00:08:54.033Z",
+      "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Danio+rerio%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+      "cacheFile": "c74f17afea3d10cd43ea764ebfa63dcf73e80618591add07cc932b4e7c43e828.json"
+    },
+    {
+      "internalId": "dicentrarchus-labrax",
+      "scientificName": "Dicentrarchus labrax",
+      "ok": true,
+      "error": null,
+      "candidates": [
+        {
+          "internalId": "dicentrarchus-labrax",
+          "scientificName": "Dicentrarchus labrax",
+          "source": "Wikimedia Commons",
+          "externalId": "38631303",
+          "pageTitle": "File:Dicentrarchus labrax LoroParqueTenerife seabass IMG 4959.JPG",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_LoroParqueTenerife_seabass_IMG_4959.JPG",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Dicentrarchus_labrax_LoroParqueTenerife_seabass_IMG_4959.JPG",
+          "fileSha1": "426207f218f4a9e6647aa0d71278181f65d277c5",
+          "author": "Bjoertvedt",
+          "authorHtml": "<a href=\"//commons.wikimedia.org/wiki/User:Bjoertvedt\" title=\"User:Bjoertvedt\">Bjoertvedt</a>",
+          "license": "CC BY-SA 4.0",
+          "licenseCode": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "Dicentrarchus labrax LoroParqueTenerife seabass IMG 4959 — Bjoertvedt, CC BY-SA 4.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_LoroParqueTenerife_seabass_IMG_4959.JPG); https://creativecommons.org/licenses/by-sa/4.0. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Dicentrarchus labrax, or common uropean sea-bass, in the Loro Parque aqurium, Tenerife, Spain",
+            "descriptionHtml": "Dicentrarchus labrax, or common uropean sea-bass, in the Loro Parque aqurium, Tenerife, Spain",
+            "categories": "Dicentrarchus labrax|Taken with Canon EOS 7D|Self-published work|Images with extracted images|Loro Parque (Aquarium)",
+            "credit": "Own work",
+            "metadataDate": "2015-02-27 15:01:19",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:08:56.034Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Dicentrarchus+labrax%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "a16ab72683d1221c50b62fc9193ad8569d833d7e282009c39a87f2cae26cf5cf.json",
+          "status": "metadata-candidate-needs-manual-review",
+          "reasons": [],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "dicentrarchus-labrax",
+          "scientificName": "Dicentrarchus labrax",
+          "source": "Wikimedia Commons",
+          "externalId": "141778041",
+          "pageTitle": "File:Dicentrarchus labrax 316467200.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_316467200.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Dicentrarchus_labrax_316467200.jpg",
+          "fileSha1": "757269dbf7dee0db4892f9ec760c8dd7c0fa0586",
+          "author": "Pavel Kacl",
+          "authorHtml": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/1807156\">Pavel Kacl</a>",
+          "license": "CC BY 4.0",
+          "licenseCode": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "attribution": "Dicentrarchus labrax 316467200 — Pavel Kacl, CC BY 4.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_316467200.jpg); https://creativecommons.org/licenses/by/4.0. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "European Seabass ( Dicentrarchus labrax )",
+            "descriptionHtml": "European Seabass (<i>Dicentrarchus labrax</i>)",
+            "categories": "Dicentrarchus labrax|Media from iNaturalist|INaturalist images reviewed by iNaturalistReviewBot|Files with coordinates missing SDC location of creation|Greece photographs taken on 2023-08-27|Uploaded with iNaturalist2Commons|Media from GBIF",
+            "credit": "https://www.inaturalist.org/photos/316467200",
+            "metadataDate": "2023-12-05 17:01:04",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:08:56.034Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Dicentrarchus+labrax%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "a16ab72683d1221c50b62fc9193ad8569d833d7e282009c39a87f2cae26cf5cf.json",
+          "status": "metadata-candidate-needs-manual-review",
+          "reasons": [],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "dicentrarchus-labrax",
+          "scientificName": "Dicentrarchus labrax",
+          "source": "Wikimedia Commons",
+          "externalId": "141778071",
+          "pageTitle": "File:Dicentrarchus labrax 177025102.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_177025102.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6f/Dicentrarchus_labrax_177025102.jpg",
+          "fileSha1": "bce96ed2b198797730a4f6f7c8fc46824d5e6da5",
+          "author": "Julien Renoult",
+          "authorHtml": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.inaturalist.org/users/175009\">Julien Renoult</a>",
+          "license": "CC BY 4.0",
+          "licenseCode": "cc-by-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+          "attribution": "Dicentrarchus labrax 177025102 — Julien Renoult, CC BY 4.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Dicentrarchus_labrax_177025102.jpg); https://creativecommons.org/licenses/by/4.0. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "European Seabass ( Dicentrarchus labrax )",
+            "descriptionHtml": "European Seabass (<i>Dicentrarchus labrax</i>)",
+            "categories": "Dicentrarchus labrax|Images with extracted images|Media from iNaturalist|INaturalist images reviewed by iNaturalistReviewBot|Files with coordinates missing SDC location of creation|Uploaded with iNaturalist2Commons|Media from GBIF|Occitanie photographs taken on 2022-01-23",
+            "credit": "https://www.inaturalist.org/photos/177025102",
+            "metadataDate": "2023-12-05 17:01:58",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:08:56.034Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Dicentrarchus+labrax%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "a16ab72683d1221c50b62fc9193ad8569d833d7e282009c39a87f2cae26cf5cf.json",
+          "status": "metadata-candidate-needs-manual-review",
+          "reasons": [],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        }
+      ],
+      "searches": [
+        {
+          "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Dicentrarchus+labrax%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "fetchedAt": "2026-10-14T00:08:56.034Z",
+          "cacheFile": "a16ab72683d1221c50b62fc9193ad8569d833d7e282009c39a87f2cae26cf5cf.json",
+          "ok": true,
+          "error": null
+        }
+      ],
+      "fetchedAt": "2026-10-14T00:08:56.034Z",
+      "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Dicentrarchus+labrax%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+      "cacheFile": "a16ab72683d1221c50b62fc9193ad8569d833d7e282009c39a87f2cae26cf5cf.json"
+    },
+    {
+      "internalId": "lucio",
+      "scientificName": "Esox lucius",
+      "ok": true,
+      "error": null,
+      "candidates": [
+        {
+          "internalId": "lucio",
+          "scientificName": "Esox lucius",
+          "source": "Wikimedia Commons",
+          "externalId": "121383",
+          "pageTitle": "File:Hecht.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Hecht.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Hecht.jpg",
+          "fileSha1": "27dfa6d256253f830f93c67b2982c70ed6474ff6",
+          "author": "",
+          "authorHtml": "",
+          "license": "CC BY-SA 3.0",
+          "licenseCode": "cc-by-sa-3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/",
+          "attribution": "Hecht — autor pendiente, CC BY-SA 3.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Hecht.jpg); http://creativecommons.org/licenses/by-sa/3.0/. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "",
+            "descriptionHtml": "",
+            "categories": "Esox lucius|GFDL|Files with no machine-readable author|Files with no machine-readable source|License migration completed|Media missing infobox template",
+            "credit": "",
+            "metadataDate": "2017-11-22 01:45:00",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:08:58.037Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Esox+lucius%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "f404108aa9f94ee6415859fc25093fb8d2ab17928d42940102bec9fca49a56dc.json",
+          "status": "discarded",
+          "reasons": [
+            "Ni título ni descripción identifican explícitamente la especie; una búsqueda o categoría no basta.",
+            "Autor ausente: revisar antes de preparar atribución."
+          ],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "lucio",
+          "scientificName": "Esox lucius",
+          "source": "Wikimedia Commons",
+          "externalId": "984099",
+          "pageTitle": "File:Esox Lucius.JPG",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:Esox_Lucius.JPG",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Esox_Lucius.JPG",
+          "fileSha1": "b967e9223c2714493d37a56a3a7983a8f694fb24",
+          "author": "Georg Mittenecker",
+          "authorHtml": "Georg Mittenecker",
+          "license": "CC BY-SA 2.5",
+          "licenseCode": "cc-by-sa-2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5",
+          "attribution": "Esox Lucius — Georg Mittenecker, CC BY-SA 2.5, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:Esox_Lucius.JPG); https://creativecommons.org/licenses/by-sa/2.5. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "Europäischer Hecht ( Esox lucius ), Maretarium Kotka (Finnland) / Northern Pike ( Esox lucius ), Maretarium Kotka / Finland;",
+            "descriptionHtml": "Europäischer Hecht (<i>Esox lucius</i>), Maretarium Kotka (Finnland) / Northern Pike (<i>Esox lucius</i>), Maretarium Kotka / Finland;",
+            "categories": "Esox lucius|Taken with Minolta Dimage 7i|Images with extracted images|Photographs taken on 2004-03-03",
+            "credit": "Own work",
+            "metadataDate": "2006-07-25 11:24:45",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:08:58.037Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Esox+lucius%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "f404108aa9f94ee6415859fc25093fb8d2ab17928d42940102bec9fca49a56dc.json",
+          "status": "metadata-candidate-needs-manual-review",
+          "reasons": [],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        },
+        {
+          "internalId": "lucio",
+          "scientificName": "Esox lucius",
+          "source": "Wikimedia Commons",
+          "externalId": "65201057",
+          "pageTitle": "File:The Pescetarian.jpg",
+          "originalPage": "https://commons.wikimedia.org/wiki/File:The_Pescetarian.jpg",
+          "fileUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/The_Pescetarian.jpg",
+          "fileSha1": "2c5b79de33d315e614004cf02684a485767d4c1e",
+          "author": "Prosthetic Head",
+          "authorHtml": "<a href=\"//commons.wikimedia.org/wiki/User:Prosthetic_Head\" title=\"User:Prosthetic Head\">Prosthetic Head</a>",
+          "license": "CC BY-SA 4.0",
+          "licenseCode": "cc-by-sa-4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "attribution": "The Pescetarian — Prosthetic Head, CC BY-SA 4.0, Wikimedia Commons (https://commons.wikimedia.org/wiki/File:The_Pescetarian.jpg); https://creativecommons.org/licenses/by-sa/4.0. Sin modificaciones en esta evaluación.",
+          "evidence": {
+            "description": "An american herring gull eating a northen pike on rocks. Taken on the edge of Lake Superior , near Grand Marais, MN .",
+            "descriptionHtml": "An <a class=\"external text\" href=\"https://en.wikipedia.org/wiki/American_herring_gull\">american herring gull</a> eating a <a class=\"external text\" href=\"https://en.wikipedia.org/wiki/Northern_pike\">northen pike</a> on rocks. Taken on the edge of <a class=\"external text\" href=\"https://en.wikipedia.org/wiki/Lake_Superior\">Lake Superior</a>, near <a class=\"external text\" href=\"https://en.wikipedia.org/wiki/Grand_Marais,_Minnesota\">Grand Marais, MN</a>.",
+            "categories": "Esox lucius|Larus smithsonianus|Lake Superior|Grand Marais, Minnesota|Self-published work|Laridae eating fish",
+            "credit": "Own work",
+            "metadataDate": "2018-01-02 14:10:00",
+            "attributionRequired": "true"
+          },
+          "fetchedAt": "2026-10-14T00:08:58.037Z",
+          "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Esox+lucius%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "cacheFile": "f404108aa9f94ee6415859fc25093fb8d2ab17928d42940102bec9fca49a56dc.json",
+          "status": "discarded",
+          "reasons": [
+            "Ni título ni descripción identifican explícitamente la especie; una búsqueda o categoría no basta."
+          ],
+          "imported": false,
+          "imageDownloaded": false,
+          "visualReview": "pending",
+          "identificationCertified": false
+        }
+      ],
+      "searches": [
+        {
+          "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Esox+lucius%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+          "fetchedAt": "2026-10-14T00:08:58.037Z",
+          "cacheFile": "f404108aa9f94ee6415859fc25093fb8d2ab17928d42940102bec9fca49a56dc.json",
+          "ok": true,
+          "error": null
+        }
+      ],
+      "fetchedAt": "2026-10-14T00:08:58.037Z",
+      "requestUrl": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Esox+lucius%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+      "cacheFile": "f404108aa9f94ee6415859fc25093fb8d2ab17928d42940102bec9fca49a56dc.json"
+    }
+  ],
+  "datasets": {
+    "col": {
+      "key": 310463,
+      "version": "Annual Checklist 2025",
+      "issued": "2025-06-13",
+      "doi": "10.48580/dgr6n",
+      "licenseAsReturned": "cc by",
+      "citationAsReturned": "<div class=\"csl-entry\">B&aacute;nki, O., Roskov, Y., D&ouml;ring, M., Ower, G., Hern&aacute;ndez Robles, D. R., Plata Corredor, C. A., Stjernegaard Jeppesen, T., &Ouml;rn, A., Pape, T., Hobern, D., Garnett, S., Little, H., DeWalt, R. E., Miller, J., &amp; Orrell, T. (2025). <span style=\"font-style: italic\">Catalogue of Life</span> (Annual Checklist 2025). Catalogue of Life Foundation, Amsterdam, Netherlands. https://doi.org/10.48580/dgr6n</div>",
+      "fetchedAt": "2026-10-14T00:03:49.745Z",
+      "cacheFile": "550bfab7164f16082671ab9e2b0c03ce1af135ab82e70a185ca926d1264dfe04.json"
+    },
+    "gbif": {
+      "key": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "title": "GBIF Backbone Taxonomy",
+      "licenseAsReturned": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "doi": "10.15468/39omei",
+      "citationAsReturned": {
+        "text": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-10-13.",
+        "citationProvidedBySource": false
+      },
+      "fetchedAt": "2026-10-14T00:03:51.758Z",
+      "cacheFile": "e3bd497349e008d417cf4373fed640bb5bc6564a088cb67934ad80cd7b8fa93d.json"
+    },
+    "worms": {
+      "key": "WoRMS-live",
+      "version": "Los registros conservan modifiedAt y la cita del proveedor; no se descargó una versión completa."
+    }
+  },
+  "execution": {
+    "offline": false,
+    "networkRequests": 2,
+    "events": [
+      {
+        "source": "col-metadata",
+        "url": "https://api.checklistbank.org/dataset/COL2025",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:03:49.745Z"
+      },
+      {
+        "source": "gbif-dataset-metadata",
+        "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:03:51.758Z"
+      },
+      {
+        "source": "gbif",
+        "url": "https://api.gbif.org/v1/species/match?name=Amphiprion+ocellaris&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:07:41.778Z"
+      },
+      {
+        "source": "gbif-parents",
+        "url": "https://api.gbif.org/v1/species/5212106/parents",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:07:43.779Z"
+      },
+      {
+        "source": "col",
+        "url": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Amphiprion+ocellaris&kingdom=Animalia&phylum=Chordata&rank=species",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:07:45.793Z"
+      },
+      {
+        "source": "worms",
+        "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Amphiprion%20ocellaris?like=false&marine_only=false",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:07:47.798Z"
+      },
+      {
+        "source": "gbif",
+        "url": "https://api.gbif.org/v1/species/match?name=Hippocampus+ingens&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:07:49.812Z"
+      },
+      {
+        "source": "gbif-parents",
+        "url": "https://api.gbif.org/v1/species/5201050/parents",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:07:51.815Z"
+      },
+      {
+        "source": "col",
+        "url": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Hippocampus+ingens&kingdom=Animalia&phylum=Chordata&rank=species",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:07:53.825Z"
+      },
+      {
+        "source": "worms",
+        "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Hippocampus%20ingens?like=false&marine_only=false",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:07:55.832Z"
+      },
+      {
+        "source": "gbif",
+        "url": "https://api.gbif.org/v1/species/match?name=Engraulis+ringens&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:04:02.554Z"
+      },
+      {
+        "source": "gbif-parents",
+        "url": "https://api.gbif.org/v1/species/2414014/parents",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:07:57.835Z"
+      },
+      {
+        "source": "col",
+        "url": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Engraulis+ringens&kingdom=Animalia&phylum=Chordata&rank=species",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:04:04.559Z"
+      },
+      {
+        "source": "worms",
+        "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Engraulis%20ringens?like=false&marine_only=false",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:04:06.562Z"
+      },
+      {
+        "source": "gbif",
+        "url": "https://api.gbif.org/v1/species/match?name=Colossoma+macropomum&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:07:59.847Z"
+      },
+      {
+        "source": "gbif-parents",
+        "url": "https://api.gbif.org/v1/species/2353152/parents",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:01.862Z"
+      },
+      {
+        "source": "col",
+        "url": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Colossoma+macropomum&kingdom=Animalia&phylum=Chordata&rank=species",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:03.868Z"
+      },
+      {
+        "source": "worms",
+        "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Colossoma%20macropomum?like=false&marine_only=false",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:05.869Z"
+      },
+      {
+        "source": "gbif",
+        "url": "https://api.gbif.org/v1/species/match?name=Piaractus+brachypomus&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:07.883Z"
+      },
+      {
+        "source": "gbif-parents",
+        "url": "https://api.gbif.org/v1/species/2353225/parents",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:09.895Z"
+      },
+      {
+        "source": "col",
+        "url": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Piaractus+brachypomus&kingdom=Animalia&phylum=Chordata&rank=species",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:11.896Z"
+      },
+      {
+        "source": "worms",
+        "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Piaractus%20brachypomus?like=false&marine_only=false",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:13.900Z"
+      },
+      {
+        "source": "gbif",
+        "url": "https://api.gbif.org/v1/species/match?name=Betta+splendens&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:15.912Z"
+      },
+      {
+        "source": "gbif-parents",
+        "url": "https://api.gbif.org/v1/species/2393998/parents",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:17.916Z"
+      },
+      {
+        "source": "col",
+        "url": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Betta+splendens&kingdom=Animalia&phylum=Chordata&rank=species",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:19.921Z"
+      },
+      {
+        "source": "worms",
+        "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Betta%20splendens?like=false&marine_only=false",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:21.929Z"
+      },
+      {
+        "source": "gbif",
+        "url": "https://api.gbif.org/v1/species/match?name=Salmo+salar&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:23.930Z"
+      },
+      {
+        "source": "gbif-parents",
+        "url": "https://api.gbif.org/v1/species/7595433/parents",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:25.936Z"
+      },
+      {
+        "source": "col",
+        "url": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Salmo+salar&kingdom=Animalia&phylum=Chordata&rank=species",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:27.940Z"
+      },
+      {
+        "source": "worms",
+        "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Salmo%20salar?like=false&marine_only=false",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:29.947Z"
+      },
+      {
+        "source": "gbif",
+        "url": "https://api.gbif.org/v1/species/match?name=Oncorhynchus+mykiss&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:31.953Z"
+      },
+      {
+        "source": "gbif-parents",
+        "url": "https://api.gbif.org/v1/species/5204019/parents",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:33.959Z"
+      },
+      {
+        "source": "col",
+        "url": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Oncorhynchus+mykiss&kingdom=Animalia&phylum=Chordata&rank=species",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:35.962Z"
+      },
+      {
+        "source": "worms",
+        "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Oncorhynchus%20mykiss?like=false&marine_only=false",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:37.967Z"
+      },
+      {
+        "source": "gbif-vernaculars",
+        "url": "https://api.gbif.org/v1/species/5212106/vernacularNames?limit=100",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:39.981Z"
+      },
+      {
+        "source": "worms-vernaculars",
+        "url": "https://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/278400",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:41.994Z"
+      },
+      {
+        "source": "gbif-vernaculars",
+        "url": "https://api.gbif.org/v1/species/2414014/vernacularNames?limit=100",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:43.999Z"
+      },
+      {
+        "source": "worms-vernaculars",
+        "url": "https://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/272287",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:46.000Z"
+      },
+      {
+        "source": "gbif-vernaculars",
+        "url": "https://api.gbif.org/v1/species/2353152/vernacularNames?limit=100",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:48.014Z"
+      },
+      {
+        "source": "worms-vernaculars",
+        "url": "https://www.marinespecies.org/rest/AphiaVernacularsByAphiaID/1020122",
+        "status": 204,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:50.015Z"
+      },
+      {
+        "source": "commons",
+        "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Colossoma+macropomum%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:04:08.575Z"
+      },
+      {
+        "source": "commons-targeted",
+        "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=intitle%3A%22Colossoma+macropomum%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+        "status": 200,
+        "mode": "network",
+        "attempt": 1,
+        "ok": true,
+        "fetchedAt": "2026-10-14T00:09:47.371Z",
+        "error": null
+      },
+      {
+        "source": "commons",
+        "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Piaractus+brachypomus%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:52.029Z"
+      },
+      {
+        "source": "commons-targeted",
+        "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=intitle%3A%22Piaractus+brachypomus%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+        "status": 200,
+        "mode": "network",
+        "attempt": 1,
+        "ok": true,
+        "fetchedAt": "2026-10-14T00:09:49.385Z",
+        "error": null
+      },
+      {
+        "source": "commons",
+        "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Danio+rerio%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:54.033Z"
+      },
+      {
+        "source": "commons",
+        "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Dicentrarchus+labrax%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:56.034Z"
+      },
+      {
+        "source": "commons",
+        "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Esox+lucius%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+        "status": 200,
+        "mode": "cache",
+        "fetchedAt": "2026-10-14T00:08:58.037Z"
+      }
+    ],
+    "minimumIntervalMs": 2000,
+    "timeoutMs": 12000,
+    "maxAttempts": 3,
+    "maximumRequests": 90
+  }
+}

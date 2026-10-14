@@ -1,0 +1,352 @@
+{
+  "phase": 2,
+  "sourceRun": "run-2026-10-14T00-17-08-881Z.json",
+  "reviewedAt": "2026-10-13",
+  "productionModified": false,
+  "records": [
+    {
+      "internalId": "clownfish",
+      "scientificName": "Amphiprion ocellaris",
+      "externalIdentifiers": [
+        {
+          "source": "col",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "310463",
+          "externalId": "D55Y",
+          "acceptedId": "D55Y",
+          "acceptedName": "Amphiprion ocellaris",
+          "fetchedAt": "2026-10-14T00:07:45.793Z",
+          "cacheFile": "22db01f5d16bc1bd5e92119b8f163c3b8e4f58edb1dcc6c5f43e743dd07714e2.json"
+        },
+        {
+          "source": "gbif",
+          "status": "needs-review",
+          "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+          "externalId": "5212106",
+          "acceptedId": "5212106",
+          "acceptedName": "Amphiprion ocellaris",
+          "fetchedAt": "2026-10-14T00:07:41.778Z",
+          "cacheFile": "3066b4ba5537d4b62a4c3f16d12508ef12a082ce88bd6f0040a7148cf1ffb245.json"
+        },
+        {
+          "source": "worms",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "WoRMS-live",
+          "externalId": "278400",
+          "acceptedId": "278400",
+          "acceptedName": "Amphiprion ocellaris",
+          "fetchedAt": "2026-10-14T00:07:47.798Z",
+          "cacheFile": "2c447370f178a4a72d2104990670e63ce2e7b159e02623faf4201f791199f9b7.json"
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "order",
+          "values": [
+            {
+              "source": "gbif",
+              "value": "Perciformes"
+            },
+            {
+              "source": "worms",
+              "value": "Ovalentaria incertae sedis"
+            }
+          ]
+        }
+      ],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "seahorse",
+      "scientificName": "Hippocampus ingens",
+      "externalIdentifiers": [
+        {
+          "source": "col",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "310463",
+          "externalId": "3LZM9",
+          "acceptedId": "3LZM9",
+          "acceptedName": "Hippocampus ingens",
+          "fetchedAt": "2026-10-14T00:07:53.825Z",
+          "cacheFile": "8eb26a361357c2da4591184d5514b3949d4e04543dd8bf197791abb50016847b.json"
+        },
+        {
+          "source": "gbif",
+          "status": "needs-review",
+          "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+          "externalId": "5201050",
+          "acceptedId": "5201050",
+          "acceptedName": "Hippocampus ingens",
+          "fetchedAt": "2026-10-14T00:07:49.812Z",
+          "cacheFile": "b7d6831710974755f364799b2cc2221ce4e7f5003adbac813667d831abbd47f5.json"
+        },
+        {
+          "source": "worms",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "WoRMS-live",
+          "externalId": "275197",
+          "acceptedId": "275197",
+          "acceptedName": "Hippocampus ingens",
+          "fetchedAt": "2026-10-14T00:07:55.832Z",
+          "cacheFile": "8f1dd150aee3cbe8b84fd5595a9bfdad25620b8b538d4eaf95c05db4f5b84825.json"
+        }
+      ],
+      "conflicts": [],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "engraulis-ringens",
+      "scientificName": "Engraulis ringens",
+      "externalIdentifiers": [
+        {
+          "source": "col",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "310463",
+          "externalId": "39TNG",
+          "acceptedId": "39TNG",
+          "acceptedName": "Engraulis ringens",
+          "fetchedAt": "2026-10-14T00:04:04.559Z",
+          "cacheFile": "acbbab53c60fbb5a57a9cbb70ec028b8a0361d85db0143eda65c4e99dfee1554.json"
+        },
+        {
+          "source": "gbif",
+          "status": "needs-review",
+          "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+          "externalId": "2414014",
+          "acceptedId": "2414014",
+          "acceptedName": "Engraulis ringens",
+          "fetchedAt": "2026-10-14T00:04:02.554Z",
+          "cacheFile": "c0daafe9fc21da2b37fc7bf0a590a557be5ad5c88fcd2d1d75cd77f1b417d52b.json"
+        },
+        {
+          "source": "worms",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "WoRMS-live",
+          "externalId": "272287",
+          "acceptedId": "272287",
+          "acceptedName": "Engraulis ringens",
+          "fetchedAt": "2026-10-14T00:04:06.562Z",
+          "cacheFile": "e7e5f284d543ef31260d108d2285fb598d592732431c2483778f0c22b6621c5a.json"
+        }
+      ],
+      "conflicts": [],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "gamitana",
+      "scientificName": "Colossoma macropomum",
+      "externalIdentifiers": [
+        {
+          "source": "col",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "310463",
+          "externalId": "X8BJ",
+          "acceptedId": "X8BJ",
+          "acceptedName": "Colossoma macropomum",
+          "fetchedAt": "2026-10-14T00:08:03.868Z",
+          "cacheFile": "84c7ccda313241b2a9c24c09d532881612317b1ce1347db4dd1772235f28008b.json"
+        },
+        {
+          "source": "gbif",
+          "status": "needs-review",
+          "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+          "externalId": "2353152",
+          "acceptedId": "2353152",
+          "acceptedName": "Colossoma macropomum",
+          "fetchedAt": "2026-10-14T00:07:59.847Z",
+          "cacheFile": "a37dbb9a17a87f011ee013cab803064974bc8cf128d3ad00e75132e71e13970b.json"
+        },
+        {
+          "source": "worms",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "WoRMS-live",
+          "externalId": "1020122",
+          "acceptedId": "1020122",
+          "acceptedName": "Colossoma macropomum",
+          "fetchedAt": "2026-10-14T00:08:05.869Z",
+          "cacheFile": "d148d80ab2fd760e95d264aa104e0bc000963ad9b9355745cf41f8642cbadd49.json"
+        }
+      ],
+      "conflicts": [],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "paco",
+      "scientificName": "Piaractus brachypomus",
+      "externalIdentifiers": [
+        {
+          "source": "col",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "310463",
+          "externalId": "4HPKY",
+          "acceptedId": "4HPKY",
+          "acceptedName": "Piaractus brachypomus",
+          "fetchedAt": "2026-10-14T00:08:11.896Z",
+          "cacheFile": "ea9aaf19a7cfe482ac6da8c6f403834bd8c4d4c638d177fec40d2ad9c7d32c4a.json"
+        },
+        {
+          "source": "gbif",
+          "status": "needs-review",
+          "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+          "externalId": "2353225",
+          "acceptedId": "2353225",
+          "acceptedName": "Piaractus brachypomus",
+          "fetchedAt": "2026-10-14T00:08:07.883Z",
+          "cacheFile": "8445966573939b219d36ac83954b4e0705481de4cf922c104065ab266dd22508.json"
+        },
+        {
+          "source": "worms",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "WoRMS-live",
+          "externalId": "1022721",
+          "acceptedId": "1022721",
+          "acceptedName": "Piaractus brachypomus",
+          "fetchedAt": "2026-10-14T00:08:13.900Z",
+          "cacheFile": "0dd5ce492652fb5c33ac7572b7c55aecc32081a14c858897a1de41e4a66f385d.json"
+        }
+      ],
+      "conflicts": [],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "betta",
+      "scientificName": "Betta splendens",
+      "externalIdentifiers": [
+        {
+          "source": "col",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "310463",
+          "externalId": "LP2V",
+          "acceptedId": "LP2V",
+          "acceptedName": "Betta splendens",
+          "fetchedAt": "2026-10-14T00:08:19.921Z",
+          "cacheFile": "d207035525d207396d254350ced25b65559467972faffe7975a232d64c40f715.json"
+        },
+        {
+          "source": "gbif",
+          "status": "needs-review",
+          "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+          "externalId": "2393998",
+          "acceptedId": "2393998",
+          "acceptedName": "Betta splendens",
+          "fetchedAt": "2026-10-14T00:08:15.912Z",
+          "cacheFile": "5890a3911a91c6daad1b1191ae60e7b3f2534fe178139841b262bf7a5b330c16.json"
+        },
+        {
+          "source": "worms",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "WoRMS-live",
+          "externalId": "862539",
+          "acceptedId": "862539",
+          "acceptedName": "Betta splendens",
+          "fetchedAt": "2026-10-14T00:08:21.929Z",
+          "cacheFile": "ba7ba0e963738489268901a8fe68bcd86c71639d7b33e526bf2a1b07cc1e3876.json"
+        }
+      ],
+      "conflicts": [
+        {
+          "field": "order",
+          "values": [
+            {
+              "source": "col",
+              "value": "Anabantiformes"
+            },
+            {
+              "source": "gbif",
+              "value": "Perciformes"
+            },
+            {
+              "source": "worms",
+              "value": "Anabantiformes"
+            }
+          ]
+        }
+      ],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "salmon-del-atlantico",
+      "scientificName": "Salmo salar",
+      "externalIdentifiers": [
+        {
+          "source": "col",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "310463",
+          "externalId": "6XCXT",
+          "acceptedId": "6XCXT",
+          "acceptedName": "Salmo salar",
+          "fetchedAt": "2026-10-14T00:08:27.940Z",
+          "cacheFile": "171397df2cffc990bc93e93ea92b91794d5f4eac058d7e072a74fc6a48000fdc.json"
+        },
+        {
+          "source": "gbif",
+          "status": "needs-review",
+          "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+          "externalId": "7595433",
+          "acceptedId": "7595433",
+          "acceptedName": "Salmo salar",
+          "fetchedAt": "2026-10-14T00:08:23.930Z",
+          "cacheFile": "8643cbe04e9d2bcca2a042ae7f1882c558a1a4bbd942f21146f68d766bed7758.json"
+        },
+        {
+          "source": "worms",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "WoRMS-live",
+          "externalId": "127186",
+          "acceptedId": "127186",
+          "acceptedName": "Salmo salar",
+          "fetchedAt": "2026-10-14T00:08:29.947Z",
+          "cacheFile": "af348e0c68bfa11cac23c1a73b9e03c3d4f162df70fd2369a40cea485f4b985f.json"
+        }
+      ],
+      "conflicts": [],
+      "reviewRequired": true,
+      "importApproved": false
+    },
+    {
+      "internalId": "trout",
+      "scientificName": "Oncorhynchus mykiss",
+      "externalIdentifiers": [
+        {
+          "source": "col",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "310463",
+          "externalId": "49JFF",
+          "acceptedId": "49JFF",
+          "acceptedName": "Oncorhynchus mykiss",
+          "fetchedAt": "2026-10-14T00:08:35.962Z",
+          "cacheFile": "287d4c978eeb2ee9b3cac9c2a14d0622471914d4641e3b3b7eec23f10975ef7e.json"
+        },
+        {
+          "source": "gbif",
+          "status": "needs-review",
+          "datasetKey": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+          "externalId": "5204019",
+          "acceptedId": "5204019",
+          "acceptedName": "Oncorhynchus mykiss",
+          "fetchedAt": "2026-10-14T00:08:31.953Z",
+          "cacheFile": "1a6def37adff12821176db2a82971dc8ec9ff59e60be506c36d5e966a8c2ca50.json"
+        },
+        {
+          "source": "worms",
+          "status": "exact-accepted-candidate",
+          "datasetKey": "WoRMS-live",
+          "externalId": "127185",
+          "acceptedId": "127185",
+          "acceptedName": "Oncorhynchus mykiss",
+          "fetchedAt": "2026-10-14T00:08:37.967Z",
+          "cacheFile": "7097fd84758da55bdbb10035d1e3d79557f21816e87ab841a52848a7d85c70aa.json"
+        }
+      ],
+      "conflicts": [],
+      "reviewRequired": true,
+      "importApproved": false
+    }
+  ]
+}

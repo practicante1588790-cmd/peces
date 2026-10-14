@@ -1,0 +1,23 @@
+{
+  "index.html": "baaa08f28ddb69d000d98313cf53462111721225168acabecc9b6c98ef8c5db3",
+  "style.css": "e74d8c0186239f765d7550273b20c3015c0512eadb6537cb75f171079bf268c6",
+  "script.js": "2dc29eb2e875056107ace583a462f02bc0a47f52718b464016d9d510c980bd32",
+  "data/catalog.js": "9cd5078ad2ffc0116d168cdd968806bbe1ff2466c4a552b700db7237de00319c",
+  "lib/catalog-tools.js": "7c2d975b3e164160394882b02d670f6e23986d67aeb94479cdb40cc73cdd6df0",
+  "lib/catalog-validator.js": "78d702dc4a7678f95fda8674f3b4af1baa05502cc291b4bbc5d8e175043b3e05",
+  "tools/validate-catalog.cjs": "984cc96855fd826b04fc58d4a3865f525b041522169bbfed8fe85d2b870eafcd",
+  "assets/images/arapaima.jpg": "19e7191fa1c31123b873946ff31ca86a135e56bd0b4e225d56e9c98c8a4696e8",
+  "assets/images/betta.jpg": "dc33b53df16dc2e9216383456dfb437d252cd390c23ede877a45dc64103b716d",
+  "assets/images/blue-tang.jpg": "51d332a5c7992b07a0e42110677461fdfee9f28ee58a2bd4de6a05b620535ccb",
+  "assets/images/clownfish.jpg": "971d63596300aeae53529b5e9391f63921b7dfc6c51129e3b6dc5a082da0c0ce",
+  "assets/images/credits.json": "ff964d22df2b6e5318f0dfe047d391f97ff296bc04ebc32c293a61285a664840",
+  "assets/images/discus.jpg": "cddc02d2265f24bc05d28109a026bb5617b4db7ffed1b3bccb8ca450c967ee76",
+  "assets/images/hammerhead.jpg": "7731be886593b3a9daeaf268fdbc7dcb695f2b4647b195838e918f6d1f112dcf",
+  "assets/images/hero.jpg": "fd068e6f2c707acf389b81637fb54f521011c2c78fc4a696ae25bcf4ef7490df",
+  "assets/images/lionfish.jpg": "411a5bf2a743eeb2f739961bc07aca965722c92db58f992fe981bcfe0a8612d3",
+  "assets/images/mandarinfish.jpg": "7dbe128accc8b0c9432c6f80c70b94e03e1c58a4eb33ed4f6abcb606122a7cb1",
+  "assets/images/piranha.jpg": "f53134eb67fd7d521e5dc64fbad272e71b75265a648e370cc7f4282395a1369b",
+  "assets/images/seahorse.jpg": "23f95129c4d0467224d22e66437a90325210f23a0a5296a7fcff2f7821a7028d",
+  "assets/images/trout.jpg": "9481a2a982d6928c0c157eda7148b1790bd2ba0740a4f80e425ef82b33b59865",
+  "assets/images/whale-shark.jpg": "6e34c8e959c5c4ae8a138f9a4435299ab8447c8326701fcd9c94e225e762db3e"
+}

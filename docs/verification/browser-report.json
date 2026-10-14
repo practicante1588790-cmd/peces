@@ -1,0 +1,32 @@
+{
+  "browser": "Chrome",
+  "viewports": [
+    360,
+    390,
+    768,
+    1440
+  ],
+  "checks": [
+    "12 cards per page",
+    "50 unique paginated records",
+    "search including aliases and accents",
+    "combined environment/native-region/search filters",
+    "multiple environments",
+    "sorting",
+    "pagination resets",
+    "empty and out-of-range pages",
+    "all 50 accessible dialogs",
+    "Escape, button close, Tab and restored focus",
+    "preserved computed styles",
+    "responsive without horizontal overflow",
+    "mobile menu",
+    "missing images and load failures",
+    "reduced motion",
+    "file and HTTP loading",
+    "original CSS rules unchanged",
+    "all original photos and credits preserved by SHA-256"
+  ],
+  "styleDifferences": [],
+  "scriptErrors": [],
+  "result": "passed"
+}

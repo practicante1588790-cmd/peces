@@ -1,0 +1,1300 @@
+{
+  "colMetadata": {
+    "source": "col-metadata",
+    "url": "https://api.checklistbank.org/dataset/COL2025",
+    "fetchedAt": "2026-10-14T00:03:49.745Z",
+    "status": 200,
+    "ok": true,
+    "data": {
+      "created": "2025-06-13T13:51:09.248574",
+      "createdBy": 101,
+      "modified": "2025-06-13T16:42:22.878354",
+      "modifiedBy": 101,
+      "key": 310463,
+      "sourceKey": 3,
+      "type": "taxonomic",
+      "origin": "release",
+      "attempt": 429,
+      "imported": "2025-06-13T15:09:34.016848",
+      "size": 5302873,
+      "doi": "10.48580/dgr6n",
+      "title": "Catalogue of Life",
+      "alias": "COL25",
+      "description": "The Catalogue of Life is an assembly of expert-based global species checklists with the aim to build a comprehensive catalogue of all known species of organisms on Earth. \nContinuous progress is made towards completion, but for now, it probably includes just over 80% of the world’s known species. \nThe Catalogue of Life estimates 2.3M extant species on the planet recognised by taxonomists at present time. \nThis means that for many groups it continues to be deficient, and users may notice that many species are still missing from the Catalogue.\n\n### What's new in 2025 Annual Checklist?\n\n#### New global checklists:\n\n * AntCat replaced family Formicidae from ITIS _(3 updates)_\n * Háva's Catalogue: World catalogue of selected Coleoptera families (Derodontidae)\n * ITIS new global checklists for ladybird beetle tribe Epilachnini & genus Rhyzobius in Coccinellidae family) _(12 updates)_\n * LPSN Prokaryotic Nomenclature Up-to-Date (PNU) replaced ITIS Archaea & Bacteria _(2 updates)_\n * SF Permopsocida _(3 updates)_\n * WoRMS Mysidacea: World List of Lophogastrida, Stygiomysida and Mysida replaced order Mysida from ITIS and added new global checklists for crustacean orders Stygiomysida and †Pygocephalomorpha _(3 updates)_\n\n#### 113 checklists have been updated in year cycle:\n \n * 3i Auchenorrhyncha _(11 updates)_\n * Alucitoidea _(3 updates)_\n * Bryonames _(3 updates)_\n * CCW _(2 updates)_\n * Collembola.org\n * Entiminae _(11 updates)_\n * FishBase via Aphia at VLIZ\n * Gelechiidae _(7 updates)_\n * GLI _(9 updates)_\n * Global Gracillariidae _(5 updates)_\n * Hepialidae _(2 updates)_\n * ICTV MSL _(2 updates)_\n * ITIS _(12 updates)_\n * LWS fleas\n * Pterophoroidea _(6 updates)_\n * Scarabs _(12 updates)_\n * Sesiidae _(6 updates)_\n * SF Aphid _(10 updates)_\n * SF Chrysididae _(11 updates)_\n * SF Coleorrhyncha _(2 updates)_\n * SF Coreoidea _(11 updates)_\n * SF Dermaptera _(11 updates)_\n * SF Embioptera _(8 updates)_\n * SF Grylloblattodea _(2 updates)_\n * SF Grylloblattodea\n * SF Isoptera _(11 updates)_\n * SF Lygaeoidea _(11 updates)_\n * SF Mantodea _(11 updates)_\n * SF Mantophasmatodea _(2 updates)_\n * SF Orthoptera _(11 updates)_\n * SF Phasmida _(11 updates)_\n * SF Plecoptera _(11 updates)_\n * SF Psocodea _(11 updates)_\n * SF Zoraptera _(2 updates)_\n * Systema Dipterorum _(3 updates)_\n * The Scorpion Files\n * TITAN _(2 updates)_\n * Tortricid.net\n * UCD\n * WCO _(11 updates)_\n * WCVP-Fabaceae\n * WFO Pinopsida\n * WLoC\n * WOL _(11 updates)_\n * World Ferns _(7 updates)_\n * World Plants _(5 updates)_\n * WoRMS, 66 checklists _(11 updates)_\n * WSC\n \n#### Other changes:\n * Coleoptera management classification has been updated according to _Coleoptera type genera and family-group names_ by P. Bouchard, 2024 (_digital resource in the Checklistbank_).",
+      "issued": "2025-06-13",
+      "version": "Annual Checklist 2025",
+      "issn": "2405-8858",
+      "contact": {
+        "city": "Amsterdam",
+        "country": "NL",
+        "email": "support@catalogueoflife.org",
+        "name": "COL Secretariat",
+        "address": "Amsterdam, Netherlands",
+        "organisation": "COL Secretariat"
+      },
+      "creator": [
+        {
+          "orcid": "0000-0001-6197-9951",
+          "given": "Olaf",
+          "family": "Bánki",
+          "city": "Amsterdam",
+          "country": "NL",
+          "note": "COL Managing Director",
+          "name": "Bánki O.",
+          "address": "Amsterdam, Netherlands",
+          "orcidAsUrl": "https://orcid.org/0000-0001-6197-9951",
+          "organisation": "Catalogue of Life Foundation"
+        },
+        {
+          "orcid": "0000-0003-2137-2690",
+          "given": "Yury",
+          "family": "Roskov",
+          "city": "Champaign",
+          "state": "IL",
+          "country": "US",
+          "note": "COL Executive Editor",
+          "name": "Roskov Y.",
+          "address": "Champaign, IL, United States of America",
+          "orcidAsUrl": "https://orcid.org/0000-0003-2137-2690",
+          "organisation": "Illinois Natural History Survey"
+        },
+        {
+          "orcid": "0000-0001-7757-1889",
+          "given": "Markus",
+          "family": "Döring",
+          "rorid": "05fjyn938",
+          "city": "Berlin",
+          "country": "DE",
+          "note": "COL Lead Developer",
+          "name": "Döring M.",
+          "address": "Berlin, Germany",
+          "orcidAsUrl": "https://orcid.org/0000-0001-7757-1889",
+          "organisation": "GBIF"
+        },
+        {
+          "orcid": "0000-0002-9770-2345",
+          "given": "Geoff",
+          "family": "Ower",
+          "city": "Champaign",
+          "state": "IL",
+          "country": "US",
+          "note": "COL Data Manager",
+          "name": "Ower G.",
+          "address": "Champaign, IL, United States of America",
+          "orcidAsUrl": "https://orcid.org/0000-0002-9770-2345",
+          "organisation": "Illinois Natural History Survey"
+        },
+        {
+          "orcid": "0000-0002-3951-4856",
+          "given": "Diana Raquel",
+          "family": "Hernández Robles",
+          "city": "Mexico City",
+          "country": "MX",
+          "note": "COL Editor",
+          "name": "Hernández Robles D. R.",
+          "address": "Mexico City, Mexico",
+          "orcidAsUrl": "https://orcid.org/0000-0002-3951-4856",
+          "organisation": "Catalogue of Life Foundation"
+        },
+        {
+          "orcid": "0000-0002-1632-9818",
+          "given": "Camila Andrea",
+          "family": "Plata Corredor",
+          "city": "Bogotá",
+          "country": "CO",
+          "note": "COL Editor",
+          "name": "Plata Corredor C. A.",
+          "address": "Bogotá, Colombia",
+          "orcidAsUrl": "https://orcid.org/0000-0002-1632-9818",
+          "organisation": "Catalogue of Life Foundation"
+        },
+        {
+          "orcid": "0000-0003-1691-239X",
+          "given": "Thomas",
+          "family": "Stjernegaard Jeppesen",
+          "rorid": "05fjyn938",
+          "city": "Copenhagen",
+          "country": "DK",
+          "note": "COL UI Developer",
+          "name": "Stjernegaard Jeppesen T.",
+          "address": "Copenhagen, Denmark",
+          "orcidAsUrl": "https://orcid.org/0000-0003-1691-239X",
+          "organisation": "GBIF"
+        },
+        {
+          "given": "Ari",
+          "family": "Örn",
+          "country": "FI",
+          "note": "ColDP Quality Assurance checks",
+          "name": "Örn A.",
+          "address": "Finland",
+          "organisation": "Volunteer for Catalogue of Life"
+        },
+        {
+          "orcid": "0000-0001-6609-0609",
+          "given": "Thomas",
+          "family": "Pape",
+          "department": "Natural History Museum of Denmark",
+          "city": "Copenhagen",
+          "country": "DK",
+          "note": "Global Team Chair, Taxonomy Group",
+          "name": "Pape T.",
+          "address": "Copenhagen, Denmark",
+          "orcidAsUrl": "https://orcid.org/0000-0001-6609-0609",
+          "organisation": "University of Copenhagen"
+        },
+        {
+          "orcid": "0000-0001-6492-4016",
+          "given": "Donald",
+          "family": "Hobern",
+          "city": "Canberra",
+          "country": "AU",
+          "note": "Taxonomy Group Chair",
+          "name": "Hobern D.",
+          "address": "Canberra, Australia",
+          "orcidAsUrl": "https://orcid.org/0000-0001-6492-4016",
+          "organisation": "Catalogue of Life Australia"
+        },
+        {
+          "orcid": "0000-0002-0724-7060",
+          "given": "Stephen",
+          "family": "Garnett",
+          "city": "Darwin",
+          "country": "AU",
+          "note": "Species list Governance group Chair",
+          "name": "Garnett S.",
+          "address": "Darwin, Australia",
+          "orcidAsUrl": "https://orcid.org/0000-0002-0724-7060",
+          "organisation": "Charles Darwin University"
+        },
+        {
+          "orcid": "0000-0001-7909-4166",
+          "given": "Holly",
+          "family": "Little",
+          "city": "Washington DC",
+          "country": "US",
+          "note": "Paleo group chair",
+          "name": "Little H.",
+          "address": "Washington DC, United States of America",
+          "orcidAsUrl": "https://orcid.org/0000-0001-7909-4166",
+          "organisation": "Smithsonian Institution"
+        },
+        {
+          "orcid": "0000-0001-9985-9250",
+          "given": "R. Edward",
+          "family": "DeWalt",
+          "city": "Champaign",
+          "state": "IL",
+          "country": "US",
+          "note": "Catalogue of Life Chair",
+          "name": "DeWalt R. E.",
+          "address": "Champaign, IL, United States of America",
+          "orcidAsUrl": "https://orcid.org/0000-0001-9985-9250",
+          "organisation": "Illinois Natural History Survey"
+        },
+        {
+          "orcid": "0000-0002-5788-9010",
+          "given": "Joe",
+          "family": "Miller",
+          "city": "Copenhagen",
+          "country": "DK",
+          "note": "COL+ Partnership",
+          "name": "Miller J.",
+          "address": "Copenhagen, Denmark",
+          "orcidAsUrl": "https://orcid.org/0000-0002-5788-9010",
+          "organisation": "GBIF"
+        },
+        {
+          "orcid": "0000-0003-1038-3028",
+          "given": "Thomas",
+          "family": "Orrell",
+          "city": "Washington, D.C.",
+          "country": "US",
+          "note": "COL Partnership",
+          "name": "Orrell T.",
+          "address": "Washington, D.C., United States of America",
+          "orcidAsUrl": "https://orcid.org/0000-0003-1038-3028",
+          "organisation": "Smithsonian Institution"
+        }
+      ],
+      "publisher": {
+        "city": "Amsterdam",
+        "country": "NL",
+        "name": "Catalogue of Life Foundation",
+        "address": "Amsterdam, Netherlands",
+        "organisation": "Catalogue of Life Foundation"
+      },
+      "contributor": [
+        {
+          "orcid": "0000-0003-4994-0653",
+          "given": "Nicolas",
+          "family": "Bailly",
+          "department": "Beaty Biodiversity Museum",
+          "city": "Vancouver",
+          "country": "CA",
+          "note": "Taxonomy Group",
+          "name": "Bailly N.",
+          "address": "Vancouver, Canada",
+          "orcidAsUrl": "https://orcid.org/0000-0003-4994-0653",
+          "organisation": "University of British Columbia"
+        },
+        {
+          "orcid": "0000-0002-8840-2121",
+          "given": "Maria Marta",
+          "family": "Cigliano",
+          "department": "Museo de La Plata",
+          "city": "Buenos Aires",
+          "country": "AR",
+          "note": "Global Team, Taxonomy Group",
+          "name": "Cigliano M. M.",
+          "address": "Buenos Aires, Argentina",
+          "orcidAsUrl": "https://orcid.org/0000-0002-8840-2121",
+          "organisation": "Universidad Nacional de La Plata"
+        },
+        {
+          "orcid": "0000-0003-2362-0328",
+          "given": "Mark John",
+          "family": "Costello",
+          "city": "Auckland",
+          "country": "NZ",
+          "note": "Taxonomy Group",
+          "name": "Costello M. J.",
+          "address": "Auckland, New Zealand",
+          "orcidAsUrl": "https://orcid.org/0000-0003-2362-0328",
+          "organisation": "University of Auckland"
+        },
+        {
+          "orcid": "0000-0002-2168-9471",
+          "given": "Wim",
+          "family": "Decock",
+          "city": "Oostende",
+          "country": "BE",
+          "note": "WoRMS liaison",
+          "name": "Decock W.",
+          "address": "Oostende, Belgium",
+          "orcidAsUrl": "https://orcid.org/0000-0002-2168-9471",
+          "organisation": "Vlaams Instituut voor de Zee (VLIZ)"
+        },
+        {
+          "orcid": "0000-0001-5737-8803",
+          "given": "Anne",
+          "family": "Fuchs",
+          "city": "Canberra",
+          "country": "AU",
+          "note": "Global Team",
+          "name": "Fuchs A.",
+          "address": "Canberra, Australia",
+          "orcidAsUrl": "https://orcid.org/0000-0001-5737-8803",
+          "organisation": "Australian National Botanic Gardens"
+        },
+        {
+          "orcid": "0000-0002-1703-5723",
+          "given": "Ji",
+          "family": "Li-Qiang",
+          "department": "Key Laboratory of Animal Ecology and Conservation Biology",
+          "city": "Beijing",
+          "country": "CN",
+          "note": "Global Team",
+          "name": "Li-Qiang J.",
+          "address": "Beijing, China",
+          "orcidAsUrl": "https://orcid.org/0000-0002-1703-5723",
+          "organisation": "Chinese Academy of Sciences"
+        },
+        {
+          "orcid": "0000-0001-9907-4779",
+          "given": "Jeyaraney",
+          "family": "Kathirithamby",
+          "department": "Department of Zoology",
+          "country": "GB",
+          "note": "Taxonomy Group",
+          "name": "Kathirithamby J.",
+          "address": "United Kingdom",
+          "orcidAsUrl": "https://orcid.org/0000-0001-9907-4779",
+          "organisation": "University of oxford"
+        },
+        {
+          "orcid": "0000-0002-7987-0679",
+          "given": "David",
+          "family": "Nicolson",
+          "city": "Washington, D.C.",
+          "country": "US",
+          "note": "Global Team, Taxonomy Group",
+          "name": "Nicolson D.",
+          "address": "Washington, D.C., United States of America",
+          "orcidAsUrl": "https://orcid.org/0000-0002-7987-0679",
+          "organisation": "US Geological Survey / Smithsonian Institution"
+        },
+        {
+          "orcid": "0000-0003-0768-1286",
+          "given": "Richard",
+          "family": "Pyle",
+          "city": "Honolulu",
+          "state": "Hawaii",
+          "country": "US",
+          "note": "Global Team, Taxonomy Group",
+          "name": "Pyle R.",
+          "address": "Honolulu, Hawaii, United States of America",
+          "orcidAsUrl": "https://orcid.org/0000-0003-0768-1286",
+          "organisation": "Bernice Pauahi Bishop Museum"
+        },
+        {
+          "given": "Lauren",
+          "family": "Raz",
+          "city": "Bogotá",
+          "country": "CO",
+          "note": "Global Team, Taxonomy Group",
+          "name": "Raz L.",
+          "address": "Bogotá, Colombia",
+          "organisation": "National University of Colombia"
+        },
+        {
+          "orcid": "0000-0003-1887-5211",
+          "given": "Tony",
+          "family": "Rees",
+          "note": "Taxonomy Group",
+          "name": "Rees T.",
+          "orcidAsUrl": "https://orcid.org/0000-0003-1887-5211"
+        },
+        {
+          "orcid": "0000-0001-6215-3617",
+          "given": "Tim",
+          "family": "Robertson",
+          "city": "Copenhagen",
+          "country": "DK",
+          "note": "Information Systems Group",
+          "name": "Robertson T.",
+          "address": "Copenhagen, Denmark",
+          "orcidAsUrl": "https://orcid.org/0000-0001-6215-3617",
+          "organisation": "GBIF"
+        },
+        {
+          "given": "Michael",
+          "family": "Ruggiero",
+          "city": "Washington, D.C.",
+          "country": "US",
+          "note": "Taxonomy Group",
+          "name": "Ruggiero M.",
+          "address": "Washington, D.C., United States of America",
+          "organisation": "Smithsonian Institution"
+        },
+        {
+          "given": "Jacek",
+          "family": "Swedo",
+          "country": "PL",
+          "note": "Taxonomy Group",
+          "name": "Swedo J.",
+          "address": "Poland",
+          "organisation": "University of Gdansk"
+        },
+        {
+          "given": "Bart",
+          "family": "Vanhoorne",
+          "city": "Oostende",
+          "country": "BE",
+          "note": "Information Systems Group",
+          "name": "Vanhoorne B.",
+          "address": "Oostende, Belgium",
+          "organisation": "Vlaams Instituut voor de Zee (VLIZ)"
+        },
+        {
+          "orcid": "0000-0002-7775-5300",
+          "given": "Nina",
+          "family": "Wambiji",
+          "city": "Mombasa",
+          "country": "KE",
+          "note": "Global Team",
+          "name": "Wambiji N.",
+          "address": "Mombasa, Kenya",
+          "orcidAsUrl": "https://orcid.org/0000-0002-7775-5300",
+          "organisation": "Kenya Marine and Fisheries Research Institute"
+        },
+        {
+          "given": "Haylee",
+          "family": "Weaver",
+          "department": "Department of the Environment",
+          "city": "Canberra",
+          "country": "AU",
+          "note": "Global Team",
+          "name": "Weaver H.",
+          "address": "Canberra, Australia",
+          "organisation": "Australian Government"
+        },
+        {
+          "given": "Mathew",
+          "family": "Yoder",
+          "city": "Champaign",
+          "state": "IL",
+          "country": "US",
+          "note": "TaxonWorks liaison",
+          "name": "Yoder M.",
+          "address": "Champaign, IL, United States of America",
+          "organisation": "Illinois Natural History Survey"
+        },
+        {
+          "given": "Christoph",
+          "family": "Hauser",
+          "city": "Stuttgart",
+          "country": "DE",
+          "name": "Hauser C.",
+          "address": "Stuttgart, Germany",
+          "organisation": "Staatliches Museum fur Naturkunde Stuttgart"
+        },
+        {
+          "given": "Tim",
+          "family": "Littlewood",
+          "city": "London",
+          "country": "GB",
+          "name": "Littlewood T.",
+          "address": "London, United Kingdom",
+          "organisation": "Natural History Museum"
+        },
+        {
+          "orcid": "0000-0001-8680-973X",
+          "given": "Koen",
+          "family": "Martens",
+          "department": "FADA",
+          "city": "Brussels",
+          "country": "BE",
+          "note": "Global Team",
+          "name": "Martens K.",
+          "address": "Brussels, Belgium",
+          "orcidAsUrl": "https://orcid.org/0000-0001-8680-973X",
+          "organisation": "Royal Belgian Institute of Natural Sciences (RBINS)"
+        },
+        {
+          "orcid": "0000-0003-1279-2722",
+          "given": "Scott",
+          "family": "Thomson",
+          "city": "Petrópolis, Manaus",
+          "state": "State of Amazonas, 69055-010",
+          "country": "BR",
+          "note": "Global Team",
+          "name": "Thomson S.",
+          "address": "Petrópolis, Manaus, State of Amazonas, 69055-010, Brazil",
+          "orcidAsUrl": "https://orcid.org/0000-0003-1279-2722",
+          "organisation": "Centro de Estudos dos Quelônios da Amazônia - CEQUA"
+        },
+        {
+          "orcid": "0000-0002-3530-013X",
+          "given": "Tobias",
+          "family": "Guldberg Frøslev",
+          "rorid": "05fjyn938",
+          "city": "Copenhagen",
+          "country": "DK",
+          "note": "Global Team",
+          "name": "Guldberg Frøslev T.",
+          "address": "Copenhagen, Denmark",
+          "orcidAsUrl": "https://orcid.org/0000-0002-3530-013X",
+          "organisation": "Global Biodiversity Information Facility"
+        },
+        {
+          "orcid": "0000-0001-8861-6317",
+          "given": "Sz-Yi",
+          "family": "Tsai",
+          "department": "TaiCOL, TaiBIF",
+          "city": "Taipei City, Taiwan, Chinese Taipei",
+          "note": "Global Team",
+          "name": "Tsai S.-Y.",
+          "address": "Taipei City, Taiwan, Chinese Taipei",
+          "orcidAsUrl": "https://orcid.org/0000-0001-8861-6317",
+          "organisation": "Academica Sinica"
+        },
+        {
+          "orcid": "0000-0002-8160-7941",
+          "given": "Leen",
+          "family": "Vandepitte",
+          "city": "Oostende",
+          "country": "BE",
+          "note": "WoRMS coordinator",
+          "name": "Vandepitte L.",
+          "address": "Oostende, Belgium",
+          "orcidAsUrl": "https://orcid.org/0000-0002-8160-7941",
+          "organisation": "Vlaams Instituut voor de Zee (VLIZ)"
+        }
+      ],
+      "geographicScope": "Global",
+      "taxonomicScope": "Biota",
+      "taxonomicGroupScope": [
+        "viruses",
+        "prokaryotes",
+        "bacteria",
+        "archaea",
+        "eukaryotes",
+        "protists",
+        "plants",
+        "algae",
+        "bryophytes",
+        "pteridophytes",
+        "angiosperms",
+        "gymnosperms",
+        "fungi",
+        "ascomycetes",
+        "basidiomycetes",
+        "pseudofungi",
+        "otherfungi",
+        "animals",
+        "arthropods",
+        "insects",
+        "coleoptera",
+        "diptera",
+        "lepidoptera",
+        "hymenoptera",
+        "hemiptera",
+        "orthoptera",
+        "trichoptera",
+        "otherinsects",
+        "arachnids",
+        "crustacean",
+        "otherarthropods",
+        "molluscs",
+        "gastropods",
+        "bivalves",
+        "othermolluscs",
+        "chordates",
+        "otheranimals"
+      ],
+      "confidence": 5,
+      "completeness": 80,
+      "license": "cc by",
+      "url": "https://www.checklistbank.org/dataset/310463",
+      "notes": "Created by ProjectRelease#429 f94872bc-37cb-4372-9cd3-1cf301f41a08.",
+      "label": "Catalogue of Life (Annual Checklist 2025)",
+      "citation": "<div class=\"csl-entry\">B&aacute;nki, O., Roskov, Y., D&ouml;ring, M., Ower, G., Hern&aacute;ndez Robles, D. R., Plata Corredor, C. A., Stjernegaard Jeppesen, T., &Ouml;rn, A., Pape, T., Hobern, D., Garnett, S., Little, H., DeWalt, R. E., Miller, J., &amp; Orrell, T. (2025). <span style=\"font-style: italic\">Catalogue of Life</span> (Annual Checklist 2025). Catalogue of Life Foundation, Amsterdam, Netherlands. https://doi.org/10.48580/dgr6n</div>",
+      "private": false
+    },
+    "error": null,
+    "attempts": 1,
+    "retryAfter": null,
+    "cached": false,
+    "cacheFile": "550bfab7164f16082671ab9e2b0c03ce1af135ab82e70a185ca926d1264dfe04.json"
+  },
+  "gbifMetadata": {
+    "source": "gbif-dataset-metadata",
+    "url": "https://api.gbif.org/v1/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+    "fetchedAt": "2026-10-14T00:03:51.758Z",
+    "status": 200,
+    "ok": true,
+    "data": {
+      "key": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "installationKey": "995eed50-f762-11e1-a439-00145eb45e9a",
+      "publishingOrganizationKey": "fbca90e3-8aed-48b1-84e3-369afbd000ce",
+      "doi": "10.15468/39omei",
+      "external": false,
+      "numConstituents": 0,
+      "type": "CHECKLIST",
+      "subtype": "TAXONOMIC_AUTHORITY",
+      "title": "GBIF Backbone Taxonomy",
+      "description": "<p>The GBIF Backbone Taxonomy is a single, synthetic management classification with the goal of covering all names GBIF is dealing with.          It&#39;s the taxonomic backbone that allows GBIF to integrate name based information from different resources, no matter if these are occurrence datasets, species pages, names from nomenclators or external sources like EOL, Genbank or IUCN. This backbone allows taxonomic search, browse and reporting operations across all those resources in a consistent way and to provide means to crosswalk names from one source to another.</p>\n<p>It is updated regulary through an automated process in which the Catalogue of Life acts as a starting point also providing the complete higher classification above families. Additional scientific names only found in other authoritative nomenclatural and taxonomic datasets are then merged into the tree, thus extending the original catalogue and broadening the backbones name coverage.          The GBIF Backbone taxonomy also includes identifiers for Operational Taxonomic Units (OTUs) drawn from the barcoding resources iBOL and UNITE.</p>\n<p>International Barcode of Life project (iBOL), Barcode Index Numbers (BINs).  BINs are connected to a taxon name and its classification by taking into account all names applied to the BIN and picking names with at least 80% consensus. If there is no consensus of name at the species level, the selection process is repeated moving up the major Linnaean ranks until consensus is achieved.</p>\n<p>UNITE - Unified system for the DNA based fungal species, Species Hypotheses (SHs).  SHs are connected to a taxon name and its classification based on the determination of the RefS (reference sequence) if present or the RepS (representative sequence). In the latter case, if there is no match in the UNITE taxonomy, the lowest rank with 100% consensus within the SH will be used.</p>\n<p>The GBIF Backbone Taxonomy is available for download at https://hosted-datasets.gbif.org/datasets/backbone/ in different formats together with an archive of all previous versions.</p>\n<p>The following 105 sources have been used to assemble the GBIF backbone with number of names given in brackets:\n</p><ul><li>Catalogue of Life Checklist - 4766428 names</li><li>International Barcode of Life project (iBOL) Barcode Index Numbers (BINs) - 635951 names</li><li>UNITE - Unified system for the DNA based fungal species linked to the classification - 611208 names</li><li>The Paleobiology Database - 212054 names</li><li>World Register of Marine Species - 188857 names</li><li>The Interim Register of Marine and Nonmarine Genera - 183894 names</li><li>The World Checklist of Vascular Plants (WCVP) - 131891 names</li><li>GBIF Backbone Taxonomy - 114350 names</li><li>TAXREF - 109374 names</li><li>The Leipzig catalogue of vascular plants - 75380 names</li><li>ZooBank - 73549 names</li><li>Integrated Taxonomic Information System (ITIS) - 68377 names</li><li>Plazi.org taxonomic treatments database - 61346 names</li><li>Genome Taxonomy Database r207 - 60545 names</li><li>International Plant Names Index - 52329 names</li><li>Fauna Europaea - 45077 names</li><li>The National Checklist of Taiwan (Catalogue of Life in Taiwan, TaiCoL) - 36193 names</li><li>Dyntaxa. Svensk taxonomisk databas - 35892 names</li><li>The Plant List with literature - 32692 names</li><li>United Kingdom Species Inventory (UKSI) - 29643 names</li><li>Artsnavnebasen - 29208 names</li><li>The IUCN Red List of Threatened Species - 21221 names</li><li>Afromoths, online database of Afrotropical moth species (Lepidoptera) - 13961 names</li><li>Brazilian Flora 2020 project - Projeto Flora do Brasil 2020 - 13829 names</li><li>Prokaryotic Nomenclature Up-to-Date (PNU) - 10079 names</li><li>Checklist Dutch Species Register - Nederlands Soortenregister - 8814 names</li><li>ICTV Master Species List (MSL) - 7852 names</li><li>Cockroach Species File - 6020 names</li><li>GRIN Taxonomy - 5882 names</li><li>Taxon list of fungi and fungal-like organisms from Germany compiled by the DGfM - 4570 names</li><li>Catalogue of Afrotropical Bees - 3623 names</li><li>Catalogue of Tenebrionidae (Coleoptera) of North America - 3327 names</li><li>Checklist of Beetles (Coleoptera) of Canada and Alaska. Second Edition. - 3312 names</li><li>Systema Dipterorum - 2850 names</li><li>Catalogue of the Pterophoroidea of the World - 2807 names</li><li>The Clements Checklist - 2675 names</li><li>Taxon list of Hymenoptera from Germany compiled in the context of the GBOL project - 2496 names</li><li>IOC World Bird List, v13.2 - 2366 names</li><li>Official Lists and Indexes of Names in Zoology - 2310 names</li><li>National checklist of all species occurring in Denmark - 1922 names</li><li>Myriatrix - 1876 names</li><li>Database of Vascular Plants of Canada (VASCAN) - 1822 names</li><li>Taxon list of vascular plants from Bavaria, Germany compiled in the context of the BFL project - 1771 names</li><li>Orthoptera Species File - 1742 names</li><li>A list of the terrestrial fungi, flora and fauna of Madeira and Selvagens archipelagos - 1602 names</li><li>Aphid Species File - 1565 names</li><li>World Spider Catalog - 1561 names</li><li>Taxon list of Jurassic Pisces of the Tethys Palaeo-Environment compiled at the SNSB-JME - 1270 names</li><li>Backbone Family Classification Patch - 1143 names</li><li>GBIF Algae Classification - 1100 names</li><li>International Cichorieae Network (ICN): Cichorieae Portal - 975 names</li><li>Psocodea Species File - 803 names</li><li>New Zealand Marine Macroalgae Species Checklist - 787 names</li><li>Annotated checklist of endemic species from the Western Balkans - 754 names</li><li>Taxon list of animals with German names (worldwide) compiled at the SMNS - 503 names</li><li>Catalogue of the Alucitoidea of the World - 472 names</li><li>Lygaeoidea Species File - 462 names</li><li>Catálogo de Plantas y Líquenes de Colombia - 422 names</li><li>GBIF Backbone Patch - 317 names</li><li>Phasmida Species File - 259 names</li><li>Cortinariaceae fetched from the Index Fungorum API - 234 names</li><li>Coreoidea Species File - 233 names</li><li>GTDB supplement - 139 names</li><li>Mantodea Species File - 119 names</li><li>Endemic species in Taiwan - 93 names</li><li>Taxon list of Araneae from Germany compiled in the context of the GBOL project - 88 names</li><li>Species of Hominidae - 78 names</li><li>Taxon list of Sternorrhyncha from Germany compiled in the context of the GBOL project - 77 names</li><li>Taxon list of mosses from Germany compiled in the context of the GBOL project - 75 names</li><li>Mammal Species of the World - 73 names</li><li>Plecoptera Species File - 71 names</li><li>Species Fungorum Plus - 64 names</li><li>Catalogue of the type specimens of Cosmopterigidae (Lepidoptera: Gelechioidea) from research collections of the Zoological Institute, Russian Academy of Sciences - 47 names</li><li>Species named after famous people - 41 names</li><li>Dermaptera Species File - 36 names</li><li>Taxon list of Trichoptera from Germany compiled in the context of the GBOL project - 34 names</li><li>True Fruit Flies (Diptera, Tephritidae) of the Afrotropical Region - 33 names</li><li>Range and Regularities in the Distribution of Earthworms of the Earthworms of the USSR Fauna. Perel, 1979 - 32 names</li><li>Taxon list of Diplura from Germany compiled in the context of the GBOL project - 30 names</li><li>Lista de referencia de especies de aves de Colombia - 2022 - 24 names</li><li>Taxon list of Auchenorrhyncha from Germany compiled in the context of the GBOL project - 20 names</li><li>Catalogue of the type specimens of Polycestinae (Coleoptera: Buprestidae) from research collections of the Zoological Institute, Russian Academy of Sciences - 19 names</li><li>Taxon list of Thysanoptera from Germany compiled in the context of the GBOL project - 19 names</li><li>Lista de especies de vertebrados registrados en jurisdicción del Departamento del Huila - 18 names</li><li>Taxon list of Microcoryphia (Archaeognatha) from Germany compiled in the context of the GBOL project - 15 names</li><li>Catalogue of the type specimens of Bufonidae and Megophryidae (Amphibia: Anura) from research collections of the Zoological Institute, Russian Academy of Sciences - 12 names</li><li>Grylloblattodea Species File - 11 names</li><li>Coleorrhyncha Species File - 9 names</li><li>Taxon list of liverworts from Germany compiled in the context of the GBOL project - 9 names</li><li>Embioptera Species File - 7 names</li><li>Taxon list of Pisces and Cyclostoma from Germany compiled in the context of the GBOL project - 6 names</li><li>Taxon list of Pteridophyta from Germany compiled in the context of the GBOL project - 6 names</li><li>Taxon list of Siphonaptera from Germany compiled in the context of the GBOL project - 5 names</li><li>The Earthworms of the Fauna of Russia. Perel, 1997 - 5 names</li><li>Taxon list of Zygentoma from Germany compiled in the context of the GBOL project - 4 names</li><li>Asiloid Flies: new taxa of Diptera: Apioceridae, Asilidae, and Mydidae - 3 names</li><li>Taxon list of Protura from Germany compiled in the context of the GBOL project - 3 names</li><li>Taxon list of hornworts from Germany compiled in the context of the GBOL project - 2 names</li><li>Chrysididae Species File - 1 names</li><li>Taxon list of Dermaptera from Germany compiled in the context of the GBOL project - 1 names</li><li>Taxon list of Diplopoda from Germany in the context of the GBOL project - 1 names</li><li>Taxon list of Orthoptera (Grashoppers) from Germany compiled at the SNSB - 1 names</li><li>Taxon list of Pscoptera from Germany compiled in the context of the GBOL project - 1 names</li><li>Taxon list of Pseudoscorpiones from Germany compiled in the context of the GBOL project - 1 names</li><li>Taxon list of Raphidioptera from Germany compiled in the context of the GBOL project - 1 names</li></ul>",
+      "language": "eng",
+      "homepage": "https://www.gbif.org/dataset/d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+      "logoUrl": "https://www.gbif.org/img/logo/GBIF-2015.png",
+      "citation": {
+        "text": "GBIF Secretariat (2023). GBIF Backbone Taxonomy. Checklist dataset https://doi.org/10.15468/39omei accessed via GBIF.org on 2026-10-13.",
+        "citationProvidedBySource": false
+      },
+      "contactsCitation": [],
+      "lockedForAutoUpdate": false,
+      "createdBy": "registry-migration.gbif.org",
+      "modifiedBy": "markus",
+      "created": "2011-03-02T11:06:25.000+00:00",
+      "modified": "2023-11-17T17:05:37.477+00:00",
+      "contacts": [],
+      "endpoints": [
+        {
+          "key": 675948,
+          "type": "DWC_ARCHIVE",
+          "url": "https://hosted-datasets.gbif.org/datasets/backbone/current/backbone.zip",
+          "createdBy": "markus",
+          "modifiedBy": "markus",
+          "created": "2022-02-10T16:41:09.347+00:00",
+          "modified": "2022-02-10T16:41:09.347+00:00",
+          "machineTags": []
+        }
+      ],
+      "machineTags": [
+        {
+          "key": 324464,
+          "namespace": "crawler.gbif.org",
+          "name": "crawl_attempt",
+          "value": "22",
+          "createdBy": "crawler.gbif.org",
+          "created": "2016-05-13T09:41:31.973+00:00"
+        }
+      ],
+      "tags": [
+        {
+          "key": 36,
+          "value": "nub",
+          "createdBy": "registry-migration.gbif.org",
+          "created": "2011-03-02T11:06:25.000+00:00"
+        },
+        {
+          "key": 37,
+          "value": "gbif",
+          "createdBy": "registry-migration.gbif.org",
+          "created": "2011-03-02T11:06:25.000+00:00"
+        }
+      ],
+      "identifiers": [
+        {
+          "key": 436676,
+          "type": "CLB_DATASET_KEY",
+          "identifier": "53147",
+          "createdBy": "clb-bot",
+          "created": "2025-02-21T11:21:50.290+00:00",
+          "primary": false
+        },
+        {
+          "key": 324599,
+          "type": "DOI",
+          "identifier": "10.15468/56cv-7w97",
+          "createdBy": "markus",
+          "created": "2022-12-01T10:55:29.377+00:00",
+          "primary": false
+        },
+        {
+          "key": 25158,
+          "type": "UUID",
+          "identifier": "d7dddbf4-2cf0-4f39-9b2a-bb099caae36c",
+          "createdBy": "crawler.gbif.org",
+          "created": "2015-05-13T10:12:57.369+00:00",
+          "primary": false
+        },
+        {
+          "key": 11963,
+          "type": "GBIF_PORTAL",
+          "identifier": "1",
+          "createdBy": "registry-migration.gbif.org",
+          "created": "2012-09-05T14:04:22.000+00:00",
+          "primary": false
+        }
+      ],
+      "comments": [],
+      "bibliographicCitations": [],
+      "curatorialUnits": [],
+      "taxonomicCoverages": [],
+      "geographicCoverages": [],
+      "temporalCoverages": [],
+      "keywordCollections": [],
+      "countryCoverage": [],
+      "collections": [],
+      "dataDescriptions": [],
+      "dataLanguage": "eng",
+      "pubDate": "2023-08-28T00:00:00.000+00:00",
+      "maintenanceUpdateFrequency": "BIANNUALLY",
+      "maintenanceDescription": "",
+      "license": "http://creativecommons.org/licenses/by/4.0/legalcode",
+      "dwca": {
+        "coreType": "http://rs.tdwg.org/dwc/terms/Taxon",
+        "extensions": [
+          "http://rs.gbif.org/terms/1.0/VernacularName",
+          "http://rs.gbif.org/terms/1.0/Distribution",
+          "http://rs.gbif.org/terms/1.0/Reference",
+          "http://rs.gbif.org/terms/1.0/TypesAndSpecimen",
+          "http://rs.gbif.org/terms/1.0/Multimedia",
+          "http://rs.gbif.org/terms/1.0/Description"
+        ],
+        "modified": "2025-07-09T13:58:11.973+00:00"
+      },
+      "approximateCounts": {
+        "occurrenceCount": 0,
+        "nameUsageCount": 7746724
+      }
+    },
+    "error": null,
+    "attempts": 1,
+    "retryAfter": null,
+    "cached": false,
+    "cacheFile": "e3bd497349e008d417cf4373fed640bb5bc6564a088cb67934ad80cd7b8fa93d.json"
+  },
+  "fishbase": {
+    "source": "fishbase-legacy-probe",
+    "url": "https://fishbase.ropensci.org/species?Genus=Engraulis&Species=ringens&limit=1",
+    "fetchedAt": "2026-10-14T00:04:00.550Z",
+    "status": null,
+    "ok": false,
+    "data": null,
+    "error": "fetch failed (DEPTH_ZERO_SELF_SIGNED_CERT)",
+    "attempts": 3,
+    "cached": false,
+    "cacheFile": "aff9474f9ac3d8e6f32108d326f9d94fa4d4eba6e51ed18ae317131c92e3c462.json"
+  },
+  "gbif": {
+    "source": "gbif",
+    "url": "https://api.gbif.org/v1/species/match?name=Engraulis+ringens&kingdom=Animalia&phylum=Chordata&rank=SPECIES&strict=true&verbose=true",
+    "fetchedAt": "2026-10-14T00:04:02.554Z",
+    "status": 200,
+    "ok": true,
+    "data": {
+      "usageKey": 2414014,
+      "scientificName": "Engraulis ringens Jenyns, 1842",
+      "canonicalName": "Engraulis ringens",
+      "rank": "SPECIES",
+      "status": "ACCEPTED",
+      "confidence": 100,
+      "note": "Similarity: name=110; authorship=0; kingdom=10; rank=6; status=1; score=127; singleMatch=5",
+      "matchType": "EXACT",
+      "kingdom": "Animalia",
+      "phylum": "Chordata",
+      "order": "Clupeiformes",
+      "family": "Engraulidae",
+      "genus": "Engraulis",
+      "species": "Engraulis ringens",
+      "kingdomKey": 1,
+      "phylumKey": 44,
+      "orderKey": 538,
+      "familyKey": 7334,
+      "genusKey": 2352080,
+      "speciesKey": 2414014
+    },
+    "error": null,
+    "attempts": 1,
+    "retryAfter": null,
+    "cached": false,
+    "cacheFile": "c0daafe9fc21da2b37fc7bf0a590a557be5ad5c88fcd2d1d75cd77f1b417d52b.json"
+  },
+  "col": {
+    "source": "col",
+    "url": "https://api.checklistbank.org/dataset/310463/match/nameusage?scientificName=Engraulis+ringens&kingdom=Animalia&phylum=Chordata&rank=species",
+    "fetchedAt": "2026-10-14T00:04:04.559Z",
+    "status": 200,
+    "ok": true,
+    "data": {
+      "usage": {
+        "id": "39TNG",
+        "name": "Engraulis ringens",
+        "authorship": "Jenyns, 1842",
+        "rank": "species",
+        "code": "zoological",
+        "status": "accepted",
+        "namesIndexId": 3235504,
+        "sectorKey": 60427,
+        "classification": [
+          {
+            "id": "KV7MQ",
+            "name": "Engraulis",
+            "authorship": "Cuvier, 1816",
+            "rank": "genus",
+            "code": "zoological",
+            "status": "accepted",
+            "namesIndexId": 3149987,
+            "sectorKey": 60427,
+            "label": "Engraulis Cuvier, 1816",
+            "parentId": "KV76V",
+            "labelHtml": "<i>Engraulis</i> Cuvier, 1816"
+          },
+          {
+            "id": "KV76V",
+            "name": "Engraulidae",
+            "authorship": "Gill, 1861",
+            "rank": "family",
+            "code": "zoological",
+            "status": "accepted",
+            "namesIndexId": 3065475,
+            "sectorKey": 60427,
+            "label": "Engraulidae Gill, 1861",
+            "parentId": "YR",
+            "labelHtml": "Engraulidae Gill, 1861"
+          },
+          {
+            "id": "YR",
+            "name": "Clupeiformes",
+            "rank": "order",
+            "code": "zoological",
+            "status": "accepted",
+            "namesIndexId": 2168745,
+            "sectorKey": 60427,
+            "label": "Clupeiformes",
+            "parentId": "8V4VD",
+            "labelHtml": "Clupeiformes"
+          },
+          {
+            "id": "8V4VD",
+            "name": "Teleostei",
+            "rank": "class",
+            "code": "zoological",
+            "status": "accepted",
+            "namesIndexId": 8987577,
+            "sectorKey": 60427,
+            "label": "Teleostei",
+            "parentId": "KTWM8",
+            "labelHtml": "Teleostei"
+          },
+          {
+            "id": "KTWM8",
+            "name": "Actinopteri",
+            "rank": "superclass",
+            "code": "zoological",
+            "status": "accepted",
+            "namesIndexId": 164398,
+            "sectorKey": 60427,
+            "label": "Actinopteri",
+            "parentId": "8VR36",
+            "labelHtml": "Actinopteri"
+          },
+          {
+            "id": "8VR36",
+            "name": "Actinopterygii",
+            "rank": "gigaclass",
+            "code": "zoological",
+            "status": "accepted",
+            "namesIndexId": 9188,
+            "sectorKey": 60427,
+            "label": "Actinopterygii",
+            "parentId": "8VVWB",
+            "labelHtml": "Actinopterygii"
+          },
+          {
+            "id": "8VVWB",
+            "name": "Osteichthyes",
+            "rank": "parvphylum",
+            "status": "accepted",
+            "namesIndexId": 6433538,
+            "label": "Osteichthyes",
+            "parentId": "8V4V5",
+            "labelHtml": "Osteichthyes"
+          },
+          {
+            "id": "8V4V5",
+            "name": "Gnathostomata",
+            "rank": "infraphylum",
+            "status": "accepted",
+            "namesIndexId": 3877458,
+            "label": "Gnathostomata",
+            "parentId": "8V4V3",
+            "labelHtml": "Gnathostomata"
+          },
+          {
+            "id": "8V4V3",
+            "name": "Vertebrata",
+            "rank": "subphylum",
+            "status": "accepted",
+            "namesIndexId": 150889,
+            "label": "Vertebrata",
+            "parentId": "CH2",
+            "labelHtml": "Vertebrata"
+          },
+          {
+            "id": "CH2",
+            "name": "Chordata",
+            "rank": "phylum",
+            "status": "accepted",
+            "namesIndexId": 10276,
+            "label": "Chordata",
+            "parentId": "N",
+            "labelHtml": "Chordata"
+          },
+          {
+            "id": "N",
+            "name": "Animalia",
+            "rank": "kingdom",
+            "status": "accepted",
+            "namesIndexId": 9237,
+            "label": "Animalia",
+            "parentId": "CS5HF",
+            "labelHtml": "Animalia"
+          },
+          {
+            "id": "CS5HF",
+            "name": "Eukaryota",
+            "authorship": "(Chatton, 1925) Whittaker & Margulis, 1978",
+            "rank": "domain",
+            "status": "accepted",
+            "namesIndexId": 3444548,
+            "label": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978",
+            "labelHtml": "Eukaryota (Chatton, 1925) Whittaker & Margulis, 1978"
+          }
+        ],
+        "label": "Engraulis ringens Jenyns, 1842",
+        "parentId": "KV7MQ",
+        "labelHtml": "<i>Engraulis ringens</i> Jenyns, 1842"
+      },
+      "sectorKey": 60427,
+      "type": "variant",
+      "original": {
+        "name": "Engraulis ringens",
+        "rank": "species",
+        "status": "accepted",
+        "classification": [
+          {
+            "name": "Animalia",
+            "rank": "kingdom",
+            "label": "Animalia",
+            "labelHtml": "Animalia"
+          },
+          {
+            "name": "Chordata",
+            "rank": "phylum",
+            "label": "Chordata",
+            "labelHtml": "Chordata"
+          }
+        ],
+        "label": "Engraulis ringens",
+        "labelHtml": "<i>Engraulis ringens</i>"
+      },
+      "issues": {},
+      "id": "39TNG",
+      "match": true
+    },
+    "error": null,
+    "attempts": 1,
+    "retryAfter": null,
+    "cached": false,
+    "cacheFile": "acbbab53c60fbb5a57a9cbb70ec028b8a0361d85db0143eda65c4e99dfee1554.json"
+  },
+  "worms": {
+    "source": "worms",
+    "url": "https://www.marinespecies.org/rest/AphiaRecordsByName/Engraulis%20ringens?like=false&marine_only=false",
+    "fetchedAt": "2026-10-14T00:04:06.562Z",
+    "status": 200,
+    "ok": true,
+    "data": [
+      {
+        "AphiaID": 272287,
+        "url": "https://www.marinespecies.org/aphia.php?p=taxdetails&id=272287",
+        "scientificname": "Engraulis ringens",
+        "authority": "Jenyns, 1842",
+        "status": "accepted",
+        "unacceptreason": null,
+        "taxonRankID": 220,
+        "rank": "Species",
+        "valid_AphiaID": 272287,
+        "valid_name": "Engraulis ringens",
+        "valid_authority": "Jenyns, 1842",
+        "parentNameUsageID": 125724,
+        "originalNameUsageID": 272287,
+        "kingdom": "Animalia",
+        "phylum": "Chordata",
+        "class": "Teleostei",
+        "order": "Clupeiformes",
+        "family": "Engraulidae",
+        "genus": "Engraulis",
+        "citation": "Froese, R. and D. Pauly. Editors. (2026). FishBase. Engraulis ringens Jenyns, 1842. Accessed through: World Register of Marine Species at: https://www.marinespecies.org/aphia.php?p=taxdetails&id=272287 on 2026-10-14",
+        "lsid": "urn:lsid:marinespecies.org:taxname:272287",
+        "isMarine": 1,
+        "isBrackish": 0,
+        "isFreshwater": 0,
+        "isTerrestrial": 0,
+        "isExtinct": null,
+        "match_type": "exact",
+        "modified": "2008-01-15T17:27:08.177Z"
+      }
+    ],
+    "error": null,
+    "attempts": 1,
+    "retryAfter": null,
+    "cached": false,
+    "cacheFile": "e7e5f284d543ef31260d108d2285fb598d592732431c2483778f0c22b6621c5a.json"
+  },
+  "commons": {
+    "source": "commons",
+    "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&formatversion=2&generator=search&gsrsearch=%22Colossoma+macropomum%22+filetype%3Abitmap&gsrnamespace=6&gsrlimit=3&prop=imageinfo&iiprop=url%7Cextmetadata%7Csha1&maxlag=5",
+    "fetchedAt": "2026-10-14T00:04:08.575Z",
+    "status": 200,
+    "ok": true,
+    "data": {
+      "batchcomplete": true,
+      "continue": {
+        "gsroffset": 3,
+        "continue": "gsroffset||"
+      },
+      "query": {
+        "pages": [
+          {
+            "pageid": 1864567,
+            "ns": 6,
+            "title": "File:Piaractus sp, Zoo Leipzig 01.jpg",
+            "index": 1,
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Piaractus_sp%2C_Zoo_Leipzig_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Piaractus_sp,_Zoo_Leipzig_01.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=1864567",
+                "sha1": "b450494640a7d3a6a408d0504ad0dfab0855bf90",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2026-05-18 14:31:29",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Piaractus sp, Zoo Leipzig 01",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Piaractus|GFDL|CC-BY-SA-2.5,2.0,1.0|License migration redundant|Self-published work",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "<i>Piaractus</i> sp., Zoo Leipzig",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2007-03-26 14:05:40",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:TinoStrauss\" title=\"User:TinoStrauss\">Tino Strauss</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "Permission": {
+                    "value": "You may select the license of your choice.",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 3.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-3.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "pageid": 36213773,
+            "ns": 6,
+            "title": "File:Schwarzer Pacu Piaractus Tierpark Hellabrunn-1.jpg",
+            "index": 2,
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/5/54/Schwarzer_Pacu_Piaractus_Tierpark_Hellabrunn-1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Schwarzer_Pacu_Piaractus_Tierpark_Hellabrunn-1.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=36213773",
+                "sha1": "1f3d316ddbd302f3991bb73d449646ecfa686541",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2014-10-17 17:05:13",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Schwarzer Pacu Piaractus Tierpark Hellabrunn-1",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Piaractus|Germany photographs taken on 2014-09-05|Photographs by User:Rufus46|Fish in Tierpark Hellabrunn|2014 in Tierpark Hellabrunn",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Schwarzer Pacu (Colossoma macropomum), Tierpark Hellabrunn, München",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2014-09-05",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "<a href=\"//commons.wikimedia.org/wiki/User:Rufus46\" title=\"User:Rufus46\">Rufus46</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 3.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-3.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "pageid": 131645365,
+            "ns": 6,
+            "title": "File:Pacu 2 - 24322711986.jpg",
+            "index": 3,
+            "imagerepository": "local",
+            "imageinfo": [
+              {
+                "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Pacu_2_-_24322711986.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+                "descriptionurl": "https://commons.wikimedia.org/wiki/File:Pacu_2_-_24322711986.jpg",
+                "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=131645365",
+                "sha1": "44a4d5360c7524ac801c1d39212ecf716a1f4ae2",
+                "extmetadata": {
+                  "DateTime": {
+                    "value": "2023-05-07 20:26:21",
+                    "source": "mediawiki-metadata",
+                    "hidden": ""
+                  },
+                  "ObjectName": {
+                    "value": "Pacu 2 - 24322711986",
+                    "source": "mediawiki-metadata"
+                  },
+                  "CommonsMetadataExtension": {
+                    "value": 1.2,
+                    "source": "extension",
+                    "hidden": ""
+                  },
+                  "Categories": {
+                    "value": "Piaractus|Arapaima|Shark Reef Aquarium at Mandalay Bay|Files with coordinates missing SDC location of creation|Flickr images reviewed by FlickreviewR 2|September 2015 in Las Vegas",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "Assessments": {
+                    "value": "",
+                    "source": "commons-categories",
+                    "hidden": ""
+                  },
+                  "GPSLatitude": {
+                    "value": "36.088633",
+                    "source": "commons-desc-page"
+                  },
+                  "GPSLongitude": {
+                    "value": "-115.176951",
+                    "source": "commons-desc-page"
+                  },
+                  "GPSMapDatum": {
+                    "value": "WGS-84",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "ImageDescription": {
+                    "value": "Pacu 2 - 24322711986",
+                    "source": "commons-desc-page"
+                  },
+                  "DateTimeOriginal": {
+                    "value": "2015-09-13 14:14:11",
+                    "source": "commons-desc-page"
+                  },
+                  "Credit": {
+                    "value": "<a rel=\"nofollow\" class=\"external free\" href=\"https://www.flickr.com/photos/daryl_mitchell/24322711986/\">https://www.flickr.com/photos/daryl_mitchell/24322711986/</a>",
+                    "source": "commons-desc-page"
+                  },
+                  "Artist": {
+                    "value": "daryl_mitchell",
+                    "source": "commons-desc-page"
+                  },
+                  "LicenseShortName": {
+                    "value": "CC BY-SA 2.0",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "UsageTerms": {
+                    "value": "Creative Commons Attribution-Share Alike 2.0",
+                    "source": "commons-desc-page"
+                  },
+                  "AttributionRequired": {
+                    "value": "true",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "LicenseUrl": {
+                    "value": "https://creativecommons.org/licenses/by-sa/2.0",
+                    "source": "commons-desc-page"
+                  },
+                  "Copyrighted": {
+                    "value": "True",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "Restrictions": {
+                    "value": "",
+                    "source": "commons-desc-page",
+                    "hidden": ""
+                  },
+                  "License": {
+                    "value": "cc-by-sa-2.0",
+                    "source": "commons-templates",
+                    "hidden": ""
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "error": null,
+    "attempts": 1,
+    "retryAfter": null,
+    "cached": false,
+    "cacheFile": "8f4342bd6f864622cf6cd6014837a138b79dbf28873883b7e36cffb5e1aacadc.json"
+  }
+}

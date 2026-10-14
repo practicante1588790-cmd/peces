@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explora peces de océanos, ríos y lagos. Un atlas educativo con fotografías, hábitats y curiosidades.">
+  <meta name="theme-color" content="#082d3b">
+  <title>Atlas Azul — Peces del mundo</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="data/catalog.js" defer></script>
+  <script src="lib/catalog-tools.js" defer></script>
+  <script src="lib/catalog-validator.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#catalog">Saltar al catálogo</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Atlas Azul, inicio"><svg viewBox="0 0 40 40" aria-hidden="true"><path d="M4 20c8-12 21-12 28 0-7 12-20 12-28 0Zm28 0 6-8v16Z"/><circle cx="12" cy="18" r="2"/></svg><span>Atlas <strong>Azul</strong><small>PECES DEL MUNDO</small></span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">Menú <span aria-hidden="true">☰</span></button>
+    <nav id="main-nav" aria-label="Navegación principal"><a href="#catalog">Explorar peces</a><a href="#habitats">Hábitats</a><a href="#care">Cuidar el agua</a><a class="nav-credit" href="#sources">Fuentes y créditos ↗</a></nav>
+  </header>
+  <main>
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-media" id="hero-media"></div>
+      <div class="hero-content"><p class="eyebrow"><span></span> UN ATLAS PARA MENTES CURIOSAS</p><h1 id="hero-title">Un mundo por descubrir <em>bajo el agua</em></h1><p>De los arrecifes del Pacífico a los ríos de la Amazonía. Conoce a los peces que hacen del agua un universo extraordinario.</p><a class="primary-link" href="#catalog">Explorar peces <span aria-hidden="true">↓</span></a></div>
+      <div class="hero-bottom"><span>Océanos, ríos y lagos. Una misma conexión.</span><span>01 / DESCUBRIR</span></div>
+    </section>
+    <section class="catalog section-shell" id="catalog" aria-labelledby="catalog-title">
+      <div class="section-heading"><div><p class="eyebrow">EL MUNDO, ESPECIE A ESPECIE</p><h2 id="catalog-title">Encuentra tu próximo descubrimiento.</h2></div><p>Colores inesperados, formas sorprendentes y maneras únicas de vivir. Elige por dónde empezar.</p></div>
+      <div class="catalog-tools"><div class="filters" role="group" aria-label="Filtrar por ambiente"><button type="button" data-filter="all" aria-pressed="true">Todos</button><button type="button" data-filter="freshwater" aria-pressed="false">Agua dulce</button><button type="button" data-filter="marine" aria-pressed="false">Agua salada</button><button type="button" data-filter="brackish" aria-pressed="false">Agua salobre</button></div><div class="search-box"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 5 5"/></svg><label class="sr-only" for="search">Buscar por nombre común, científico, alternativo o región</label><input id="search" type="search" placeholder="Busca un pez o una región…" autocomplete="off"></div></div>
+      <div class="catalog-options">
+        <div class="control-field"><label for="region-filter">Región nativa</label><select id="region-filter"><option value="all">Todas las regiones</option></select></div>
+        <div class="control-field"><label for="sort-order">Ordenar por</label><select id="sort-order"><option value="catalog">Orden del atlas</option><option value="name-asc">Nombre común: A–Z</option><option value="name-desc">Nombre común: Z–A</option><option value="scientific-asc">Nombre científico: A–Z</option></select></div>
+        <button class="secondary-button" type="button" id="clear-filters">Limpiar filtros</button>
+      </div>
+      <p class="catalog-note">Una colección en crecimiento. Las especies sin fotografía identificada se muestran con un marcador.</p>
+      <p class="result-count" id="result-count" role="status" aria-live="polite" aria-atomic="true"></p>
+      <div class="fish-grid" id="fish-grid"></div>
+      <nav class="pagination" id="pagination" aria-label="Páginas del catálogo" hidden>
+        <button class="secondary-button" id="previous-page" type="button">← Anterior</button>
+        <form id="page-form" class="page-form" novalidate><label for="page-input">Página</label><input id="page-input" type="number" min="1" step="1" value="1" required aria-describedby="page-total"><span id="page-total"></span><button class="secondary-button" type="submit">Ir</button></form>
+        <button class="secondary-button" id="next-page" type="button">Siguiente →</button>
+      </nav>
+      <div class="empty-state" id="empty-state" hidden><h3>No encontramos peces con esa búsqueda.</h3><p>Prueba con otro nombre o explora todos los ambientes.</p><button class="primary-link" type="button" id="reset-search">Restablecer búsqueda y filtros</button></div>
+      <noscript><p>Activa JavaScript para explorar las especies y sus fichas.</p></noscript>
+    </section>
+    <section class="habitats section-shell" id="habitats" aria-labelledby="habitats-title"><div class="section-heading"><div><p class="eyebrow">CADA AGUA ES UN HOGAR</p><h2 id="habitats-title">Tres paisajes. Infinitas formas de vida.</h2></div><p>La temperatura, la sal y el movimiento del agua dan forma a cada ecosistema.</p></div><div class="habitat-grid"><article><span class="habitat-number">01</span><div class="water-lines" aria-hidden="true"></div><h3>Arrecifes y costas</h3><p>Corales, praderas marinas y bahías ofrecen refugio y alimento. Peces payaso y caballitos de mar encuentran aquí su hogar.</p><span class="habitat-label">AGUA SALADA · VIDA ENTRE REFUGIOS</span></article><article><span class="habitat-number">02</span><div class="water-lines" aria-hidden="true"></div><h3>Ríos y lagos</h3><p>Desde bosques inundados hasta arroyos fríos, el agua dulce conecta paisajes. El paiche y la trucha viven en ambientes muy distintos.</p><span class="habitat-label">AGUA DULCE · PAISAJES CONECTADOS</span></article><article><span class="habitat-number">03</span><div class="water-lines" aria-hidden="true"></div><h3>Mar abierto</h3><p>Las corrientes transportan nutrientes y plancton. Es un espacio de grandes recorridos para especies como el tiburón ballena.</p><span class="habitat-label">AGUA SALADA · UN HORIZONTE ABIERTO</span></article></div></section>
+    <section class="care section-shell" id="care" aria-labelledby="care-title"><div class="care-intro"><p class="eyebrow">CONOCER TAMBIÉN ES CUIDAR</p><h2 id="care-title">El futuro del agua empieza con nosotros.</h2><p>Pequeñas decisiones ayudan a proteger los lugares que acabas de descubrir.</p><a href="https://oceanservice.noaa.gov/ocean/earthday.html">Más ideas de NOAA <span aria-hidden="true">↗</span></a></div><ol class="care-list"><li><h3>Deja el lugar mejor de lo que lo encontraste</h3><p>Reduce los plásticos de un solo uso y recoge tus residuos al visitar ríos, lagos o playas.</p></li><li><h3>Observa sin intervenir</h3><p>No toques corales ni persigas animales. Mantén distancia y respeta las normas de las áreas naturales.</p></li><li><h3>Cada especie tiene su lugar</h3><p>Nunca liberes peces de acuario en la naturaleza. Pueden alterar las comunidades nativas.</p></li><li><h3>Cuida lo que llega al agua</h3><p>No viertas aceite, pinturas ni medicamentos por el desagüe. Busca los puntos de recolección de tu localidad.</p></li></ol></section>
+    <section class="sources section-shell" id="sources" aria-labelledby="sources-title"><p class="eyebrow">APRENDER CON BUENAS FUENTES</p><h2 id="sources-title">Fuentes y créditos</h2><p>Las fichas resumen referencias de <a href="https://animaldiversity.org/">Animal Diversity Web</a>, <a href="https://www.floridamuseum.ufl.edu/discover-fish/species-profiles/">Florida Museum</a> y <a href="https://www.fishbase.org/">FishBase</a>. Cada ficha incluye su referencia y los créditos de su fotografía. La región indica distribución nativa; las introducciones se señalan por separado.</p><details><summary>Ver créditos de todas las fotografías</summary><ul id="image-credits"></ul></details><p class="source-note">Contenido educativo revisado el 13 de octubre de 2026. No es una guía de mantenimiento de acuarios.</p></section>
+  </main>
+  <footer class="site-footer"><a href="#home">Atlas <strong>Azul</strong></a><p>La curiosidad nos conecta. El agua también.</p><a href="#catalog">Volver a explorar ↑</a></footer>
+  <dialog id="fish-dialog" aria-labelledby="dialog-title"><button class="dialog-close" id="close-dialog" type="button" autofocus aria-label="Cerrar ficha">×</button><div id="dialog-content"></div></dialog>
+</body>
+</html>

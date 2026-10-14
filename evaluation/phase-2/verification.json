@@ -1,0 +1,18 @@
+{
+  "phase": 2,
+  "checkedAt": "2026-10-14T00:26:50.005Z",
+  "productionFilesChecked": 21,
+  "differences": [],
+  "unchanged": true,
+  "visualTestsRepeated": false,
+  "existingCatalog": {
+    "species": 50,
+    "errors": 0,
+    "expectedMissingPhotoWarnings": 38
+  },
+  "newUnitTests": {
+    "passed": 9,
+    "failed": 0
+  },
+  "offlineReplayNetworkRequests": 0
+}

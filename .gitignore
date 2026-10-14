@@ -1,0 +1,13 @@
+﻿node_modules/
+.venv/
+*pycache*/
+.env
+.env.*
+backups/
+*.log
+Thumbs.db
+.DS_Store
+
+# Regenerable evaluation caches
+evaluation/**/cache/
+evaluation/**/caches/
